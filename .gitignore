@@ -40,3 +40,5 @@ inst/doc
 
 # Omit log files created by knitting to PDF.
 inst/*.log
+
+/.quarto/
