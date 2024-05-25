@@ -13,6 +13,7 @@ format:
     slide-number: true
     theme: CSTAT_theme.scss
     css: CSTAT_style.css
+    footer: <a href="https://github.com/sjpierce/Pierce.AEA2024">https://github.com/sjpierce/Pierce.AEA2024</a>
 ---
 
 # Section 1
