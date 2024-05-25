@@ -10,9 +10,9 @@ date: October 22, 2024
 format: 
   revealjs:
     embed-resources: true
-    slide-number: true
     theme: CSTAT_theme.scss
     css: CSTAT_style.css
+    slide-number: c/t
     footer: <a href="https://github.com/sjpierce/Pierce.AEA2024">https://github.com/sjpierce/Pierce.AEA2024</a>
     logo: graphics/CSTATLogoH.png
     link-external-icon: true
