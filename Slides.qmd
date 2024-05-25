@@ -1,8 +1,8 @@
 ---
-title: "Generating reproducible statistical analyses and evaluation reports:
-        Principles, practices, and free software tools"
-subtitle: "Demonstration session at Evaluation 2024: Amplifying and Empowering 
-           Voices, the annual conference of the American Evaluation Association, 
+title: "Generating Reproducible Statistical Analyses and Evaluation Reports:
+        Principles, Practices, and Free Software Tools"
+subtitle: "Demonstration at *Evaluation 2024: Amplifying and Empowering 
+           Voices*, annual conference of the American Evaluation Association, 
            Portland, OR"
 author: "Steven J. Pierce"
 institute: "Center for Statistical Training and Consulting, Michigan State University"
