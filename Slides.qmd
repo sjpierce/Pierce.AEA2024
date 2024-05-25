@@ -22,6 +22,33 @@ format:
 
 # Section 1
 
-## Slide 1
+## Reproducibility
 
-## Slide 2
+Definition
+
+## Requirements for Reproducibility
+
+* Data
+* Code
+* Software 
+
+## Benefits of Reproducibility
+
+* Accuracy
+* Efficiency
+* Credibility
+
+## Manual Workflow
+
+## Reproducible Workflow
+
+* Eliminate manual steps!
+* Produce fully-formatted, publication-quality reports:
+    * Narrative text, headings
+    * Software code (optional)
+    * Dynamically inserted statistical results
+    * Dynamic tables
+    * Dynamic figures 
+    * Dynamic reference sections
+
+## Version Control 
