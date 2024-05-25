@@ -33,12 +33,8 @@
 /*_cache/
 /cache/
 
-# Omit folders created by building vignettes.
-doc
-Meta
-inst/doc
-
-# Omit log files created by knitting to PDF.
-inst/*.log
-
+# Omit hidden Quarto folder used for temporary files.
 /.quarto/
+
+# Omit Windows tumbnail files.
+*Thumbs.db
