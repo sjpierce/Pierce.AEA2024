@@ -9,9 +9,10 @@ institute: "Center for Statistical Training and Consulting, Michigan State Unive
 date: October 22, 2024
 format: 
   revealjs:
-    theme: simple
     embed-resources: true
     slide-number: true
+    theme: CSTAT_theme.scss
+    css: CSTAT_style.css
 ---
 
 # Section 1
