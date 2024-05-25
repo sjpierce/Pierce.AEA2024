@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
+@import url(https://fonts.googleapis.com/css?family=Figtree:400,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+// fonts
+$font-family-sans-serif: Lato, sans-serif !default;
+
+// colors
+$body-bg: #fff !default;
+$body-color: #000 !default;
+$link-color: #00008b !default;
+$selection-bg: rgba(0, 0, 0, 0.99);
+
+// headings
+$presentation-heading-font: "Figtree", sans-serif !default;
+$presentation-h1-font-size: 1.5em !default;
+$presentation-heading-color: #18453B !default;
