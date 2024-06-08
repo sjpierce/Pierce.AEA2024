@@ -42,6 +42,15 @@ Definition
 * Credibility
 
 ## Manual Workflow
+* Use graphical user interface for software instead of coding scripts
+* Manually updating data files 
+* Version control through saving to new file names
+* Disorganized folders & files 
+* Copy & paste output from stats software to word processor
+
+
+
+
 
 ## Reproducible Workflow
 
