@@ -10,7 +10,7 @@ date: October 22, 2024
 format: 
   revealjs:
     embed-resources: true
-    theme: CSTAT_theme.scss
+    theme: [default, CSTAT_theme.scss]
     css: CSTAT_style.css
     slide-number: c/t
     show-notes: true
