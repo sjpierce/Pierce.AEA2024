@@ -4,12 +4,22 @@
 @import url(https://fonts.googleapis.com/css?family=Figtree:400,900);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
+// MSU brand colors from https://brand.msu.edu/visual/color-palette
+$theme-PureWhite:#ffffff;
+$theme-Black:#000000;
+$theme-SpartanGreen: #18453B;
+$theme-KellyGreen: #008208;
+$theme-LimeGreen: #7BBD00;
+$theme-ExcellenceGreen: #0B9A6D;
+$theme-PaleExcellenceGreen: #C3FFEC;
+$theme-RefreshGreen: #008934;
+
 // fonts
 $font-family-sans-serif: Lato, sans-serif !default;
 
 // colors
-$body-bg: #fff !default;
-$body-color: #000 !default;
+$body-bg: $theme-PureWhite !default;
+$body-color: $theme-Black !default;
 $link-color: #00008b !default;
 $selection-bg: rgba(0, 0, 0, 0.99);
 
@@ -19,4 +29,5 @@ $presentation-h1-font-size: 1.5em !default;
 $presentation-h2-font-size: 1.25em !default;
 $presentation-h3-font-size: 1.1em !default;
 $presentation-h4-font-size: 1em !default;
-$presentation-heading-color: #18453B !default;
+$presentation-heading-color: $theme-SpartanGreen !default;
+
