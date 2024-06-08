@@ -14,10 +14,13 @@ format:
     css: CSTAT_style.css
     slide-number: c/t
     show-notes: true
+    header-logo: graphics/Combomark-Horiz_Green-RGB.png
     footer: <a href="https://github.com/sjpierce/Pierce.AEA2024">https://github.com/sjpierce/Pierce.AEA2024</a>
     logo: graphics/CSTATLogoH.png
     link-external-icon: true
     link-external-newwindow: true
+filters:
+  - reveal-header
 ---
 
 # Section 1
