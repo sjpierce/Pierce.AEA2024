@@ -36,3 +36,13 @@ $presentation-h4-font-size: 1em !default;
 $presentation-heading-color: $theme-SpartanGreen !default;
 
 /*-- scss:rules --*/
+
+// Formatting classes
+
+.bg {
+  background-color: var(--col, $theme-PaleExcellenceGreen);
+  padding: 0.1em;
+  border-radius: 5px;
+  display: inline-block;
+}
+
