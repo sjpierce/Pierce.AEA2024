@@ -38,11 +38,19 @@ Speaker notes go here.
 * Code
 * Software 
 
+::: {.notes}
+Speaker notes go here.
+:::
+
 ## Benefits of Reproducibility
 
 * Accuracy
 * Efficiency
 * Credibility
+
+::: {.notes}
+Speaker notes go here.
+:::
 
 ## Manual Workflow
 * Use graphical user interface for software instead of coding scripts
@@ -51,9 +59,9 @@ Speaker notes go here.
 * Disorganized folders & files 
 * Copy & paste output from stats software to word processor
 
-
-
-
+::: {.notes}
+Speaker notes go here.
+:::
 
 ## Reproducible Workflow
 
@@ -66,4 +74,12 @@ Speaker notes go here.
     * Dynamic figures 
     * Dynamic reference sections
 
+::: {.notes}
+Speaker notes go here.
+:::
+
 ## Version Control 
+
+::: {.notes}
+Speaker notes go here.
+:::
