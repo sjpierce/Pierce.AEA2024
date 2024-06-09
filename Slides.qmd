@@ -28,6 +28,9 @@ filters:
 
 Definition [goes here]{.bg}
 
+::: {.notes}
+Speaker notes go here.
+:::
 
 ## Requirements for Reproducibility
 
