@@ -46,3 +46,11 @@ $presentation-heading-color: $theme-SpartanGreen !default;
   display: inline-block;
 }
 
+// Logo in footer
+
+.reveal .slide-logo {
+  height: 75px !important;
+  width: 176.625px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
