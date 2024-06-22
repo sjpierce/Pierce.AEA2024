@@ -15,7 +15,7 @@ format:
     show-notes: false
     header-logo: graphics/Combomark-Horiz_Green-RGB.png
     footer: <a href="https://github.com/sjpierce/Pierce.AEA2024">https://github.com/sjpierce/Pierce.AEA2024</a>
-    logo: graphics/CSTATLogoH.png
+    logo: graphics/CSTAT_5x5_Transparent.png
     link-external-icon: true
     link-external-newwindow: true
 filters:
