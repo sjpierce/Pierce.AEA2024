@@ -15,7 +15,7 @@ $theme-PaleExcellenceGreen: #C3FFEC;
 $theme-RefreshGreen: #008934;
 
 // Other colors
-$theme-blue: #99D9DD;
+$theme-blue: #00008b;
 $theme-yellow: #F4BA02;
 
 // fonts
@@ -24,7 +24,7 @@ $font-family-sans-serif: Lato, sans-serif !default;
 // colors
 $body-bg: $theme-PureWhite !default;
 $body-color: $theme-Black !default;
-$link-color: #00008b !default;
+$link-color: $theme-blue !default;
 $selection-bg: rgba(0, 0, 0, 0.99);
 
 // headings
