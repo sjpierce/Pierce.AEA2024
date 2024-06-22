@@ -24,9 +24,11 @@ filters:
 
 # Section 1
 
-## Reproducibility
+## Reproducible Research (RR)
 
-Definition [goes here]{.bg}
+... is achieved when investigators *share all the materials required to exactly 
+recreate the findings* so that others can verify them or conduct alternative 
+analyses.
 
 ::: {.notes}
 Speaker notes go here.
