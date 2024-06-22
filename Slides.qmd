@@ -34,6 +34,37 @@ analyses.
 Speaker notes go here.
 :::
 
+## RR is a Product
+
+```{dot}
+//| fig-width: 9
+//| fig-height: 4
+digraph G {
+rankdir="TB";
+
+node [shape = "box", style= "filled", fontname="Lato", fillcolor = "#C3FFEC"]
+Quant [label = "Quantitative Methods"]
+Qual [label = "Qualitative Methods"]
+Mixed [label = "Mixed Methods"]
+RR [label = "Reproducible Research"]
+
+Quant -> Mixed -> RR
+Quant -> RR
+Qual -> Mixed
+Qual -> RR
+}
+```
+
+RR is a product of *how we work*, not which methods we use. 
+
+::: {.notes}
+RR is a product of the research process that’s presumably independent of whether 
+we use quantitative, qualitative, or mixed methods. What matters is how we work 
+and share the materials. However, I suspect it’s easier to apply RR principles 
+to quantitative methods and, as a statistician, I've primarily invested in that 
+set of skills. 
+:::
+
 ## Requirements for Reproducibility
 
 * Data
