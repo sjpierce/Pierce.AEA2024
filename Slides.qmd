@@ -7,6 +7,15 @@ subtitle: "Demonstration at *Evaluation 2024: Amplifying and Empowering
 author: "Steven J. Pierce"
 institute: "Center for Statistical Training and Consulting, Michigan State University"
 date: October 22, 2024
+title-slide-attributes: 
+  data-notes: My talk today focuses on some principles, practices, and tools 
+              that I use to generate reproducible statistical analyses and 
+              evaluation reports. My goal is promote reproducibility and 
+              encourage evaluators to build their capacity and competency by 
+              adopting practices and tools for reproducible research. Hopefully, 
+              sharing my experience and insights with you during this talk will 
+              persuade you why that's beneficial, motivate you to do so, and 
+              accelerate your learning journey. 
 format: 
   revealjs:
     embed-resources: true
