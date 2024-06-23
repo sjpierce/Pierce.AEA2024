@@ -185,6 +185,8 @@ Speaker notes go here.
 * Citation style language file to control format
 * BibTeX files containing data
 
+## Parameterized Reports
+
 
 ```{dot}
 digraph G {
@@ -208,7 +210,6 @@ CSL -> Refs [label = "Format"]
 }
 ```
 
-## Parameterized Reports
 
 ## References
 
