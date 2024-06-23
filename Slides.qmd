@@ -75,8 +75,8 @@ RR is a product of *how we work*, not which methods we use.
 RR is a product of the research process that’s presumably independent of whether 
 we use quantitative, qualitative, or mixed methods. What matters is how we work 
 and share the materials. However, I suspect it’s easier to apply RR principles 
-to quantitative methods and, as a statistician, I've primarily invested in that 
-set of skills. 
+to quantitative methods and those are my forte as a statistician, so I'll focus 
+on that route to reproducibility today. 
 :::
 
 ## Requirements for Reproducibility
