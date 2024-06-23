@@ -180,7 +180,7 @@ Speaker notes go here.
 ## Figures
 
 
-## References 
+## Reference Lists
 
 * Citation style language file to control format
 * BibTeX files containing data
@@ -210,3 +210,7 @@ CSL -> Refs [label = "Format"]
 
 ## Parameterized Reports
 
+## References
+
+::: {#refs}
+:::
