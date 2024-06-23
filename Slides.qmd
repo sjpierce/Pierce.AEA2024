@@ -79,6 +79,22 @@ to quantitative methods and those are my forte as a statistician, so I'll focus
 on that route to reproducibility today. 
 :::
 
+## Why RR? {background-image="graphics/Woman_Raising_Hand.jpg" background-size="contain" background-position="right" background-repeat="no-repeat"}
+
+:::: {.columns}
+
+::: {.column width="45%"}
+Several forces are promoting and enabling the push toward reproducibility.
+:::
+
+::::
+
+::: {.notes}
+So, why RR? There are many reasons to work toward meeting the RR standard. I’ll 
+just touch on a few key forces that are promoting and enabling the push toward 
+it.
+:::
+
 ## Requirements for Reproducibility
 
 * Data
