@@ -85,6 +85,43 @@ Speaker notes go here.
 Speaker notes go here.
 :::
 
+## Guiding Principles
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* Collaboration
+* Automation
+* Organization
+:::
+
+::: {.column width="50%"}
+* Preservation
+* Integration
+* Separation
+:::
+
+::::
+
+::: {.notes}
+Understanding a few guiding principles helps people figure out how to do RR and
+why it may be worth using the more complex methods of achieving it. Here are the
+principles I’ve identified so far. Thinking about reproducibility as
+collaboration encourages us to prepare and share materials that will make our 
+work accessible to others. Automation helps us achieve efficiency and accuracy 
+because scripts can be faster and more reliable than manual processes. 
+Organization simplifies the task of communicating to others how to reproduce
+our work. The preservation principle guides us to keep our raw data pristine and
+to keep a good audit trail. The integration principle shows up when we build 
+documentation directly into data files, put comments in code, and use code to 
+directly insert statistical results into reports. The separation principle helps
+us manage complexity by parsing a project into manageable pieces; for example
+separating data management from analysis, or keeping raw data separate from
+working data files used for specific analyses. Keep an eye out for instances of
+these principles in action throughout the rest of this talk. My examples will
+aim toward the middle of the complexity spectrum.
+:::
+
 ## Manual Workflow
 * Use graphical user interface for software instead of coding scripts
 * Manually updating data files 
