@@ -108,6 +108,63 @@ just touch on a few key forces that are promoting and enabling the push toward
 it.
 :::
 
+## Methods Matter!
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 2
+digraph G {
+rankdir="LR";
+
+node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", fillcolor = "#C3FFEC"]
+Low [label = "Low"]
+High [label = "High"]
+
+edge [fontname="Lato", fontsize="40pt"]
+Low -> High [label = "Trustworthiness & Credibility", dir = "both", minlen = 9]
+}
+```
+
+::: {.fragment}
+[Irreproducible < Reproducible < Replicated]{.absolute left="15%" top="35%"}
+:::
+
+::: {.fragment}
+:::{.callout-important }
+Reproducibility is an attainable minimum standard for science [@Peng-RN3189].
+:::
+:::
+
+::: {.notes}
+Let’s start with the fact that methods matter. How we conduct research
+influences where our studies fall along a continuum of trustworthiness and
+scientific credibility. Studies that use good scientific practices have higher
+trustworthiness and credibility. Where do different types of research fall along
+this continuum?
+
+At the low end, we have IRR, which relies on investigator reputation to
+establish credibility because key methodological details aren’t published and
+the findings can’t be independently verified. Reviewers and readers have limited
+ability to judge the quality of the research. IRR provides a poor foundation for
+future replication studies.
+
+RR findings can be independently verified from the original data, reducing
+reliance on investigator reputation. Reviewers and readers can better judge
+quality of research on its own merits. Furthermore, RR provides a solid
+foundation for future replication studies by publishing key methodological
+details.
+
+Finally, replicated research has the highest level of credibility because
+independent investigators have replicated the findings with new studies,
+indicating that the probability of opportunistic biases is low and the findings
+generalize beyond the original sample . This dramatically increases
+trustworthiness of a finding.
+
+Roger Peng has argued that RR is an attainable minimum standard for science
+(Peng et al., 2006). So, let’s look at some specific forces I see pushing us
+toward RR.
+:::
+
 ## Requirements for Reproducibility
 
 * Data
