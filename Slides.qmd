@@ -50,6 +50,17 @@ reproducbility is just as valuable in--and applicable to--evaluation work as it
 is in research contexts.
 :::
 
+## RR is Part of a Hierarchy
+
+Repeatable < Reproducible < Replicable
+
+::: {.notes}
+There is a hierarchy of research findings.
+Repeatable: same analyst, same data
+Reproducible: different analyst, same data
+Replicable: different analyst, differnt data
+:::
+
 ## RR is a Product
 
 ```{dot}
