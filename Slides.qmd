@@ -165,6 +165,18 @@ Roger Peng has argued that RR is an attainable minimum standard for science
 toward RR.
 :::
 
+## Funders Value RR
+
+::: {.notes}
+First, we’re starting to see stronger signs that funders value RR. For example,
+NIH and NSF have data sharing policies, so you ought be to addressing data
+sharing in your grant proposals. They’ve also started talking about
+reproducibility. NIH’s rigor & reproducibility initiative currently aims to
+promote selected aspects of RR for preclinical studies. I don’t think it’s going
+to be long before NIH expands its focus to more aspects of reproducibility and a
+wider range of studies.
+:::
+
 ## Requirements for Reproducibility
 
 * Data
