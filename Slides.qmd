@@ -65,15 +65,47 @@ reproducbility is just as valuable in--and applicable to--evaluation work as it
 is in research contexts.
 :::
 
-## RR is Part of a Hierarchy
+## Statistical Results Can Be:
 
-Repeatable < Reproducible < Replicable
+:::: {.columns}
+
+::: {.column width="35%"}
+::: {.fragment}
+[Repeatable]{.bg}
+
+* Original analyst
+* Original data
+:::
+:::
+
+::: {.column width="35%"}
+::: {.fragment}
+[Reproducible]{.bg}
+
+* New analyst
+* Original data
+:::
+:::
+
+::: {.column width="30%"}
+::: {.fragment}
+[Replicable]{.bg}
+
+* New analyst
+* New data
+:::
+:::
+
+::::
 
 ::: {.notes}
-There is a hierarchy of research findings.
-Repeatable: same analyst, same data
-Reproducible: different analyst, same data
-Replicable: different analyst, differnt data
+Let's put reproducibility into a broader context. Statistical results can be 
+classified into a few different categories. They are repeatable when the 
+original analyst can reliably obtain the same results from the original data. 
+They are reproducible if a new analyst can obtain the same result from the 
+original data. Finally, they are replicable if a new analyst can obtain the same 
+result from a new set of data. How confident about where your work falls on this 
+spectrum? 
 :::
 
 ## RR is a Product
