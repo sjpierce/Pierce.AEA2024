@@ -33,13 +33,22 @@ filters:
   - reveal-header
 ---
 
-# Section 1: What
 ## Outline
 
 * What do you mean by reproducible? 
 * Why should we aim for reproducibility?
 * How do we achieve reproducibility?
 
+::: {style="text-align: right;"}
+# What do you mean by <br> reproducible?  {background-image="graphics/pexels-august-de-richelieu-4427508.jpg" background-size="contain" background-position="left" background-repeat="no-repeat"}
+
+Let's define some concepts.
+<br>
+<br>
+<br>
+<br>
+<br>
+:::
 
 ## Reproducible Research (RR)
 
