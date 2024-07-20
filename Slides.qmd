@@ -213,6 +213,18 @@ toward RR.
 :::
 
 ## Funders Value RR
+Data sharing 
+
+* https://sharing.nih.gov/data-management-and-sharing-policy
+* https://new.nsf.gov/funding/data-management-plan
+ 
+Reproducibility initiatives
+
+* https://grants.nih.gov/policy/reproducibility/index.htm
+* https://grants.nih.gov/policy/reproducibility/training.htm
+* https://www.nsf.gov/pubs/2019/nsf19022/nsf19022.pdf
+* https://www.nsf.gov/attachments/134722/public/Reproducibility_NSFPlanforOMB_Dec31_2014.pdf
+* https://ies.ed.gov/blogs/research/post/companion-guidelines-on-replication-and-reproducibility-in-education-research 
 
 ::: {.notes}
 First, we’re starting to see stronger signs that funders value RR. For example,
