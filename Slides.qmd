@@ -34,6 +34,12 @@ filters:
 ---
 
 # Section 1: What
+## Outline
+
+* What do you mean by reproducible? 
+* Why should we aim for reproducibility?
+* How do we achieve reproducibility?
+
 
 ## Reproducible Research (RR)
 
