@@ -256,6 +256,8 @@ Speaker notes go here.
 Speaker notes go here.
 :::
 
+# How do we achieve reproducibility? 
+
 ## Guiding Principles
 
 :::: {.columns}
