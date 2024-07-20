@@ -139,7 +139,7 @@ to quantitative methods and those are my forte as a statistician, so I'll focus
 on that route to reproducibility today. 
 :::
 
-## Why RR? {background-image="graphics/Woman_Raising_Hand.jpg" background-size="contain" background-position="right" background-repeat="no-repeat"}
+# Why aim for <br> reproducibility? {background-image="graphics/Woman_Raising_Hand.jpg" background-size="contain" background-position="right" background-repeat="no-repeat"}
 
 :::: {.columns}
 
