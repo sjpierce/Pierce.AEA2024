@@ -292,6 +292,27 @@ requires that you use standard methods to distribute all these materials.
 
 :::
 
+##  Materials Required to Recreate Findings
+
+```{r}
+#| label: tbl-materials-findings
+
+tibble(Materials = c("Manuals & procedures", "Instruments & scoring rules", 
+                     "Codebooks", "Methods applied", "Data mgt decisions", 
+                     "Data files", "Software & analysis scripts"),
+       Findings = c("Statistics", "Coefficients & p-values", 
+                    "Confidence intervals", "Effect sizes", 
+                    "Model fit indices", "Figures", "Tables")) %>% 
+  kable(., format = "html") %>% 
+  kable_material(c("striped"), html_font = "Lato")
+```
+
+::: {.notes}
+So let’s go back and unpack the definition of RR by giving some examples of the
+kinds of materials & findings we are discussing. This is just a sample of what 
+could be encompassed by these two terms.
+:::
+
 ## Guiding Principles
 
 :::: {.columns}
