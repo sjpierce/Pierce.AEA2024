@@ -267,6 +267,31 @@ Speaker notes go here.
 
 # How do we achieve reproducibility? 
 
+::: {style="text-align: center;"}
+## Criteria for Reproducbility <br> [@Peng-RN3189] {background-image="graphics/Woman_Thinking.png" background-size="contain" background-position="left" background-repeat="no-repeat"}
+
+::: {.incremental}
+* Data
+* Methods
+* Documentation
+* Distribution
+:::
+
+::: {.notes}
+Reproducibility is really a continuum, but there are some simple criteria that
+we can use to evaluate how reproducible a given project is. The data criterion
+requires that you share the data you used, since nobody can recreate your
+findings without them. The methods criterion requires that you share your
+methods in sufficient detail, preferably through sharing the actual software
+code or scripts you used to get the results. The documentation criterion
+requires that you share adequate documentation of the data set, software
+environment, and software code so others can understand what you had, what you
+did with it, and what it really means. Finally, the distribution criterion
+requires that you use standard methods to distribute all these materials.
+:::
+
+:::
+
 ## Guiding Principles
 
 :::: {.columns}
