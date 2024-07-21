@@ -33,6 +33,15 @@ filters:
   - reveal-header
 ---
 
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+library(knitr)
+library(kableExtra) # Functions for formatting nice tables. 
+```
+
 ## Outline
 
 * What do you mean by reproducible? 
