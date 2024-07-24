@@ -241,10 +241,22 @@ to be long before NIH expands its focus to more aspects of reproducibility and a
 wider range of studies.
 :::
 
+## Emerging Scientific Norms
 
+* Open science 
+* Pre-registered methods
+* Reporting guidelines
+* Publishing raw data
+* Institutional policies
+* Journal & publisher policies
 
 ::: {.notes}
-Speaker notes go here.
+There are emerging scientific norms in favor of RR. These are evident in things
+like the CONSORT reporting guidelines, calls for pre registered methods/trials,
+calls to publish raw data, and RR policies being adopted by various journals.
+They are also reflected in local institutional policies.
+:::
+
 :::
 
 ## Benefits of Reproducibility
