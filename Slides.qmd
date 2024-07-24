@@ -257,6 +257,19 @@ calls to publish raw data, and RR policies being adopted by various journals.
 They are also reflected in local institutional policies.
 :::
 
+## Publishing Technology
+
+
+::: {.notes}
+Modern publishing technology makes RR more feasible. Previously, we relied
+mostly on printed journals to distribute scientific papers, so cost and page
+limits restricted the ability to do RR. Now, online publishing means you can
+easily publish supplemental files alongside your papers, or deposit data,
+codebooks and other documentation, software files like analysis scripts, and
+even raw output in data archives/repositories . This vastly increases
+opportunity to meet RR standards.
+:::
+
 :::
 
 ## Benefits of Reproducibility
