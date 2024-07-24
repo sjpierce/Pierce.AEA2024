@@ -52,11 +52,7 @@ library(kableExtra) # Functions for formatting nice tables.
 # What do you mean by <br> reproducible?  {background-image="graphics/pexels-august-de-richelieu-4427508.jpg" background-size="contain" background-position="left" background-repeat="no-repeat"}
 
 Let's define some concepts.
-<br>
-<br>
-<br>
-<br>
-<br>
+<br> <br> <br> <br> <br>
 :::
 
 ## Reproducible Research (RR)
