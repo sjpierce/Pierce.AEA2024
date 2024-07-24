@@ -297,7 +297,10 @@ work as an exemplar of high quality science.
 Speaker notes go here.
 :::
 
-# How do we achieve reproducibility? 
+# How do we achieve reproducibility? {background-image="graphics/Hands_Raised.jpg" background-size="contain" background-position="bottom" background-repeat="no-repeat"}
+
+Understand the criteria, then apply principles, practices, & tools. 
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
 ::: {style="text-align: center;"}
 ## Criteria for Reproducbility <br> [@Peng-RN3189] {background-image="graphics/Woman_Thinking.png" background-size="contain" background-position="left" background-repeat="no-repeat"}
