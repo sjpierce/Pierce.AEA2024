@@ -270,6 +270,21 @@ even raw output in data archives/repositories . This vastly increases
 opportunity to meet RR standards.
 :::
 
+## Career Benefits of RR
+
+* Motivation to be more careful
+* Easier to get published
+* ... in better journals
+* Get cited more often
+* Reproducibility materials are additional scholarly products
+
+::: {.notes}
+I think there are probably some real career benefits of RR. For example, it may
+motivate people to be more careful about avoiding errors, thereby increasing the
+quality of their work. It may be easier to get published, you might be able to
+publish in better journals, and you might ultimately get cited more often as
+people either adopt your methods, use your data for new studies, or discuss your
+work as an exemplar of high quality science.
 :::
 
 ## Benefits of Reproducibility
