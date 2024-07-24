@@ -241,11 +241,7 @@ to be long before NIH expands its focus to more aspects of reproducibility and a
 wider range of studies.
 :::
 
-## Requirements for Reproducibility
 
-* Data
-* Code
-* Software 
 
 ::: {.notes}
 Speaker notes go here.
