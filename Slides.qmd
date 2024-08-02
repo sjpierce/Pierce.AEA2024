@@ -280,7 +280,7 @@ Pa [label = "Manuscript", shape = "note"]
 
 subgraph cluster_1 {
 style="rounded,dashed"; penwidth = 3; color = "red"; margin = .3;
-label = "Online Distribution\nConvenient, no page limits!"; labelloc=b;
+label = "Online Distribution\nEasy, low cost, no page limits!"; labelloc=b;
 fontname="Lato"; fontsize="40pt"; fontcolor = "red";
 SF [label = "Manuscript &\nSupplemental\nFiles", shape = "note"]
 CD [label = "Codebooks,\nData, &\nSoftware", shape = "note"]
@@ -305,8 +305,8 @@ mostly on printed journals to distribute scientific papers, so cost and page
 limits restricted the ability to do RR. Now, online publishing means you can
 easily publish supplemental files alongside your papers, or deposit data,
 codebooks and other documentation, software files like analysis scripts, and
-even raw output in data archives/repositories . This vastly increases
-opportunity to meet RR standards.
+even raw output in data archives/repositories. This vastly reduces cost, 
+eliminates page limits, and increases opportunity to meet RR standards.
 :::
 
 ## Career Benefits of RR
