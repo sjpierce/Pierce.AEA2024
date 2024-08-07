@@ -46,6 +46,13 @@ $presentation-heading-color: $theme-SpartanGreen !default;
   display: inline-block;
 }
 
+.column {
+  display: inline-block;
+  word-break: break-word;
+  /* display: inline-flex; */
+  /* flex: auto; */
+}
+
 // CSTAT logo in footer
 
 .reveal .slide-logo {
