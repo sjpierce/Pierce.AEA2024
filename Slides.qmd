@@ -182,7 +182,7 @@ Low -> High [label = "Trustworthiness & Credibility", dir = "both", minlen = 9]
 :::
 
 ::: {.fragment}
-:::{.callout-important }
+:::{.callout-important}
 Reproducibility is an attainable minimum standard for science [@Peng-RN3189].
 :::
 :::
