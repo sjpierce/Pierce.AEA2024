@@ -338,13 +338,13 @@ rank = same; {Jo; Au; Ar;}
 ```
 
 ::: {.notes}
-Modern publishing technology makes RR more feasible. Previously, we relied
-mostly on printed journals to distribute scientific papers, so cost and page
-limits restricted the ability to do RR. Now, online publishing means you can
-easily publish supplemental files alongside your papers, or deposit data,
-codebooks and other documentation, software files like analysis scripts, and
-even raw output in data archives/repositories. This vastly reduces cost, 
-eliminates page limits, and increases opportunity to meet RR standards.
+Modern publishing technology makes RR more feasible. When we we relied mostly on
+printed journals to distribute scientific papers, cost and page limits
+restricted the ability to do RR. Now, online publishing means you can easily
+share supplemental files alongside your papers, or deposit data, codebooks and
+other documentation, software files like analysis scripts, and even raw output
+in data archives/repositories. This vastly reduces cost, eliminates page limits,
+and increases opportunity to meet RR standards.
 :::
 
 ## Career Benefits of RR
