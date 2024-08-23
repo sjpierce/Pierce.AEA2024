@@ -281,12 +281,14 @@ also published materials promoting reproducibility.
 
 ## Emerging Scientific Norms
 
-* Open science 
-* Pre-registered methods
-* Reporting guidelines
-* Publishing raw data
+* Open science: 
+    * [https://www.cos.io/open-science](https://www.cos.io/open-science) 
+    * [https://open.science.gov](https://open.science.gov)
+* Pre-registered methods [@Bosnjak-RN8375; @Decoster-RN3192; @Moore-RN3318]
+* Reporting guidelines [@Appelbaum-RN3691; @Moher-RN2216; @Schulz-RN2218; @von-Elm-RN3288]
+* Publishing raw data [@Hrynaszkiewicz-RN3087; @Hrynaszkiewicz-RN3088]
+* Journal & publisher policies [@Decoster-RN3192; @Hrynaszkiewicz-RN3087; @Hrynaszkiewicz-RN3088; @Laine-RN3186; @Peng-RN3187]
 * Institutional policies
-* Journal & publisher policies
 
 ::: {.notes}
 There are emerging scientific norms in favor of RR. These are evident in things
