@@ -291,7 +291,7 @@ also published materials promoting reproducibility.
 * Institutional policies
 
 ::: {.notes}
-There are emerging scientific norms in favor of RR. These are evident in things
+There are emerging scientific norms aligned with RR. These are evident in things
 like the CONSORT reporting guidelines, calls for pre registered methods/trials,
 calls to publish raw data, and RR policies being adopted by various journals.
 They are also reflected in local institutional policies.
