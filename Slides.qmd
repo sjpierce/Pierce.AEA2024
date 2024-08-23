@@ -16,7 +16,7 @@ title-slide-attributes:
               sharing my experience and insights with you during this talk will 
               persuade you why that's beneficial, motivate you to do so, and 
               accelerate your learning journey. 
-csl: apa.csl
+csl: apa-numeric-superscript-brackets.csl
 bibliography: references.bib
 format: 
   revealjs:
