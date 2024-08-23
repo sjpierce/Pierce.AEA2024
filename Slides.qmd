@@ -109,8 +109,8 @@ classified into a few different categories. They are repeatable when the
 original analyst can reliably obtain the same results from the original data. 
 They are reproducible if a new analyst can obtain the same result from the 
 original data. Finally, they are replicable if a new analyst can obtain the same 
-result from a new set of data. How confident about where your work falls on this 
-spectrum? 
+result from a new set of data. How confident are you about about where your work 
+falls on this spectrum? 
 :::
 
 ## RR is a Product
@@ -155,9 +155,9 @@ Several forces are promoting and enabling the push toward reproducibility.
 ::::
 
 ::: {.notes}
-So, why RR? There are many reasons to work toward meeting the RR standard. I’ll 
-just touch on a few key forces that are promoting and enabling the push toward 
-it.
+So, why aim for RR? There are many reasons to work toward meeting the RR
+standard. I’ll just touch on a few key forces that are promoting and enabling
+the push toward it.
 :::
 
 ## Methods Matter!
@@ -188,11 +188,10 @@ Reproducibility is an attainable minimum standard for science [@Peng-RN3189].
 :::
 
 ::: {.notes}
-Let’s start with the fact that methods matter. How we conduct research
-influences where our studies fall along a continuum of trustworthiness and
-scientific credibility. Studies that use good scientific practices have higher
-trustworthiness and credibility. Where do different types of research fall along
-this continuum?
+Remember that our methods *matter*: how we conduct research influences where our
+studies fall along a continuum of trustworthiness and scientific credibility.
+Studies that use good scientific practices have higher trustworthiness and
+credibility. Let's link this continuum to reproducibility. 
 
 At the low end, we have IRR, which relies on investigator reputation to
 establish credibility because key methodological details aren’t published and
@@ -213,8 +212,7 @@ generalize beyond the original sample. This dramatically increases
 trustworthiness of a finding.
 
 Roger Peng has argued that RR is an attainable minimum standard for science
-(Peng et al., 2006). So, let’s look at some specific forces I see pushing us
-toward RR.
+(Peng et al., 2006). 
 :::
 
 ## Guiding Principles for Evaluators
@@ -241,9 +239,8 @@ Pursuing reproducibility enacts several of our guiding principles
 ::::
 
 ::: {.notes}
-I also want to emphasize that prusing reproducibility is a good way to enact 
-several of AEA's guiding principles for evaluators, namely systematic inquiry, 
-competence, and integrity. 
+Pursuing reproducibility is a good way to enact several of AEA's guiding
+principles for evaluators, namely systematic inquiry, competence, and integrity.
 :::
 
 ## Funders Value RR {.smaller}
@@ -274,13 +271,12 @@ competence, and integrity.
 ::::
 
 ::: {.notes}
-First, we’re starting to see stronger signs that funders value RR. For example,
-NIH and NSF have data sharing policies, so you ought be to addressing data
-sharing in your grant proposals. They’ve also started talking about
-reproducibility. NIH’s rigor & reproducibility initiative currently aims to
-promote selected aspects of RR for preclinical studies. I don’t think it’s going
-to be long before NIH expands its focus to more aspects of reproducibility and a
-wider range of studies.
+There are now plenty of signs that funders value RR. For example, NIH and NSF
+have data sharing policies, so you ought be to addressing data sharing in your
+grant proposals. They’ve also launched reproducibility initiatives. NIH started 
+by promoting selected aspects of RR for preclinical studies, but has expanded 
+that to a wider range of studies. Other federal funders like NSF and IES have 
+also published materials promoting reproducibility. 
 :::
 
 ## Emerging Scientific Norms
