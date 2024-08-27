@@ -435,8 +435,8 @@ could be encompassed by these two terms.
 
 ::: {.column width="50%"}
 * Collaboration
-* Automation
 * Organization
+* Automation
 :::
 
 ::: {.column width="50%"}
@@ -467,7 +467,7 @@ aim toward the middle of the complexity spectrum.
 :::
 
 ## Manual Workflow
-* Use graphical user interface for software instead of coding scripts
+* Use GUI, menus, & dialog boxes to do tasks
 * Manually updating data files 
 * Version control through saving to new file names
 * Disorganized folders & files 
@@ -492,7 +492,105 @@ Speaker notes go here.
 Speaker notes go here.
 :::
 
+## Collaboration
+
+Treat RR as a form of collaborating with multiple stakeholders. Give them clear, 
+useful, and relevant materials. 
+
+Who are your key collaborators?
+
+* Your future self
+* Your current team
+* Peer-reviewers
+* Your audience
+
+Add diagram / photo illustrating collaboration with self, team-mates, and readers
+
+::: {.notes}
+Plan your work as a collaborative effort. Knowing you will share materials with
+other people orients you to the need to communicate what you are doing and how
+the materials you have developed can be used to reproduce results. It motivates
+you to make things clear and useful. 
+:::
+
+
+## Organization
+
+Organize files into a research compendium.
+Create documentation (README files, vignettes, etc.). 
+Use folder structures, naming conventions, 
+Use data flow diagrams and/or rendering scripts
+
+::: {.notes}
+RStudio project + R package structure + Quarto project
+Standardizing across projects is useful for efficiency
+:::
+
+## Automation
+
+Use scripts instead of GUIs
+Make computers do the tedious labor
+Conputers are patient idiots
+
+
+::: {.notes}
+
+:::
+
+
+## Preservation
+
+What should you preserve?
+
+* Data and associated meta-data
+* Methodology decisions
+* Data cleaning, management, and analysis scripts
+* Key decisions and rationales
+* Source code for scripts
+* Version histories of data, code, output, and deliverables
+* Who changed what & when
+* Software environment & versions used
+
+
+::: {.notes}
+
+:::
+
+
+## Integration
+Attach meta-data directly to data 
+Include codebooks (or scripts to generate them from the data)
+Integrate narrative text with code via Markup languages 
+Add custom functions and associated help files to research compendium
+Include references 
+
+::: {.notes}
+Variable & value labels. 
+README files & other documentatioon
+Quarto!
+:::
+
+
+
+## Separation
+
+Data from code
+Raw data from cleaned data
+Code from output
+Draft from production output
+Version history from current files
+
+::: {.notes}
+
+:::
+
+
+
 ## Version Control 
+
+Git tracks how files changed (additions & deletions), who changed them, when, & why
+Searchable & recoverable version history
+Eliminates the need to use filename conventions for versioning
 
 ::: {.notes}
 Speaker notes go here.
@@ -519,6 +617,11 @@ Speaker notes go here.
 
 * Citation style language file to control format
 * BibTeX files containing data
+
+
+## Map Your Path to Reproducibility {background-image="graphics/Map_Compass_Navigation.jpg" background-size="contain" background-position="right" background-repeat="no-repeat"}
+
+
 
 ## Parameterized Reports
 
