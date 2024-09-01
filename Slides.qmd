@@ -352,31 +352,22 @@ and increases opportunity to meet RR standards.
 
 ## Career Benefits of RR
 
-* Motivation to be more careful
-* Easier to get published
-* ... in better journals
-* Get cited more often
+* Motivation to focus on quality
+* Become more efficient
 * Create more products
-
+* Easier to get published 
+* Get cited more often
+* Build your reputation
 
 ::: {.notes}
-I think there are some real career benefits of striving to create reproducible 
-research and evaluation products. For example, it may motivate people to be more
-careful about avoiding errors, thereby increasing the quality of their work. It
-may be easier to get published, you might be able to publish in better journals,
-and you might ultimately get cited more often as people either adopt your
+There are some real career benefits of striving to create reproducible 
+research and evaluation products. For example, it motivates you to be more
+careful about avoiding errors, thereby increasing the quality of your work. 
+It will make you more efficient and the process produces more products. 
+It may be easier to get published--and to publish in better journals--and you 
+might ultimately get cited more often as people either adopt your
 methods, use your data for new studies, or discuss your work as an exemplar of
-high quality science.
-:::
-
-## Other Benefits of Reproducibility
-
-* Accuracy
-* Efficiency
-* Credibility
-
-::: {.notes}
-Speaker notes go here.
+high quality science. That will all build your professional reputation.
 :::
 
 # How do we achieve reproducibility? {background-image="graphics/Hands_Raised.jpg" background-size="contain" background-position="bottom" background-repeat="no-repeat"}
