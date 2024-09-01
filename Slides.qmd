@@ -527,7 +527,16 @@ Quarto -> Report [label = "Render"]
 ```
 
 ::: {.notes}
-Speaker notes go here.
+So what are dynamic documents? They draw on the concept of literate programming,
+where one embeds code directly in a document such as a report, interleaving it
+with narrative text, headings, and in-text citations. When you compile those
+documents, the code is executed and the results are directly inserted into the
+output. That includes statistics computed from the data, figures, tables,
+formatted equations, in-text citations that automatically populate
+fully-formatted reference sections, and more. This diagram shows the basic 
+structure.
+:::
+
 :::
 
 ## Collaboration
