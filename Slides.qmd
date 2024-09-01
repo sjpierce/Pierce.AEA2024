@@ -22,6 +22,7 @@ format:
   revealjs:
     embed-resources: true
     theme: [default, CSTAT_theme.scss]
+    controls: true
     slide-number: c/t
     show-notes: false
     header-logo: graphics/Combomark-Horiz_Green-RGB.png
