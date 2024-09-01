@@ -537,8 +537,36 @@ fully-formatted reference sections, and more. This diagram shows the basic
 structure.
 :::
 
+## Research Compendium
+
+* MyProject/
+    * .git
+    * .Rproj.user
+    * data/
+    * man/
+    * R/
+    * scripts/
+        * output/
+            * Import_Data_2024-08-31.pdf
+            * Report_1_2024-08-31.pdf
+        * _quarto.yml
+        * Import_Data.qmd
+        * Report_1.qmd
+        * Render_Scripts.qmd
+    * .gitignore
+    * .Rbuildignore
+    * DESCRIPTION
+    * NAMESPACE
+    * NEWS.md
+    * README.md
+    * README.Rmd
+    * MyProject.Rproj
+
+::: {.notes}
+One way that I 
 :::
 
+    
 ## Collaboration
 
 Treat RR as a form of collaborating with multiple stakeholders. Give them clear, 
