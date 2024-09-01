@@ -501,16 +501,30 @@ reports. These are my favorite tools now, in part because they enable me to
 create dynamic documents. 
 :::
 
-## Reproducible Workflow
+## Dynamic Documents
 
-* Eliminate manual steps!
-* Produce fully-formatted, publication-quality reports:
-    * Narrative text, headings
-    * Software code (optional)
-    * Dynamically inserted statistical results
-    * Dynamic tables
-    * Dynamic figures 
-    * Dynamic reference sections
+```{dot}
+//| fig-width: 10
+//| fig-height: 5
+digraph G {
+rankdir="LR";
+compound=true;
+
+node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", 
+      fillcolor = "#C3FFEC", margin = .25]
+Data [label = "Study_Data.csv\n(Raw Data File)"]
+Quarto [label = "Report.qmd\n(Quarto Script\nw/ R code)"]
+BibTeX [label = "references.bib\n(BibTeX Data File)"]
+CSL [label = "apa.csl\n(Citation Style\nLanguage File)"]
+Report [label = "Report.pdf\n(Formatted\nOutput)"]
+
+edge [fontname="Lato", fontsize="30pt"]
+Data -> Quarto [label = "Read by"]
+BibTeX -> Quarto [label = "Entries cited in"]
+CSL -> Quarto [label = "Used by"] 
+Quarto -> Report [label = "Render"] 
+}
+```
 
 ::: {.notes}
 Speaker notes go here.
