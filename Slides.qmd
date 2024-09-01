@@ -644,27 +644,22 @@ README files & other documentatioon
 Quarto!
 :::
 
-
-
 ## Separation
 
-Data from code
-Raw data from cleaned data
-Code from output
-Draft from production output
-Version history from current files
+* Data from code
+* Raw data from cleaned data
+* Code from output
+* Draft from production output
+* Version history from current files
 
 ::: {.notes}
-
+Add speaker notes here.
 :::
 
-
-
 ## Version Control 
-
-Git tracks how files changed (additions & deletions), who changed them, when, & why
-Searchable & recoverable version history
-Eliminates the need to use filename conventions for versioning
+* Git tracks how files changed (additions & deletions), who changed them, when, & why
+* Searchable & recoverable version history
+* Eliminates the need to use filename conventions for versioning
 
 ::: {.notes}
 Speaker notes go here.
@@ -675,8 +670,6 @@ Speaker notes go here.
 * Formatting
 * Headings
 * Links
-
-
 
 ## Inline R Code
 
@@ -691,14 +684,6 @@ Speaker notes go here.
 
 * Citation style language file to control format
 * BibTeX files containing data
-
-
-## Map Your Path to Reproducibility {background-image="graphics/Map_Compass_Navigation.jpg" background-size="contain" background-position="right" background-repeat="no-repeat"}
-
-
-
-## Parameterized Reports
-
 
 ```{dot}
 digraph G {
@@ -722,8 +707,15 @@ CSL -> Refs [label = "Format"]
 }
 ```
 
+## Parameterized Reports
+
+
+## Map Your Path to Reproducibility {background-image="graphics/Map_Compass_Navigation.jpg" background-size="contain" background-position="right" background-repeat="no-repeat"}
+
+
 
 ## References {.scrollable}
 
 ::: {#refs}
 :::
+
