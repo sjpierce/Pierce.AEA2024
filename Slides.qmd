@@ -484,6 +484,21 @@ Technology has vastly improved since then, but many evaluators are still using
 these sorts of manual workflows and don't know what is possible now. 
 :::
 
+## Software Tools for Reproducible Research
+
+* [R](https://www.r-project.org/), for statistical computing
+* [RStudio Desktop](https://posit.co/download/rstudio-desktop/), an editor
+* [Quarto](https://quarto.org), for dynamic documents 
+* [Git](https://git-scm.com/), for version control
+* [GitHub.com](https://github.com), for sharing & collaborating on code
+
+::: {.notes}
+Today, I'm trying to show you a better way to do your analyses and write your
+reports. It depends on taking advantage of better software and learning new
+workflows. This is a list of free software packages that comprise an elegant,
+powerful, and integrated set of tools for doing reproducible analyses and
+reports. These are my favorite tools now, in part because they enable me to
+create dynamic documents. 
 :::
 
 ## Reproducible Workflow
