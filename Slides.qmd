@@ -588,36 +588,36 @@ the materials you have developed can be used to reproduce results. It motivates
 you to make things clear and useful. 
 :::
 
-
 ## Organization
 
-Organize files into a research compendium.
-Create documentation (README files, vignettes, etc.). 
-Use folder structures, naming conventions, 
-Use data flow diagrams and/or rendering scripts
+* Organize files into a research compendium.
+* Create documentation (README files, vignettes, etc.). 
+* Use folder structures, naming conventions, 
+* Use data flow diagrams and/or rendering scripts
 
 ::: {.notes}
-RStudio project + R package structure + Quarto project
+Git repository + RStudio project + R package structure + Quarto project
 Standardizing across projects is useful for efficiency
 :::
 
+
+
 ## Automation
 
-Use scripts instead of GUIs
-Make computers do the tedious labor
-Conputers are patient idiots
+* Use scripts instead of GUIs
+* Make computers do the tedious labor
+* Computers are patient idiots
 
 
 ::: {.notes}
-
+Add speaker notes here.
 :::
 
 
 ## Preservation
-
 What should you preserve?
 
-* Data and associated meta-data
+* Data and meta-data
 * Methodology decisions
 * Data cleaning, management, and analysis scripts
 * Key decisions and rationales
@@ -626,18 +626,17 @@ What should you preserve?
 * Who changed what & when
 * Software environment & versions used
 
-
 ::: {.notes}
-
+Add speaker notes here.
 :::
 
 
 ## Integration
-Attach meta-data directly to data 
-Include codebooks (or scripts to generate them from the data)
-Integrate narrative text with code via Markup languages 
-Add custom functions and associated help files to research compendium
-Include references 
+* Attach meta-data directly to data 
+* Include codebooks (or scripts to generate them from the data)
+* Integrate narrative text with code via Markup languages 
+* Add custom functions and associated help files to research compendium
+* Include references 
 
 ::: {.notes}
 Variable & value labels. 
