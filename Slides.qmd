@@ -458,7 +458,7 @@ these principles in action throughout the rest of this talk. My examples will
 aim toward the middle of the complexity spectrum.
 :::
 
-## Manual Workflow
+## Manual Workflow Woes
 * Use GUI, menus, & dialog boxes to do tasks
 * Manually updating data files 
 * Version control through saving to new file names
@@ -466,7 +466,24 @@ aim toward the middle of the complexity spectrum.
 * Copy & paste output from stats software to word processor
 
 ::: {.notes}
-Speaker notes go here.
+As a student, I was taught a manual workflow for doing data analysis and writing
+reports. We used the GUI, menus, and dialog boxes in SPSS to do data management
+and analysis. We updated data files interactively. We created tons of files,
+saving to a new filename as chages accrued. That led to confusing proliferation
+of folders and files with little planned structure. It was hard to tell who had
+last edited various files and which versions to use. We eitehr retyped or pasted
+results from SPSS output into Word documents then spent lots of time formatting
+them further. If we made a mistake along the way, we had to spend hours and days 
+re-doing things. Over time I learned some strategies to improve that workflow,
+such as using SPSS syntax files to automate tasks, adding comments in the syntax
+files, adopting file naming conventions, and so on. But part of the problem was
+that the software tools weren't really integrated and they lacked key features
+and support for better workflows. 
+
+Technology has vastly improved since then, but many evaluators are still using 
+these sorts of manual workflows and don't know what is possible now. 
+:::
+
 :::
 
 ## Reproducible Workflow
