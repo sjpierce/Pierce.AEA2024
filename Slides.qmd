@@ -189,8 +189,8 @@ Reproducibility is an attainable minimum standard for science [@Peng-RN3189].
 :::
 
 ::: {.notes}
-Remember that our methods *matter*: how we conduct research influences where our
-studies fall along a continuum of trustworthiness and scientific credibility.
+Remember that our methods *matter*: how we conduct studies influences where our
+results fall on a continuum of trustworthiness and scientific credibility.
 Studies that use good scientific practices have higher trustworthiness and
 credibility. Let's link this continuum to reproducibility. 
 
@@ -292,10 +292,11 @@ also published materials promoting reproducibility.
 * Institutional policies
 
 ::: {.notes}
-There are emerging scientific norms aligned with RR. These are evident in things
-like the CONSORT reporting guidelines, calls for pre registered methods/trials,
-calls to publish raw data, and RR policies being adopted by various journals.
-They are also reflected in local institutional policies.
+There are emerging scientific norms aligned with RR. These are evident in the
+open science movement, calls for pre registered methods/trials, reporting
+guidelines, calls to publish raw data, and RR policies being adopted by various
+journals and publishers. They are also reflected in some local institutional
+policies.
 :::
 
 ## Publishing Technology
@@ -341,7 +342,7 @@ rank = same; {Jo; Au; Ar;}
 ```
 
 ::: {.notes}
-Modern publishing technology makes RR more feasible. When we we relied mostly on
+Modern publishing technology makes RR easier. When we we relied mostly on
 printed journals to distribute scientific papers, cost and page limits
 restricted the ability to do RR. Now, online publishing means you can easily
 share supplemental files alongside your papers, or deposit data, codebooks and
@@ -440,18 +441,17 @@ could be encompassed by these two terms.
 ::::
 
 ::: {.notes}
-Understanding a few guiding principles helps people figure out how to do RR and
-why it may be worth using the more complex methods of achieving it. Here are the
-principles I’ve identified so far. Thinking about reproducibility as
-collaboration encourages us to prepare and share materials that will make our 
-work accessible to others. Automation helps us achieve efficiency and accuracy 
-because scripts can be faster and more reliable than manual processes. 
-Organization simplifies the task of communicating to others how to reproduce
-our work. The preservation principle guides us to keep our raw data pristine and
-to keep a good audit trail. The integration principle shows up when we build 
-documentation directly into data files, put comments in code, and use code to 
-directly insert statistical results into reports. The separation principle helps
-us manage complexity by parsing a project into manageable pieces; for example
+Understanding a few guiding principles helps people figure out how to do RR.
+Here are the principles I’ve identified so far. Thinking about reproducibility
+as collaboration encourages us to prepare and share materials that will make our
+work accessible to others. Organization simplifies communicating to others how
+to reproduce our work. Automation helps us achieve efficiency and accuracy
+because scripts can be faster and more reliable than manual processes. The
+preservation principle guides us to keep our raw data pristine and to keep a
+good audit trail. The integration principle suggests building documentation
+directly into data files, putting comments in code, and using code to directly
+insert statistical results into reports. The separation principle helps us
+manage complexity by splitting projects or tasks into pieces; for example
 separating data management from analysis, or keeping raw data separate from
 working data files used for specific analyses. Keep an eye out for instances of
 these principles in action throughout the rest of this talk. My examples will
