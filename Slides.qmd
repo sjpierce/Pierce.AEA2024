@@ -606,6 +606,29 @@ R packages are normally used to share code & associated help files so other
 people can use custom software. 
 :::
 
+## Git Repositories
+
+Git is software for doing version control on code and other files. You can
+choose which files to track, then preserve a log of all committed changes 
+(additions/deletions) to them, when they were made, who made them, and why. 
+
+A Git repository is a folder of files that are being tracked, plus the 
+supporting database that does the tracking. 
+
+::: {.fragment}
+:::{.callout-important}
+Put your research compendium in a repository!
+:::
+:::
+
+::: {.notes}
+Git stores a fantastic audit trail. You can recover the exact state of a file as 
+it existed at any commit in the history. You can make either private or public 
+repositories. I usually keep a repository private until the corresponding 
+paper has been published, then I can make it public to enhance reproducibility. 
+:::
+
+
     
 ## Collaboration
 
