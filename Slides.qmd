@@ -586,6 +586,24 @@ separate even while revealing how they are related; and it should tell users
 what software was used in the original analysis. 
 :::
 
+## R Packages
+
+... are folders of digital files designed for sharing code & help documentation. 
+[@Wickham-RN3898]
+
+* They follow a conventional structure
+* Can contain data, meta-data, & other documentation
+* Can contain dynamic documents & rendered output
+
+::: {.fragment}
+:::{.callout-important}
+They are an excellent way to create research compendia! [@Marwick-RN3899] 
+:::
+:::
+
+::: {.notes}
+R packages are normally used to share code & associated help files so other 
+people can use custom software. 
 :::
 
     
