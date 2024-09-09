@@ -496,10 +496,10 @@ ahead of stone knives and bearskins."
 :::
 
 ::: {.notes}
-Technology has vastly improved since my student days, but I many evaluators are
-still using manual workflows like that. They don't know what is possible now.
-Were I to be asked to resume using those older tools and workflows, this quote
-from Spock would be apt.
+Technology has vastly improved since my student days, but many evaluators still 
+use manual workflows like that. They don't know what is possible now. Given what 
+I've learned in recent years, if I were asked to resume using those older tools 
+and workflows, I'd probably quote Spock.
 :::
 
 ## Software Tools for Reproducible Research
