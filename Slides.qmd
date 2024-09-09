@@ -629,6 +629,11 @@ paper has been published, then I can make it public to enhance reproducibility.
 :::
 
 
+## GitHub
+
+GitHub.com is an online server that hosts Git repositories, allowing multiple 
+people to synchronize local copies with the main one hosted on GitHub. 
+
     
 ## Collaboration
 
