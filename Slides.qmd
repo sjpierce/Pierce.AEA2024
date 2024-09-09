@@ -549,30 +549,6 @@ where one embeds code directly in a document such as a report, interleaving it
 with narrative text, headings, and in-text citations. When you render dynamic
 documents, the code is executed and the results are directly inserted into the
 output. That includes statistics computed from the data, figures, tables,
-## Research Compendium
-
-* MyProject/
-    * .git
-    * .Rproj.user
-    * data/
-    * man/
-    * R/
-    * scripts/
-        * output/
-            * Import_Data_2024-08-31.pdf
-            * Report_1_2024-08-31.pdf
-        * _quarto.yml
-        * Import_Data.qmd
-        * Report_1.qmd
-        * Render_Scripts.qmd
-    * .gitignore
-    * .Rbuildignore
-    * DESCRIPTION
-    * NAMESPACE
-    * NEWS.md
-    * README.md
-    * README.Rmd
-    * MyProject.Rproj
 formatted equations, fully-formatted reference sections, and more. This diagram 
 shows the files involved for a simple example. The idea is that rendering your 
 report script produces a PDF file ready for delivery to your client. 
@@ -586,9 +562,30 @@ report by re-rendering the script, or fix an error in the script then render
 again to automate updating the report.
 :::
 
+## Research Compendium {background-image="graphics/pexels-anete-lusina-4792285.jpg"}
+
+:::: {style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px;"}
+A compendium organizes digital files so others can review or use them to 
+reproduce results, or do new analyses. [@Marwick-RN3899] 
+
+::: {.incremental}
+* Use prevailing conventions to organize the project. 
+* Separate data, method, & output but show how they are related.
+* Specify the software used in the original analysis. 
+:::
+
+::::
 
 ::: {.notes}
-One way that I 
+Dynamic documents are a key tool for reproducibility, but they're only part of
+the solution. Most projects require more than couple files, so organizing your
+materials into a research compendium is useful. A compendium is a structured
+folder containing all your reproducibility files. An effective one should use
+prevailing conventions to organize the project; keep data, method, and output
+separate even while revealing how they are related; and it should tell users
+what software was used in the original analysis. 
+:::
+
 :::
 
     
