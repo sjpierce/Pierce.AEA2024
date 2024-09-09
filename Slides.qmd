@@ -502,7 +502,7 @@ I've learned in recent years, if I were asked to resume using those older tools
 and workflows, I'd probably quote Spock.
 :::
 
-## Software Tools for Reproducible Research
+## Free, Open Source Software Tools for Reproducible Research {background-image="graphics/Keyboard_Typing.jpg"}
 
 * [R](https://www.r-project.org/), for statistical computing
 * [RStudio Desktop](https://posit.co/download/rstudio-desktop/), an editor
@@ -511,12 +511,11 @@ and workflows, I'd probably quote Spock.
 * [GitHub.com](https://github.com), for sharing & collaborating on code
 
 ::: {.notes}
-Today, I'm trying to show you a better way to do your analyses and write your
-reports. It depends on taking advantage of better software and learning new
-workflows. This is a list of free software packages that comprise an elegant,
-powerful, and integrated set of tools for doing reproducible analyses and
-reports. These are my favorite tools now, in part because they enable me to
-create dynamic documents. 
+I'm trying to show you a better way to do analyses and write reports. It depends
+on using better software and learning new workflows. This is a list of free
+software packages that comprise an elegant, powerful, and integrated set of
+tools for doing reproducible analyses and reports. These are my favorite tools
+now, in part because they enable me to create dynamic documents. R is a fantastic
 :::
 
 ## Dynamic Documents
