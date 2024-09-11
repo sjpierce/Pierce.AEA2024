@@ -636,10 +636,58 @@ reproducibility.
 
 ## GitHub
 
-GitHub.com is an online server that hosts Git repositories, allowing multiple 
-people to synchronize local copies with the main one hosted on GitHub. 
 
-    
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 5
+digraph G {
+rankdir="TB"; nodesep = .6;
+
+subgraph cluster_0 {
+style="rounded,dashed"; penwidth = 3; color = "black";
+label = "GitHub Server"; labelloc=t;
+fontname="Lato"; fontsize="40pt"; fontcolor = "black";
+node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", 
+      fillcolor = "#C3FFEC", margin = .25]
+RR [label = "OurProject\n(Main Copy, Remote)"]
+}
+
+subgraph cluster_1 {
+style="rounded,dashed"; penwidth = 3; color = "black";
+label = "Computer 1"; labelloc=b;
+fontname="Lato"; fontsize="40pt"; fontcolor = "black";
+node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", 
+      fillcolor = "#C3FFEC", margin = .25]
+LR1 [label = "OurProject\n(Local Copy)"]
+}
+
+subgraph cluster_2 {
+style="rounded,dashed"; penwidth = 3; color = "black";
+label = "Computer 2"; labelloc=b;
+fontname="Lato"; fontsize="40pt"; fontcolor = "black";
+node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", 
+      fillcolor = "#C3FFEC", margin = .25]
+LR2 [label = "OurProject\n(Local Copy)"]
+}
+
+edge [fontname="Lato", fontsize="30pt"]
+RR -> LR1 [label = "Pull"]
+RR -> LR2 [label = "Pull"]
+LR1 -> RR [label = "Push"]
+LR2 -> RR [label = "Push"]
+}
+```
+
+::: {.notes}
+GitHub.com is an online server that hosts Git repositories, allowing multiple
+people to synchronize their local copies with the main one hosted on GitHub.
+This facilitates collaboration because each person can independently edit files,
+then pull the recent changes others have made down from GitHub, and push their
+own changes back up to the main repository. Git will detect conflicting changes
+and force a user to resolve them and commit the result.
+:::
+
 ## Collaboration
 
 Treat RR as a form of collaborating with multiple stakeholders. Give them clear, 
