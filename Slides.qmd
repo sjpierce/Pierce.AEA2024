@@ -462,13 +462,13 @@ aim toward the middle of the complexity spectrum.
 :::
 
 ## Workflow Woes
-* Use GUI, menus, & dialog boxes to do tasks
+* Use GUI, menus, & dialog boxes to do tasks 
 * Manually updating data files 
-* Version control through saving to new file names
+* Version control through saving to new file names 
 * Disorganized folders & files 
-* No audit trail
-* Copy & paste output from stats software to word processor
-* Fixing mistakes took lots of time
+* No audit trail 
+* Copy & paste output from stats software to word processor 
+* Fixing mistakes took lots of time 
 
 ::: {.notes}
 As a student, I was taught a manual workflow for doing data analysis and writing
@@ -569,9 +569,9 @@ A compendium organizes digital files so others can review or use them to
 reproduce results, or do new analyses. [@Marwick-RN3899] 
 
 ::: {.incremental}
-* Use prevailing conventions to organize the project. 
-* Separate data, method, & output but show how they are related.
-* Specify the software used in the original analysis. 
+* Use prevailing conventions to organize the project
+* Separate data, method, & output but show how they are related
+* Specify the software used in the original analysis
 :::
 
 ::::
