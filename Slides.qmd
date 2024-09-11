@@ -589,15 +589,15 @@ what software was used in the original analysis.
 ## R Packages
 
 ... are folders of digital files designed for sharing code & help documentation. 
-[@Wickham-RN3898]
+[@Wickham-RN3898] They
 
-* They follow a conventional structure
-* Can contain data, meta-data, & other documentation
-* Can contain dynamic documents & rendered output
+* Follow a conventional structure 
+* Can contain data, meta-data, & other documentation 
+* Can contain dynamic documents & rendered output 
 
 ::: {.fragment}
 :::{.callout-important}
-They are an excellent way to create research compendia! [@Marwick-RN3899] 
+Use an R package for a research compendium! [@Marwick-RN3899] 
 :::
 :::
 
