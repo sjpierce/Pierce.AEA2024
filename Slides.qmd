@@ -608,24 +608,29 @@ people can use custom software.
 
 ## Git Repositories
 
-Git is software for doing version control on code and other files. You can
-choose which files to track, then preserve a log of all committed changes 
-(additions/deletions) to them, when they were made, who made them, and why. 
+... are folders of files being tracked by Git for version control purposes. 
+[@Bryan-RN3900; @Chacon-RN3480] They:
 
-A Git repository is a folder of files that are being tracked, plus the 
-supporting database that does the tracking. 
+* Preserve a history of changes to the tracked file 
+* Allow recovering a file's prior state from the history 
+* Can be private or public 
+* Can be local or remote (hosted on a server) 
 
 ::: {.fragment}
 :::{.callout-important}
-Put your research compendium in a repository!
+Put your research compendium in a Git repository!
 :::
 :::
 
 ::: {.notes}
-Git stores a fantastic audit trail. You can recover the exact state of a file as 
-it existed at any commit in the history. You can make either private or public 
-repositories. I usually keep a repository private until the corresponding 
-paper has been published, then I can make it public to enhance reproducibility. 
+Git is software for doing version control on code and other files stored in
+repositories, which are just folders of files. You can choose which files to
+track, then log of all committed changes to them, when they were made, who made
+them, and why. That preserves a fantastic audit trail. You can recover the exact
+state of a file as it existed at any commit in the history. You can make either
+private or public repositories. I usually keep a repository private until the
+corresponding paper has been published, then I can make it public to enhance
+reproducibility.
 :::
 
 
