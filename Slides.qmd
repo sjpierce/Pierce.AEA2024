@@ -540,7 +540,7 @@ Report [label = "Report.pdf\n(Formatted\nOutput)"]
 
 edge [fontname="Lato", fontsize="30pt", arrowsize = 1.5]
 Data -> Quarto [label = "Read by"]
-BibTeX -> Quarto [label = "Entries cited in"]
+BibTeX -> Quarto [label = "Cited in"]
 CSL -> Quarto [label = "Used by"] 
 Quarto -> Report [label = "Render"] 
 }
