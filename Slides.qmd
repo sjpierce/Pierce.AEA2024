@@ -499,10 +499,12 @@ and workflows, I'd probably quote Spock.
 
 ## Free, Open Source Software Tools for Reproducible Research {background-image="graphics/Keyboard_Typing.jpg"}
 
-* [R](https://www.r-project.org/), for statistical computing
-* [RStudio Desktop](https://posit.co/download/rstudio-desktop/), an editor
-* [Quarto](https://quarto.org), for dynamic documents 
-* [Git](https://git-scm.com/), for version control
+* [R](https://www.r-project.org/) [@R-Devel-Core-RN8182], for statistical 
+  computing
+* [RStudio Desktop](https://posit.co/download/rstudio-desktop/) 
+  [@RStudio-Team-RN8351], an editor
+* [Quarto](https://quarto.org) [@Allaire-RN8427], for dynamic documents 
+* [Git](https://git-scm.com/) [@Torvalds-RN3929], for version control
 * [GitHub.com](https://github.com), for sharing & collaborating on code
 
 ::: {.notes}
