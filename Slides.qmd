@@ -793,33 +793,6 @@ Speaker notes go here.
 ## Figures
 
 
-## Reference Lists
-
-* Citation style language file to control format
-* BibTeX files containing data
-
-```{dot}
-digraph G {
-rankdir="LR";
-compound=true;
-
-node [shape = "note"]
-Quarto [label = "Document.qmd"]
-BibTeX [label = "references.bib"]
-CSL [label = "apa.csl"]
-
-subgraph cluster_1 {
-  label = "Document.pdf";
-  labeljust=l;
-  Refs [shape = "component", label = "References Section"]
-}
-
-Quarto -> Refs [label = "Render", lhead = "cluster_1"] 
-BibTeX -> CSL [label = "Data"]
-CSL -> Refs [label = "Format"] 
-}
-```
-
 ## Parameterized Reports
 
 
