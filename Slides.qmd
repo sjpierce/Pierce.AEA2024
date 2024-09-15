@@ -611,14 +611,13 @@ people can use custom software.
 :::
 
 ## Git Repositories
+... are folders of files being tracked by Git [@Torvalds-RN3929] for version 
+control purposes. [@Bryan-RN3900; @Chacon-RN3480] They:
 
-... are folders of files being tracked by Git for version control purposes. 
-[@Bryan-RN3900; @Chacon-RN3480] They:
-
-* Preserve a history of changes to the tracked file 
+* Preserve a history of changes to each tracked file
 * Allow recovering a file's prior state from the history 
-* Can be private or public 
 * Can be local or remote (hosted on a server) 
+* Can be private or public 
 
 ::: {.fragment}
 :::{.callout-tip}
