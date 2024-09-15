@@ -120,7 +120,7 @@ falls on this spectrum?
 ```{dot}
 //| fig-width: 9
 //| fig-height: 4
-digraph G {
+digraph RRProduct {
 rankdir="TB";
 
 node [shape = "box", style= "filled", fontname="Lato", fillcolor = "#C3FFEC"]
@@ -167,7 +167,7 @@ the push toward it.
 ```{dot}
 //| fig-width: 10
 //| fig-height: 2
-digraph G {
+digraph Continuum {
 rankdir="LR";
 
 node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", fillcolor = "#C3FFEC"]
@@ -303,7 +303,7 @@ policies.
 ```{dot}
 //| fig-width: 10
 //| fig-height: 5
-digraph G {
+digraph PubTech {
 rankdir="TB"; splines=false; nodesep = .6;
 
 node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", 
@@ -518,7 +518,7 @@ now, in part because they enable me to create dynamic documents. R is a fantasti
 ```{dot}
 //| fig-width: 10
 //| fig-height: 5
-digraph G {
+digraph DynDoc {
 rankdir="LR";
 compound=true;
 
@@ -633,8 +633,8 @@ reproducibility.
 ```{dot}
 //| fig-width: 10
 //| fig-height: 5
-digraph G {
 rankdir="TB"; nodesep = .6;
+digraph GitHub {
 
 subgraph cluster_0 {
 style="rounded,dashed"; penwidth = 3; color = "black";
