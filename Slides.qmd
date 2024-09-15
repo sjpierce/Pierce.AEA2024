@@ -174,7 +174,7 @@ node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", fillcolo
 Low [label = "Low"]
 High [label = "High"]
 
-edge [fontname="Lato", fontsize="40pt"]
+edge [fontname="Lato", fontsize="40pt", arrowsize = 1.5]
 Low -> High [label = "Trustworthiness & Credibility", dir = "both", minlen = 9]
 }
 ```
@@ -327,7 +327,7 @@ SF [label = "Manuscript &\nSupplemental\nFiles", shape = "note"]
 CD [label = "Codebooks,\nData, &\nSoftware", shape = "note"]
 }
 
-edge [fontname="Lato", fontsize="40pt"]
+edge [fontname="Lato", fontsize="40pt", arrowsize=1.5]
 Jo -> Au [dir = "back"]
 Au -> Ar 
 Jo -> Pa 
@@ -530,7 +530,7 @@ BibTeX [label = "references.bib\n(BibTeX Data File)"]
 CSL [label = "apa.csl\n(Citation Style\nLanguage File)"]
 Report [label = "Report.pdf\n(Formatted\nOutput)"]
 
-edge [fontname="Lato", fontsize="30pt"]
+edge [fontname="Lato", fontsize="30pt", arrowsize = 1.5]
 Data -> Quarto [label = "Read by"]
 BibTeX -> Quarto [label = "Entries cited in"]
 CSL -> Quarto [label = "Used by"] 
@@ -663,11 +663,11 @@ node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt",
 LR2 [label = "OurProject\n(Local Copy)"]
 }
 
-edge [fontname="Lato", fontsize="30pt"]
 RR -> LR1 [label = "Pull"]
 RR -> LR2 [label = "Pull"]
 LR1 -> RR [label = "Push"]
 LR2 -> RR [label = "Push"]
+edge [fontname="Lato", fontsize="30pt", arrowsize=1.5]
 }
 ```
 
