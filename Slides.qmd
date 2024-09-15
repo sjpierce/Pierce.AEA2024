@@ -600,7 +600,7 @@ what software was used in the original analysis.
 * Can contain dynamic documents & rendered output 
 
 ::: {.fragment}
-:::{.callout-important}
+:::{.callout-tip}
 Use an R package for a research compendium! [@Marwick-RN3899] 
 :::
 :::
@@ -621,7 +621,7 @@ people can use custom software.
 * Can be local or remote (hosted on a server) 
 
 ::: {.fragment}
-:::{.callout-important}
+:::{.callout-tip}
 Put your research compendium in a Git repository!
 :::
 :::
