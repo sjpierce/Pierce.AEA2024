@@ -47,7 +47,6 @@ library(kableExtra) # Functions for formatting nice tables.
 ```
 
 ## Outline
-
 * What do you mean by reproducible? 
 * Why should we aim for reproducibility?
 * How do we achieve reproducibility?
@@ -60,7 +59,6 @@ Let's define some concepts.
 :::
 
 ## Reproducible Research (RR)
-
 ... is achieved when investigators *share all the materials required to exactly 
 recreate the findings* so that others can verify them or conduct alternative 
 analyses.
@@ -220,7 +218,6 @@ Roger Peng has argued that RR is an attainable minimum standard for science
 :::
 
 ## Guiding Principles for Evaluators
-
 Pursuing reproducibility enacts our guiding principles 
 [@AEA-RN8648]: 
 
@@ -284,7 +281,6 @@ also published materials promoting reproducibility.
 :::
 
 ## Emerging Scientific Norms
-
 * Open science: 
     * [https://www.cos.io/open-science](https://www.cos.io/open-science) 
     * [https://open.science.gov](https://open.science.gov)
@@ -355,7 +351,6 @@ and increases opportunity to meet RR standards.
 :::
 
 ## Career Benefits of RR
-
 * Motivation to focus on quality
 * Become more efficient
 * Create more products
@@ -587,7 +582,6 @@ what software was used in the original analysis.
 :::
 
 ## R Packages
-
 ... are folders of digital files designed for sharing code & help documentation. 
 [@Wickham-RN3898] They
 
@@ -635,8 +629,6 @@ reproducibility.
 
 
 ## GitHub
-
-
 
 ```{dot}
 //| fig-width: 10
