@@ -715,25 +715,24 @@ repository public so that people outside your team can access reproducibility
 materials. 
 :::
 
-## Collaboration
+## Collaboration {style="text-align: right" background-image="graphics/pexels-fauxels-3184634.jpg" background-position="top" }
 
-Treat RR as a form of collaborating with multiple stakeholders. Give them clear, 
-useful, and relevant materials. 
-
-Who are your key collaborators?
+:::: {.absolute left="55%" top="25%" style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px; text-align: left;"}
+Plan to give files to multiple stakeholders:  
 
 * Your future self
-* Your current team
-* Peer-reviewers
+* Your team
+* Peer reviewers
 * Your audience
 
-Add diagram / photo illustrating collaboration with self, team-mates, and readers
+::::
 
 ::: {.notes}
-Plan your work as a collaborative effort. Knowing you will share materials with
-other people orients you to the need to communicate what you are doing and how
-the materials you have developed can be used to reproduce results. It motivates
-you to make things clear and useful. 
+Plan your work as a collaborative effort with multiple stakeholders. Knowing you
+will share files with several kinds of people orients you to the need to
+communicate what you are doing, how the materials are organized, and how they
+can be used to reproduce results. It motivates you to make things clear and
+include good documentation.
 :::
 
 ## Organization
