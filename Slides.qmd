@@ -509,16 +509,14 @@ and workflows, I'd probably quote Spock.
 
 ::: {.notes}
 Fortunately, there's a better way to do analyses and write reports. It depends
-on using good open-source software and learning new workflows. This is a list of
-free software packages that comprise an elegant, powerful, and integrated set of
-tools for doing reproducible analyses and reports. These are my favorite tools
-now, in part because they enable me to create dynamic documents. R is a
-fantastic option for managing and analyzing data and creating figures. RStudio
-Desktop is an excellent editor for working with R that also simplifies using
-Quarto, Git, and GitHub too. That integration is powerful. Quarto is software
-for generating dynamic documents that render to a variety of output formats
-(HTML, PDF, Word, PowerPoint, etc.), while Git and GitHub together support
-version control, collaboration, and sharing materials.
+on open-source software and learning new workflows. These are my favorite tools
+now. R is a fantastic option for managing and analyzing data and creating
+figures. RStudio Desktop is an excellent editor for working with R that also
+simplifies using Quarto, Git, and GitHub. Quarto supports creating dynamic
+documents that render to a variety of output formats (HTML, PDF, Word,
+PowerPoint, etc.), while Git and GitHub together support version control,
+collaboration, and sharing materials. Collectively, they comprise an elegant,
+integrated set of tools for doing reproducible analyses and reports.
 :::
 
 ## Dynamic Documents Via Quarto + R
