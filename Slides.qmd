@@ -545,22 +545,23 @@ Quarto -> Report [label = "Render"]
 ```
 
 ::: {.notes}
-So what are dynamic documents? They draw on the concept of literate programming,
-where one embeds code directly in a document such as a report, interleaving it
-with narrative text, headings, and in-text citations. When you render dynamic
-documents, the code is executed and the results are directly inserted into the
-output. That includes statistics computed from the data, figures, tables,
-formatted equations, fully-formatted reference sections, and more. This diagram 
-shows the files involved for a simple example. The idea is that rendering your 
-report script produces a PDF file ready for delivery to your client. 
+Dynamic documents are a crucial technology for reproducibility. They implement
+the concept of literate programming, where one embeds code directly in a
+document such as a report, interleaving it with narrative text, headings, and
+in-text citations. When you render dynamic documents, the code is executed and
+the results are directly inserted into the output. That includes statistics
+computed from the data, figures, tables, formatted equations, fully-formatted
+reference sections, and more. This diagram shows the files involved for a simple
+example. The idea is that rendering your report script produces an output such
+as a PDF file ready for delivery to your client.
 
 Several principles are in action here: Separation of data from code, integration
 of R code into the Quarto script, where it automates data management and
 analyses. Quarto automates inserting results into the report. The BibTeX file
-contains data about references you cite in the report, while Quarto uses the CSL
-file to format the citations and the reference list. I'm using similar file
-names to stay organized: they show which script creates the report. Saving all
-the files follows the preservation principle. One can rapidly reproduce the
+contains data about references you cite in the report, while the CSL file tells
+QAuarto how to format the citations and the reference list. I'm using similar
+file names to stay organized: they show which script creates the report. Saving
+all the files follows the preservation principle. One can rapidly reproduce the
 report by re-rendering the script, or fix an error in the script then render
 again to automate updating the report.
 :::
