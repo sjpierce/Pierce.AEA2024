@@ -634,13 +634,20 @@ Put your research compendium in a Git repository!
 
 ::: {.notes}
 Git is software for doing version control on code and other files stored in
-repositories, which are just folders of files. You can choose which files to
-track, then log of all committed changes to them, when they were made, who made
-them, and why. That preserves a fantastic audit trail. You can recover the exact
-state of a file as it existed at any commit in the history. You can make either
-private or public repositories. I usually keep a repository private until the
-corresponding paper has been published, then I can make it public to enhance
-reproducibility.
+repositories, which are just--you guessed it--digital folders. You can choose
+which files to track, then log of all committed changes to them, when they were
+made, who made them, and why. That preserves a fantastic audit trail. You can
+recover the exact state of a file as it existed at any commit in the history.
+You can make repositories either private or public. I usually keep a repository
+private until the corresponding paper has been published, then I can make it
+public to enhance reproducibility. So, putting your compendium in a Git 
+repository both follows some of the principles I've highlighted and helps solve 
+some of those worklflow woes I described earlier. For example, you can stop 
+using long, confusing filenames as a crude form of version control. Give each 
+file a simple name that stays constant even while Git tracks how it changes 
+over time. Jenny Bryan's paper on using proper version control persuaded me to 
+start using Git. I have not regretted it! So, put your compendium into a Git 
+repository! 
 :::
 
 
