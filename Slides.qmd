@@ -581,13 +581,14 @@ reproduce results, or do new analyses. [@Marwick-RN3899] It should:
 ::::
 
 ::: {.notes}
-Dynamic documents are a key tool for reproducibility, but they're only part of
-the solution. Most projects require more than couple files, so organizing your
-materials into a research compendium is useful. A compendium is a structured
-folder containing all your reproducibility files. An effective one should use
-prevailing conventions to organize the project; keep data, method, and output
-separate even while revealing how they are related; and it should tell users
-what software was used in the original analysis. 
+Dynamic documents are only part of the solution. Most projects require more than
+couple files, so organizing your materials into a research compendium is useful.
+A compendium is a structured folder containing all your reproducibility files.
+An effective one should use prevailing conventions to organize the project; keep
+data, method, and output separate even while revealing how they are related; and
+it should tell users what software was used in the original analysis. You can 
+facilitate collaboration by thoughtfully setting up a compendium with attention  
+to applying the organization, separation, and integration principles. 
 :::
 
 ## R Packages
