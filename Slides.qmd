@@ -595,7 +595,7 @@ to applying the organization, separation, and integration principles.
 ... are folders of digital files designed for sharing code & help documentation. 
 [@Wickham-RN3898] They
 
-* Follow a conventional structure 
+* Organize files into a conventional structure 
 * Can contain data, meta-data, & other documentation 
 * Can contain dynamic documents & rendered output 
 
@@ -606,8 +606,15 @@ Use an R package for a research compendium! [@Marwick-RN3899]
 :::
 
 ::: {.notes}
-R packages are normally used to share code & associated help files so other 
-people can use custom software. 
+R packages are normally used to share code & associated help files so other
+people can use custom software. They are just folders of digital files that are
+organized into a conventional structure; can contain data, meta-data, and
+documentation; and can even contain dynamic documents and rendered output. So,
+Marwick and colleagues suggest using an R package as your research compendium! 
+The conventional structure guides you to organize your files into specific 
+subfolders and separate certain kinds of files--such as data versus code--from 
+each other. It suggests specific kinds of documentation to include, like a
+README file that introduces new users to your work.
 :::
 
 ## Git Repositories
