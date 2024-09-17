@@ -650,7 +650,6 @@ start using Git. I have not regretted it! So, put your compendium into a Git
 repository! 
 :::
 
-
 ## GitHub
 
 ```{dot}
@@ -701,13 +700,14 @@ RR -> LR2 [headlabel = "Clone/\lPull\l", labeldistance = 6, labelangle = -45]
 ```
 
 ::: {.notes}
-GitHub is an online server that hosts Git repositories, allowing multiple people
-to clone copies from the remote server to their own computers and synchronize
-their local copies with the main one hosted on GitHub. This facilitates
-collaboration because each person can independently edit files in their own
-local copy, pull the recent changes others have made down from GitHub, and push
-their own changes back up to the main repository. Git will detect conflicting
-changes and force a user to resolve them and commit the result.
+While Git handles preservation, GitHub solves other workflow problems. GitHub is
+an online server that hosts Git repositories, allowing multiple people to clone
+copies from the remote server to their own computers and synchronize their local
+copies with the main one hosted on GitHub. This facilitates collaboration
+because each person can independently edit files in their own local copy, pull
+the recent changes others have made down from GitHub, and push their own changes
+back up to the main repository. Git will detect conflicting changes and force a
+user to resolve them and commit the result.
 
 Using a private GitHub repository while working on the project allows you 
 collaborate with teammates as you develop a report. Later, you can make the 
