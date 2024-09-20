@@ -713,10 +713,9 @@ repository public so that people outside your team can access reproducibility
 materials. 
 :::
 
-## Collaboration {style="text-align: right" background-image="graphics/pexels-fauxels-3184634.jpg" background-position="top" }
+## Collaboration Stakeholders {style="text-align: right" background-image="graphics/pexels-fauxels-3184634.jpg" background-position="top" }
 
-:::: {.absolute left="55%" top="25%" style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px; text-align: left;"}
-Plan to give files to multiple stakeholders:  
+:::: {.absolute left="45%" top="40%" style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px; text-align: left;"}
 
 * Your future self
 * Your team
