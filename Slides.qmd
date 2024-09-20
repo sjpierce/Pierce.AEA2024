@@ -63,12 +63,12 @@ recreate the findings* so that others can verify them or conduct alternative
 analyses.
 
 ::: {.notes}
-So, let’s set the stage by defining RR, which is research for which the
-investigators have shared all the materials required to exactly recreate the
-findings so that others can verify them or conduct alternative analyses. While 
-there are differences between research and evaluation writ broadly, I believe 
-reproducbility is just as valuable in--and applicable to--evaluation work as it 
-is in research contexts.
+So, let’s set the stage with a definition. Reproducible research is research for 
+which the investigators have shared all the materials required to exactly
+recreate the findings so that others can verify them or conduct alternative
+analyses. While there are differences between research and evaluation writ
+broadly, I believe reproducbility is just as valuable in--and applicable
+to--evaluation work as it is in research.
 :::
 
 ## Statistical Results Can Be:
@@ -105,13 +105,13 @@ is in research contexts.
 ::::
 
 ::: {.notes}
-Let's put reproducibility into a broader context. Statistical results can be 
-classified into a few different categories. They are repeatable when the 
-original analyst can reliably obtain the same results from the original data. 
-They are reproducible if a new analyst can obtain the same result from the 
-original data. Finally, they are replicable if a new analyst can obtain the same 
-result from a new set of data. How confident are you about about where your work 
-falls on this spectrum? 
+Let's put reproducibility into a broader context. Statistical results can be
+classified into a few different categories. **>** They are repeatable when the
+original analyst can reliably obtain the same results from the original data.
+**>** They are reproducible if a new analyst can obtain the same result from the
+original data. **>** Finally, they are replicable if a new analyst can obtain
+the same result from a new set of data. How confident are you about about where
+your work falls on this spectrum?
 :::
 
 ## RR is a Product
@@ -138,11 +138,11 @@ Qual -> RR
 RR is a product of *how we work*, not which methods we use. 
 
 ::: {.notes}
-RR is a product of the research process that’s presumably independent of whether 
-we use quantitative, qualitative, or mixed methods. What matters is how we work 
-and share the materials. However, I suspect it’s easier to apply RR principles 
-to quantitative methods and those are my forte as a statistician, so I'll focus 
-on that route to reproducibility today. 
+Reproducible research is a product of the research process that’s presumably
+independent of whether we use quantitative, qualitative, or mixed methods. What
+matters is how we work and share the materials. However, I suspect it’s easier
+to apply the principles to quantitative methods and those are my forte as a
+statistician, so I'll focus on that route to reproducibility today.
 :::
 
 # Why aim for <br> reproducibility? {background-image="graphics/Woman_Raising_Hand.jpg" background-size="contain" background-position="right" background-repeat="no-repeat"}
@@ -156,9 +156,9 @@ Several forces are promoting and enabling the push toward reproducibility.
 ::::
 
 ::: {.notes}
-So, why aim for RR? There are many reasons to work toward meeting the RR
-standard. I’ll just touch on a few key forces that are promoting and enabling
-the push toward it.
+So, why should we aim for reproducibility? There are many reasons to work toward
+meeting the RR standard. I’ll just touch on a few key forces that are promoting
+and enabling the push toward it.
 :::
 
 ## Methods Matter!
@@ -189,28 +189,26 @@ Reproducibility is an attainable minimum standard for science [@Peng-RN3189].
 :::
 
 ::: {.notes}
-Remember that our methods *matter*: how we conduct studies influences where our
-results fall on a continuum of trustworthiness and scientific credibility.
-Studies that use good scientific practices have higher trustworthiness and
-credibility. Let's link this continuum to reproducibility. 
+Remember that our methods *matter*: Studies that use good scientific practices
+yield more trustworthy, credible findings. Let's link this continuum to
+reproducibility. **>**
 
-At the low end, we have IRR, which relies on investigator reputation to
-establish credibility because key methodological details aren’t published and
-the findings can’t be independently verified. Reviewers and readers have limited
-ability to judge the quality of the research. IRR provides a poor foundation for
-future replication studies.
+At the low end, we have irreproducible findings, which rely on investigator
+reputation to establish credibility because key methodological details aren’t
+published and the findings can’t be independently verified. This limits 
+our ability to judge the their quality and provides a poor foundation for future 
+replication studies.
 
-RR findings can be independently verified from the original data, reducing
-reliance on investigator reputation. Reviewers and readers can better judge
-quality of research on its own merits. Furthermore, RR provides a solid
-foundation for future replication studies by publishing key methodological
-details.
+Reproducible findings can be independently verified from the original data,
+reducing reliance on investigator reputation. We can better judge the quality of
+such research on its own merits. Furthermore, it provides methodological 
+details that lay a solid foundation for future replications.
 
 Finally, replicated research has the highest level of credibility because
 independent investigators have replicated the findings with new studies,
 indicating that the probability of opportunistic biases is low and the findings
 generalize beyond the original sample. This dramatically increases
-trustworthiness of a finding.
+trustworthiness of a finding. **>**
 
 Roger Peng has argued that RR is an attainable minimum standard for science
 (Peng et al., 2006). 
@@ -240,7 +238,9 @@ Pursuing reproducibility enacts our guiding principles
 
 ::: {.notes}
 Pursuing reproducibility is a good way to enact several of AEA's guiding
-principles for evaluators, namely systematic inquiry, competence, and integrity.
+principles for evaluators. **>** Reproducibility demands systematic inquiry, 
+**>** acquiring the necessary skills increases competence, and **>** the 
+transparency of reproducible research promotes integrity.
 :::
 
 ## Funders Value RR {.smaller}
@@ -271,12 +271,12 @@ principles for evaluators, namely systematic inquiry, competence, and integrity.
 ::::
 
 ::: {.notes}
-There are now plenty of signs that funders value RR. For example, NIH and NSF
-have data sharing policies, so you ought be to addressing data sharing in your
-grant proposals. They’ve also launched reproducibility initiatives. NIH started 
-by promoting selected aspects of RR for preclinical studies, but has expanded 
-that to a wider range of studies. Other federal funders like NSF and IES have 
-also published materials promoting reproducibility. 
+There are plenty of signs that funders value RR. For example, NIH and NSF have
+data sharing policies, so you must address data sharing in grant proposals. 
+They’ve also launched reproducibility initiatives. NIH started by promoting
+selected aspects of reproducibility for preclinical studies, but not expects it
+in a wider range of studies. Other federal funders like NSF and IES have also
+published materials promoting reproducibility.
 :::
 
 ## Emerging Scientific Norms
@@ -292,9 +292,8 @@ also published materials promoting reproducibility.
 ::: {.notes}
 There are emerging scientific norms aligned with RR. These are evident in the
 open science movement, calls for pre registered methods/trials, reporting
-guidelines, calls to publish raw data, and RR policies being adopted by various
-journals and publishers. They are also reflected in some local institutional
-policies.
+guidelines, calls to publish raw data, and policies adopted by various journals
+and publishers. They are also reflected in some institutional policies.
 :::
 
 ## Publishing Technology
@@ -340,13 +339,13 @@ rank = same; {Jo; Au; Ar;}
 ```
 
 ::: {.notes}
-Modern publishing technology makes RR easier. When we we relied mostly on
-printed journals to distribute scientific papers, cost and page limits
-restricted the ability to do RR. Now, online publishing means you can easily
-share supplemental files alongside your papers, or deposit data, codebooks and
-other documentation, software files like analysis scripts, and even raw output
-in data archives/repositories. This vastly reduces cost, eliminates page limits,
-and increases opportunity to meet RR standards.
+Modern publishing technology makes reproducible research easier. When we relied
+mostly on printed journals to distribute scientific papers, cost and page limits
+restricted the ability to do reproducible work. Now, online publishing means you
+can easily share supplemental files alongside your papers; or deposit data,
+codebooks and other documentation; software files like analysis scripts; and
+even raw output in data archives/repositories. This vastly reduces cost,
+eliminates page limits, and increases opportunity to meet RR standards.
 :::
 
 ## Career Benefits of RR
@@ -358,14 +357,14 @@ and increases opportunity to meet RR standards.
 * Build your reputation
 
 ::: {.notes}
-There are some real career benefits of striving to create reproducible 
-research and evaluation products. For example, it motivates you to be more
-careful about avoiding errors, thereby increasing the quality of your work. 
-It will make you more efficient and the process produces more products. 
-It may be easier to get published--and to publish in better journals--and you 
-might ultimately get cited more often as people either adopt your
-methods, use your data for new studies, or discuss your work as an exemplar of
-high quality science. That will all build your professional reputation.
+There are some real career benefits of striving to create reproducible research
+and evaluation products. For example, it motivates you to be more careful about
+avoiding errors, thereby increasing the quality of your work. It will make you
+more efficient and the process yields more products. It may be easier to get
+published--and to publish in better journals--and you might ultimately get cited
+more often as people either adopt your methods, use your data for new studies,
+or discuss your work as an exemplar of high quality science. That will all build
+your professional reputation.
 :::
 
 # How do we achieve reproducibility? {background-image="graphics/Hands_Raised.jpg" background-size="contain" background-position="bottom" background-repeat="no-repeat"}
@@ -386,14 +385,14 @@ Understand the criteria, then apply principles, practices, & tools.
 ::: {.notes}
 Reproducibility is a continuum, but there are some simple criteria that we can
 use to evaluate how reproducible a given project is. The data criterion requires
-that you share the data you used, since nobody can recreate your findings
-without them. The methods criterion requires that you share your methods in
-sufficient detail, preferably through sharing the actual software code or
-scripts you used to get the results. The documentation criterion requires that
-you share adequate documentation of the data set, software environment, and
-software code so others can understand what you had, what you did with it, and
-what it really means. Finally, the distribution criterion requires that you use
-standard methods to distribute all these materials. 
+that sharing your data because nobody can recreate your findings without them.
+The methods criterion requires that you share your methods in sufficient detail,
+preferably through sharing the actual software code or scripts you used to get
+the results. The documentation criterion requires that you share adequate
+documentation of the data set, software environment, and software code so others
+can understand what you had, what you did with it, and what it really means.
+Finally, the distribution criterion requires that you use standard methods to
+distribute all these materials.
 :::
 
 :::
@@ -414,9 +413,9 @@ tibble(Materials = c("Manuals & procedures", "Instruments & scoring rules",
 ```
 
 ::: {.notes}
-So let’s go back and unpack the definition of RR by giving some examples of the
-kinds of materials & findings we are discussing. This is just a sample of what 
-could be encompassed by these two terms.
+Let’s unpack the definition of reproducible research by giving some examples of
+the kinds of materials & findings we are discussing. This is just a sample of
+what could be encompassed by these two terms.
 :::
 
 ## Principles for Achieving Reproducibility
@@ -438,21 +437,21 @@ could be encompassed by these two terms.
 ::::
 
 ::: {.notes}
-Understanding a few guiding principles helps people figure out how to do RR.
-Here are the principles I’ve identified so far. Thinking about reproducibility
-as collaboration encourages us to prepare and share materials that will make our
-work accessible to others. Organization simplifies communicating to others how
-to reproduce our work. Automation helps us achieve efficiency and accuracy
-because scripts can be faster and more reliable than manual processes. The
-preservation principle guides us to keep our raw data pristine and to keep a
-good audit trail. The integration principle suggests building documentation
-directly into data files, putting comments in code, and using code to directly
-insert statistical results into reports. The separation principle helps us
-manage complexity by splitting projects or tasks into pieces; for example
-separating data management from analysis, or keeping raw data separate from
-working data files used for specific analyses. Keep an eye out for instances of
-these principles in action throughout the rest of this talk. My examples will
-aim toward the middle of the complexity spectrum.
+Understanding a few guiding principles helps people figure out how to achieve
+reproducibility. Here are the principles I’ve identified so far. Thinking about
+reproducibility as collaboration encourages us to prepare and share materials
+that will make our work accessible to others. Organization simplifies
+communicating to others how to reproduce our work. Automation helps us achieve
+efficiency and accuracy because scripts can be faster and more reliable than
+manual processes. The preservation principle guides us to keep our raw data
+pristine and to keep a good audit trail. The integration principle suggests
+building documentation directly into data files, putting comments in code, and
+using code to directly insert statistical results into reports. The separation
+principle helps us manage complexity by splitting projects or tasks into pieces;
+for example separating data management from analysis, or keeping raw data
+separate from working data files used for specific analyses. Keep an eye out for
+instances of these principles in action throughout the rest of this talk. My
+examples will aim toward the middle of the complexity spectrum.
 :::
 
 ## Workflow Woes
@@ -558,7 +557,7 @@ Several principles are in action here: Separation of data from code, integration
 of R code into the Quarto script, where it automates data management and
 analyses. Quarto automates inserting results into the report. The BibTeX file
 contains data about references you cite in the report, while the CSL file tells
-QAuarto how to format the citations and the reference list. I'm using similar
+Quarto how to format the citations and the reference list. I'm using similar
 file names to stay organized: they show which script creates the report. Saving
 all the files follows the preservation principle. One can rapidly reproduce the
 report by re-rendering the script, or fix an error in the script then render
