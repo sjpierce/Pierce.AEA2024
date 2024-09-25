@@ -71,7 +71,7 @@ recreate the findings* so that others can verify them or conduct alternative
 analyses.
 
 ::: {.notes}
-So, let’s set the stage with a definition. Reproducible research is research for 
+I'll set the stage with a definition. Reproducible research is research for 
 which the investigators have shared all the materials required to exactly
 recreate the findings so that others can verify them or conduct alternative
 analyses. While there are differences between research and evaluation writ
@@ -118,8 +118,8 @@ classified into a few different categories. **>** They are repeatable when the
 original analyst can reliably obtain the same results from the original data.
 **>** They are reproducible if a new analyst can obtain the same result from the
 original data. **>** Finally, they are replicable if a new analyst can obtain
-the same result from a new set of data. How confident are you about about where
-your work falls on this spectrum?
+the same result from a new set of data. How confident are you about where your
+work falls on this spectrum?
 :::
 
 ## RR is a Product
@@ -204,7 +204,7 @@ reproducibility. **>**
 At the low end, we have irreproducible findings, which rely on investigator
 reputation to establish credibility because key methodological details aren’t
 published and the findings can’t be independently verified. This limits 
-our ability to judge the their quality and provides a poor foundation for future 
+our ability to judge their quality and provides a poor foundation for future 
 replication studies.
 
 Reproducible findings can be independently verified from the original data,
@@ -279,12 +279,12 @@ transparency of reproducible research promotes integrity.
 ::::
 
 ::: {.notes}
-There are plenty of signs that funders value RR. For example, NIH and NSF have
-data sharing policies, so you must address data sharing in grant proposals. 
-They’ve also launched reproducibility initiatives. NIH started by promoting
-selected aspects of reproducibility for preclinical studies, but not expects it
-in a wider range of studies. Other federal funders like NSF and IES have also
-published materials promoting reproducibility.
+There are plenty of signs that funders value reproducible research. For example,
+NIH and NSF have data sharing policies, so you must address data sharing in
+grant proposals. They’ve also launched reproducibility initiatives. NIH started
+by promoting selected aspects of reproducibility for preclinical studies, but
+now expects it in a wider range of studies. Other federal funders like NSF and
+IES have also published materials promoting reproducibility.
 :::
 
 ## Emerging Scientific Norms
@@ -298,10 +298,10 @@ published materials promoting reproducibility.
 * Institutional policies
 
 ::: {.notes}
-There are emerging scientific norms aligned with RR. These are evident in the
-open science movement, calls for pre registered methods/trials, reporting
-guidelines, calls to publish raw data, and policies adopted by various journals
-and publishers. They are also reflected in some institutional policies.
+There are emerging scientific norms aligned with reproducibility. These are
+evident in the open science movement, calls for pre registered methods/trials,
+reporting guidelines, calls to publish raw data, and policies adopted by various
+journals and publishers. They are also reflected in some institutional policies.
 :::
 
 ## Publishing Technology
@@ -353,7 +353,8 @@ restricted the ability to do reproducible work. Now, online publishing means you
 can easily share supplemental files alongside your papers; or deposit data,
 codebooks and other documentation; software files like analysis scripts; and
 even raw output in data archives/repositories. This vastly reduces cost,
-eliminates page limits, and increases opportunity to meet RR standards.
+eliminates page limits, and increases opportunity to meet reproducibility 
+standards.
 :::
 
 ## Career Benefits of RR
@@ -392,15 +393,15 @@ Understand the criteria, then apply principles, practices, & tools.
 
 ::: {.notes}
 Reproducibility is a continuum, but there are some simple criteria that we can
-use to evaluate how reproducible a given project is. The data criterion requires
-that sharing your data because nobody can recreate your findings without them.
-The methods criterion requires that you share your methods in sufficient detail,
-preferably through sharing the actual software code or scripts you used to get
-the results. The documentation criterion requires that you share adequate
-documentation of the data set, software environment, and software code so others
-can understand what you had, what you did with it, and what it really means.
-Finally, the distribution criterion requires that you use standard methods to
-distribute all these materials.
+use to evaluate how reproducible a given project is. **>** The data criterion
+requires sharing your data because nobody can recreate your findings without
+them. **>** The methods criterion requires that you share your methods in
+sufficient detail, preferably through sharing the actual software code or
+scripts you used to get the results. **>** The documentation criterion requires
+that you share adequate documentation of the data set and software environment
+so others can understand what you had, what you used to analyze it, and what it
+really means. **>** Finally, the distribution criterion requires that you use
+standard methods to distribute all these materials.
 :::
 
 :::
@@ -421,9 +422,8 @@ tibble(Materials = c("Manuals & procedures", "Instruments & scoring rules",
 ```
 
 ::: {.notes}
-Let’s unpack the definition of reproducible research by giving some examples of
-the kinds of materials & findings we are discussing. This is just a sample of
-what could be encompassed by these two terms.
+Let’s list some examples of the kinds of materials & findings we are discussing.
+This is just a sample of what could be encompassed by these two terms.
 :::
 
 ## Principles for Achieving Reproducibility
@@ -445,7 +445,7 @@ what could be encompassed by these two terms.
 ::::
 
 ::: {.notes}
-Understanding a few guiding principles helps people figure out how to achieve
+Understanding a few guiding principles helps you figure out how to enhance
 reproducibility. Here are the principles I’ve identified so far. Thinking about
 reproducibility as collaboration encourages us to prepare and share materials
 that will make our work accessible to others. Organization simplifies
@@ -458,8 +458,7 @@ using code to directly insert statistical results into reports. The separation
 principle helps us manage complexity by splitting projects or tasks into pieces;
 for example separating data management from analysis, or keeping raw data
 separate from working data files used for specific analyses. Keep an eye out for
-instances of these principles in action throughout the rest of this talk. My
-examples will aim toward the middle of the complexity spectrum.
+instances of these principles in action throughout the rest of this talk. 
 :::
 
 ## Workflow Woes
@@ -472,18 +471,24 @@ examples will aim toward the middle of the complexity spectrum.
 * Fixing mistakes took lots of time 
 
 ::: {.notes}
-As a student, I was taught a manual workflow for doing data analysis and writing
-reports. We used the GUI, menus, and dialog boxes in SPSS to do data management
-and analysis. We updated data files manually. We created tons of files, saving
-to a new filename as changes accrued. That led to confusing proliferation of
-folders and files with little planned structure. It was hard to tell who had
-last edited various files and which versions to use. We retyped or pasted
-results from SPSS output into Word documents then spent lots of time formatting
-them. If we made a mistake, it could takes hours or even days to re-do things.
-Over time I learned some strategies to improve that workflow, such as using SPSS
-syntax files to automate tasks, adding comments in the syntax files, adopting
-file naming conventions, and so on. But part of the problem was that the
-software tools weren't integrated and lacked support for better workflows.
+I'm going to describe some common workflow woes that may soound uncomfortably
+familiar to you from your own experience. As a student, I was taught a manual
+workflow for doing data analysis and writing reports. We used the GUI, menus,
+and dialog boxes in SPSS to do data management and analysis. We updated data
+files manually. We created tons of files, saving to a new filename as changes
+accrued. That led to confusing proliferation of folders and files with little
+planned structure. It was hard to tell who had last edited various files and
+which versions to use. We retyped or pasted results from SPSS output into Word
+documents then spent lots of time formatting them. If we made a mistake, it
+could takes hours or even days to re-do things. Over time I learned some
+strategies to improve that workflow, such as using SPSS syntax files to automate
+tasks, adding comments in the syntax files, adopting file naming conventions,
+and so on. But part of the problem was that the software tools weren't
+integrated and lacked support for better workflows. Technology has vastly
+improved since my student days, but many evaluators still use manual workflows
+like those I just described. They don't know what is possible now. Given what
+I've learned in recent years, if asked to resume using those older tools and
+workflows, I'd probably break out my favorite Spock quote.
 :::
 
 ## Spock {background-image="graphics/Spock.jpg" background-position="top" }
@@ -497,10 +502,8 @@ ahead of stone knives and bearskins."
 :::
 
 ::: {.notes}
-Technology has vastly improved since my student days, but many evaluators still 
-use manual workflows like that. They don't know what is possible now. Given what 
-I've learned in recent years, if I were asked to resume using those older tools 
-and workflows, I'd probably quote Spock.
+"Captain, you're asking me to work with equipment which is hardly very far ahead
+of stone knives and bearskins."
 :::
 
 ## Free, Open Source Software Tools for Reproducible Research {background-image="graphics/Keyboard_Typing.jpg"}
@@ -522,7 +525,7 @@ simplifies using Quarto, Git, and GitHub. Quarto supports creating dynamic
 documents that render to a variety of output formats (HTML, PDF, Word,
 PowerPoint, etc.), while Git and GitHub together support version control,
 collaboration, and sharing materials. Collectively, they comprise an elegant,
-integrated set of tools for doing reproducible analyses and reports.
+integrated set of tools for doing reproducible analyses and reports. 
 :::
 
 ## Dynamic Documents Via Quarto + R
@@ -555,11 +558,11 @@ Dynamic documents are a crucial technology for reproducibility. They implement
 the concept of literate programming, where one embeds code directly in a
 document such as a report, interleaving it with narrative text, headings, and
 in-text citations. When you render dynamic documents, the code is executed and
-the results are directly inserted into the output. That includes statistics
-computed from the data, figures, tables, formatted equations, fully-formatted
-reference sections, and more. This diagram shows the files involved for a simple
-example. The idea is that rendering your report script produces an output such
-as a PDF file ready for delivery to your client.
+the results are inserted into the output. That includes statistics computed from
+the data, figures, tables, formatted equations, fully-formatted reference
+sections, and more. This diagram shows the files involved for a simple example.
+The idea is that rendering your report script produces an output such as a PDF
+file that is ready for delivery to your client.
 
 Several principles are in action here: Separation of data from code, integration
 of R code into the Quarto script, where it automates data management and
@@ -589,12 +592,12 @@ reproduce results, or do new analyses. [@Marwick-RN3899] It should:
 ::: {.notes}
 Dynamic documents are only part of the solution. Most projects require more than
 couple files, so organizing your materials into a research compendium is useful.
-A compendium is a structured folder containing all your reproducibility files.
-An effective one should use prevailing conventions to organize the project; keep
-data, method, and output separate even while revealing how they are related; and
-it should tell users what software was used in the original analysis. You can 
-facilitate collaboration by thoughtfully setting up a compendium with attention  
-to applying the organization, separation, and integration principles. 
+A compendium is a structured folder containing all your digital files. **>** An
+effective one should use prevailing conventions to organize the project; **>**
+keep data, method, and output separate even while revealing how they are
+related; and **>** tell users what software was used in the original analysis.
+You can facilitate collaboration by thoughtfully setting up a compendium with 
+attention to applying the organization, separation, and integration principles.
 :::
 
 ## R Packages
@@ -615,12 +618,12 @@ Use an R package for a research compendium! [@Marwick-RN3899]
 R packages are normally used to share code & associated help files so other
 people can use custom software. They are just folders of digital files that are
 organized into a conventional structure; can contain data, meta-data, and
-documentation; and can even contain dynamic documents and rendered output. So,
-Marwick and colleagues suggest using an R package as your research compendium! 
-The conventional structure guides you to organize your files into specific 
-subfolders and separate certain kinds of files--such as data versus code--from 
-each other. It suggests specific kinds of documentation to include, like a
-README file that introduces new users to your work.
+documentation; and can even contain dynamic documents and rendered output. **>** 
+So, Marwick and colleagues suggest using an R package as your research
+compendium! The conventional structure guides you to organize your files into
+specific subfolders and separate certain kinds of files--such as data versus
+code--from each other. It suggests specific kinds of documentation to include,
+like a README file that introduces new users to your work.
 :::
 
 ## Git Repositories
@@ -646,14 +649,14 @@ made, who made them, and why. That preserves a fantastic audit trail. You can
 recover the exact state of a file as it existed at any commit in the history.
 You can make repositories either private or public. I usually keep a repository
 private until the corresponding paper has been published, then I can make it
-public to enhance reproducibility. So, putting your compendium in a Git 
-repository both follows some of the principles I've highlighted and helps solve 
-some of those worklflow woes I described earlier. For example, you can stop 
-using long, confusing filenames as a crude form of version control. Give each 
-file a simple name that stays constant even while Git tracks how it changes 
-over time. Jenny Bryan's paper on using proper version control persuaded me to 
-start using Git. I have not regretted it! So, put your compendium into a Git 
-repository! 
+public to enhance reproducibility. So, putting your compendium in a Git
+repository both follows some of the principles I've highlighted and helps solve
+some of those worklflow woes I described earlier. For example, you can stop
+using long, confusing filenames as a crude form of version control. Give each
+file a simple name that stays constant then let Git track how it changes over
+time. Jenny Bryan's paper on using proper version control persuaded me to start
+using Git. I have not regretted it! **>** So, put your compendium in a Git
+repository!
 :::
 
 ## GitHub
@@ -737,7 +740,11 @@ Plan your work as a collaborative effort with multiple stakeholders. Knowing you
 will share files with several kinds of people orients you to the need to
 communicate what you are doing, how the materials are organized, and how they
 can be used to reproduce results. It motivates you to make things clear and
-include good documentation.
+include good documentation. Notice here that I include your future self as a 
+stakeholder. That's because as one of my former colleagues used to say, your
+worst collaborator is often the you from 6 months ago who assumed you'd just 
+remember something important about the project that you've now forgotten and so 
+skipped documenting it. 
 :::
 
 ## Organization
