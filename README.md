@@ -24,10 +24,17 @@ repository public after delivering the presentation.
 ## Assumptions
 
 There are two different types of users of this repository: myself and my
-audience. I assume most of my audience just wants [the final
+audience. I assume most of my audience just wants copies of [my
 slides](https://github.com/sjpierce/Pierce.AEA2024/Slides.html), but
 some may want to see exactly how they were created by examining other
 parts of the repository.
+
+> **Tip:** After you open the
+> [Slides.html](https://github.com/sjpierce/Pierce.AEA2024/Slides.html)
+> file, press the `s` key on your keyboard to see the speaker view that
+> contains my speaker notes. There are also other [slide navigation
+> keyboard
+> shortcuts](https://quarto.org/docs/presentations/revealjs/presenting.html).
 
 Since there are no other contributors, I am omitting details that may
 otherwise be useful to collaborators. However, here is a link to my web
@@ -68,6 +75,18 @@ project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-RStudio-P
   - `apa.csl`: This is a citation style language file for the
     Publication Manual of the American Psychological Association, 7th
     edition. It is used by Quarto to format references.
+  - `apa-numeric-superscript.csl`: This is a citation style language
+    file for the Publication Manual of the American Psychological
+    Association, 7th ed. that has been adapted to use numeric
+    superscripts for in-text citations and put the reference list in the
+    order the citations were used. It is used by Quarto to format
+    reference sections.
+  - `apa-numeric-superscript-brackets.csl`: This is a citation style
+    language file for the Publication Manual of the American
+    Psychological Association, 7th ed. that has been adapted to use
+    numeric superscripts in square brackets for in-text citations and
+    put the reference list in the order the citations were used. It is
+    used by Quarto to format reference sections.
   - `CSTAT_theme.css`: This is custom style sheet file to provide color
     scheme, fonts, etc. for my slides.  
   - `Pierce.AEA2024.Rproj`: This is an RStudio project file. It contains
