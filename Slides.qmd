@@ -724,6 +724,92 @@ repository public so that people outside your team can access reproducibility
 materials. 
 :::
 
+## RStudio Projects
+... are folders of files that:
+
+* Keep files for an analysis project together
+* Can have subfolders for organizing files
+* Serve as R working directories w/ workspace & history
+* Store settings in an RStudio project file (`*.Rproj`)
+
+::: {.fragment}
+:::{.callout-tip}
+Turn your compendium into an [RStudio  project](https://docs.posit.co/ide/user/ide/guide/code/projects.html)! 
+:::
+:::
+
+::: {.notes}
+RStudio facilitates staying organized by allowing you to create projects, which
+are just folders where you can keep all the files for a specific analysis,
+report, or even a collection of related reports together and use subfolders as
+needed. They also automatically become as the default working directory for R,
+complete with R workspace and history. They store project-specific settings in a
+project file that's named after the folder itself. So if your project is a
+folder called `MyReport`, its project file would be called `MyReport.Rproj`. You
+can use that file to open the entire collection of files all at once. **>** So,
+turn your compendium into an RStudio project.
+:::
+
+## Quarto Projects
+... are folders of files that allow:
+
+* Rendering some or all dynamic documents 
+* Sharing a configuration file across documents
+* Redirecting output to another folder
+* Option to freeze rendered output unless the code has changed
+
+::: {.fragment}
+:::{.callout-tip}
+Turn a subfolder of your compendium into a [Quarto project](https://quarto.org/docs/projects/quarto-projects.html)! 
+:::
+:::
+
+::: {.notes}
+Quarto also has software support for a project-based workflow. A Quarto project
+is just a folder of files that allows you to easily render some or all the
+dynamic documents it contains, use a configuration file to share settings across
+documents, redirect output to another folder, and the option to freeze rendered
+output unless the code that creates it has changed.  **>** So, I suggest turning
+a subfolder in your compendium into a Quarto project.
+:::
+
+## Example Folder Structure 
+
+```
+MyProject/          [Compendium, Git repository, R package, RStudio project]
+  - .git/           [Hidden folder, holds Git tracking database]
+  - .Rproj.user/    [Hidden folder, holds RStudio temporary files]
+  - data/           [Holds R data files created by scripts]
+  - man/            [Holds R help files for package & custom functions]
+  - R/              [Holds R scripts w/ custom functions]
+  - scripts/        [Quarto project, holds dynamic documents]  
+    - extdata/      [Holds external data files to be imported]
+    - output/       [Holds rendered output]
+  - .gitignore      [Tells Git what to omit from tracking]
+  - DESCRIPTION     [R package meta-data]
+  - MyProject.Rproj [RStudio project file & settings]
+  - NEWS.md         [News for users re: changes to package]
+  - README.Rmd      [Dynamic document, creates README.md]
+  - README.md       [Rendered output, R package documentation]
+```
+
+::: {.notes}
+Suppose I've got a project creatively named MyProject. Here's what its folder
+structure might look like. The MyProject folder is a research compendium that is
+also a Git repository, an R package, and an RStudio project. It is organized
+with several subfolders that help separate R data files from external data in
+other software formats that must be imported before use. It also separates data
+from code for either custom functions (the R subfolder) or for dynamic documents
+that are in a scripts subfolder that is also a Quarto project. Much of this
+structure is driven by R package conventions. Notice that output is also
+separated from the code by tucking it in its own subfolder. There are a handful
+of files for storing package meta-data and documentation, controlling what Git
+will track and what it will ignore. This basic structure has been working very 
+well for me across several projects. 
+:::
+
+
+
 ## Collaboration Stakeholders {style="text-align: right" background-image="graphics/pexels-fauxels-3184634.jpg" background-position="top" }
 
 :::: {.absolute left="45%" top="40%" style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px; text-align: left;"}
