@@ -59,7 +59,9 @@ Load R packages required for this script to work.
 
 ```{r}
 #| label: load-packages
+
 library(here)           # for here(), to make code more portable 
+library(rmarkdown)      # for pandoc_version()
 library(devtools)       # for session_info()
 library(dplyr)          # for %>%, bind_cols(), rename(), etc.
 library(piercer)        # for git_report(), sim_2arm_prepost()
