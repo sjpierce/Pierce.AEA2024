@@ -44,7 +44,8 @@ presentation [@Pierce-RN8577].
 This next chunk declares the path to this script relative to the project-level 
 root directory. If the file is not in the right location under the project root
 you'll get a warning message. This helps ensure relative paths are all working 
-as expected. 
+as expected. For this chunk to work, you must have the relevant parameters set 
+properly in the YAML header.
 
 ``` {r}
 #| label: declare-path
@@ -65,7 +66,7 @@ library(piercer)        # for git_report(), sim_2arm_prepost()
 library(quarto)         # for quarto_version()
 ```
 
-## Create Example Data
+# Create Example Data
 We need to create some simulated data to use as an example data frame called 
 `MyStudy`. We'll assume a longitudinal randomized controlled trial design with 
 2 groups x 4 sites x 2 time points, with balanced sample size of 20 
@@ -103,9 +104,36 @@ MyStudy <- sim_2arm_prepost(Npg = 80,
 ```
 
 
+# Save Example Data
+Consistent with the separation principle, we want to store the data in a 
+different folder than either code or output. Because it is a native R data file
+(`*.RData`), we should put it in the `data/` folder per R package conventions. 
+
+We use the `here` package's `here()` function to automate using a relative path 
+name. This argument to the function is a path name relative to the folder that
+contains the RStudio project file for this RStudio project. 
+
+```{r}
+#| label: demonstrate-here-root
+
+# Locate & report the root folder of the RStudio project.
+here()
+```
+
+```{r}
+#| label: demonstrate-here-subfolder
+
+# Locate & report the location of the `data/` subfolder.
+here("data/")
+```
+
+Now we actually save out the data file. This is fictional data, so we can safely 
+commit it to a public GitHub repository and track changes to it.
+
 ```{r}
 #| label: save-MyStudy 
 
+# Use here() to specify the desired relative path & file name.
 save(MyStudy, file = here("data/MyStudy.RData"))
 ```
 
