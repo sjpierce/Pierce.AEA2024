@@ -776,7 +776,7 @@ a subfolder in your compendium into a Quarto project.
 ## Example Folder Structure 
 
 ```
-MyProject/          [Compendium, Git repository, R package, RStudio project]
+MyStudy/          [Compendium, Git repository, R package, RStudio project]
   - .git/           [Hidden folder, holds Git tracking database]
   - .Rproj.user/    [Hidden folder, holds RStudio temporary files]
   - data/           [Holds R data files created by scripts]
@@ -794,8 +794,8 @@ MyProject/          [Compendium, Git repository, R package, RStudio project]
 ```
 
 ::: {.notes}
-Suppose I've got a project creatively named MyProject. Here's what its folder
-structure might look like. The MyProject folder is a research compendium that is
+Suppose I've got a project creatively named MyStudy. Here's what its folder
+structure might look like. The `MyStudy/` folder is a research compendium that is
 also a Git repository, an R package, and an RStudio project. It is organized
 with several subfolders that help separate R data files from external data in
 other software formats that must be imported before use. It also separates data
