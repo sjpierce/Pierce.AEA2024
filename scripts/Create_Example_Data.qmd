@@ -43,6 +43,14 @@ knitr:
 This script prepares simulated, fictional example data for my AEA 2024 
 presentation [@Pierce-RN8577].
 
+::: {.callout-tip}
+If this were for a real study, we would probably have a script for importing the 
+raw data from an electronic data file (such as an Excel spreadsheet or an SPSS 
+data file) instead of this one that creates simulated data. 
+
+Also, this box is an example of a Quarto [callout block](https://quarto.org/docs/authoring/callouts.html). 
+:::
+
 # Setup
 
 ## Declare Path
