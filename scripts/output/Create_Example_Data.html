@@ -3291,14 +3291,14 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2024-09-29 20:33:56 EDT</p>
+      <p class="date">2024-09-29 21:20:18 EDT</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">2024-09-29 20:33:12 EDT</p>
+      <p class="date-modified">2024-09-29 21:19:52 EDT</p>
     </div>
   </div>
     
@@ -3430,8 +3430,9 @@ Attaching package: &#39;dplyr&#39;</code></pre>
 <span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a><span class="in">  rename(Group = Arm, </span></span>
 <span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a><span class="in">         Score_Pre = x, </span></span>
 <span id="cb10-17"><a href="#cb10-17" aria-hidden="true" tabindex="-1"></a><span class="in">         Score_Post = y, </span></span>
-<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="in">         Centered_Score_Pre = cx)</span></span>
-<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-18"><a href="#cb10-18" aria-hidden="true" tabindex="-1"></a><span class="in">         Centered_Score_Pre = cx) %&gt;% </span></span>
+<span id="cb10-19"><a href="#cb10-19" aria-hidden="true" tabindex="-1"></a><span class="in">  select(PID, Group, Site, Score_Pre, Score_Post, Centered_Score_Pre)</span></span>
+<span id="cb10-20"><a href="#cb10-20" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </section>
@@ -3622,7 +3623,7 @@ Pierce, S. J. (2024, October 21-26). <em>Generating reproducible statistical ana
 <div class="cell-output cell-output-stdout">
 <pre><code>Local:    main C:/Users/pierces1/OneDrive - Michigan State University/CSTATRedirects/Documents/Professional/Presentations/AEA_2024/Pierce.AEA2024
 Remote:   main @ origin (https://github.com/sjpierce/Pierce.AEA2024.git)
-Head:     [7ad6ef1] 2024-09-30: Improve display of source &amp; output file names.
+Head:     [472f47a] 2024-09-30: Add `scripts/MyStudy_Report.qmd` and initial rendered output.
  </code></pre>
 </div>
 <div class="cell-output cell-output-stdout">
@@ -3632,13 +3633,14 @@ Head:     [7ad6ef1] 2024-09-30: Improve display of source &amp; output file name
     Untracked:  graphics/Thumb_Drive.png
     Untracked:  graphics/signature_web.png
     Untracked:  scripts/Create_Example_Data.rmarkdown
-    Untracked:  scripts/MyStudy_Report.qmd
-    Untracked:  scripts/output/MyStudy_Report.html
 
 Unstaged changes:
     Modified:   Slides.html
     Modified:   Slides.qmd
-    Modified:   scripts/output/Create_Example_Data.html</code></pre>
+    Modified:   data/MyStudy.RData
+    Modified:   scripts/Create_Example_Data.qmd
+    Modified:   scripts/MyStudy_Report.qmd
+    Modified:   scripts/output/MyStudy_Report.html</code></pre>
 </div>
 </div>
 <!-- -->
@@ -4236,9 +4238,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb21-119"><a href="#cb21-119" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">Group =</span> Arm, </span>
 <span id="cb21-120"><a href="#cb21-120" aria-hidden="true" tabindex="-1"></a>         <span class="at">Score_Pre =</span> x, </span>
 <span id="cb21-121"><a href="#cb21-121" aria-hidden="true" tabindex="-1"></a>         <span class="at">Score_Post =</span> y, </span>
-<span id="cb21-122"><a href="#cb21-122" aria-hidden="true" tabindex="-1"></a>         <span class="at">Centered_Score_Pre =</span> cx)</span>
-<span id="cb21-123"><a href="#cb21-123" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb21-124"><a href="#cb21-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-122"><a href="#cb21-122" aria-hidden="true" tabindex="-1"></a>         <span class="at">Centered_Score_Pre =</span> cx) <span class="sc">%&gt;%</span> </span>
+<span id="cb21-123"><a href="#cb21-123" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(PID, Group, Site, Score_Pre, Score_Post, Centered_Score_Pre)</span>
+<span id="cb21-124"><a href="#cb21-124" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb21-125"><a href="#cb21-125" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-126"><a href="#cb21-126" aria-hidden="true" tabindex="-1"></a><span class="fu"># Save Example Data</span></span>
 <span id="cb21-127"><a href="#cb21-127" aria-hidden="true" tabindex="-1"></a>Consistent with the separation principle, we want to store the data in a </span>

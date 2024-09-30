@@ -115,9 +115,9 @@ MyStudy <- sim_2arm_prepost(Npg = 80,
   rename(Group = Arm, 
          Score_Pre = x, 
          Score_Post = y, 
-         Centered_Score_Pre = cx)
+         Centered_Score_Pre = cx) %>% 
+  select(PID, Group, Site, Score_Pre, Score_Post, Centered_Score_Pre)
 ```
-
 
 # Save Example Data
 Consistent with the separation principle, we want to store the data in a 
