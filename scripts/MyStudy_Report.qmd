@@ -1,0 +1,301 @@
+---
+title: "MyStudy Report"
+subtitle: "An Example Dynamic Document"
+author: 
+  - name: Steven J. Pierce
+    orcid: 0000-0002-0679-3019
+    email: pierces1@msu.edu
+    affiliations: 
+      - name: Michigan State University, Center for Statistical Training and Consulting
+bibliography: ../references.bib
+csl: ../apa.csl
+date: now
+date-modified: last-modified
+date-format: YYYY-MM-DD HH:mm:ss z
+params:
+  SourceDir: "scripts/"
+  SourceFile: "MyStudy_Report.qmd"
+  LogFile: "MyStudy_Report.html"
+format: 
+  html:
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    number-depth: 3
+    code-fold: true 
+    code-tools: true
+    code-line-numbers: false
+    embed-resources: true 
+    anchor-sections: true
+execute:
+  eval: true
+  echo: fenced
+  output: true
+  warning: true
+  error: true
+  include: true
+knitr:
+  opts_chunk: 
+    message: true
+---
+
+# Purpose
+This report summarizes findings from analyses of the MyStudy data, which is 
+simulated, fictional example data for my AEA 2024 presentation [@Pierce-RN8577]. 
+It is formatted the way I would handle an internal report for the study team 
+rather than how I would handle a deliverable to an external stakeholder, so it 
+emphasizes clarity and technical detail for repeatability, reproducibility, and 
+teaching purposes. 
+
+::: {.callout-note}
+This report illustrates how Quarto scripts act as dynamic documents. It shows 
+some (but by no means all) of the things they can do. This box is a Quarto 
+[callout block](https://quarto.org/docs/authoring/callouts.html). 
+:::
+
+::: {.callout-tip}
+We can format body text in a **bold font** by surrounding it with double 
+asterisks. Using a single asterisk on each side would *italicize* the text 
+instead. To format the previous two sentences, I put the following in the script:
+
+```
+We can format body text in a **bold font** by surrounding it with double 
+asterisks. Using a single asterisk on each side would *italicize* the text 
+instead. 
+```
+:::
+
+# Setup
+
+## Declare Path
+This next chunk declares the path to this script relative to the project-level 
+root directory. If the file is not in the right location under the project root
+you'll get a warning message. This helps ensure relative paths are all working 
+as expected. For this chunk to work, you must have the relevant parameters set 
+properly in the YAML header.
+
+``` {r}
+#| label: declare-path
+
+# Declare path to this script relative to the project root directory.
+here::i_am(path = paste0(params$SourceDir, params$SourceFile))
+```
+
+## Load Packages
+R packages usually add new functions to the base R software, allowing you to do 
+more things. Here, we load the specific R packages required for this script to 
+work. Showing this section in your report is an example of documenting methods 
+details about the software you are using. 
+
+```{r}
+#| label: load-packages
+
+library(here)           # for here(), to make code more portable 
+library(devtools)       # for session_info()
+library(rmarkdown)      # for pandoc_version()
+library(knitr)          # for kable()
+library(dplyr)          # for %>%, bind_cols(), rename(), etc.
+options(kableExtra.latex.load_packages = FALSE)
+library(kableExtra)     # for kable_styling(), add_header_above(), 
+                        # column_spec(), row_spec()
+library(piercer)        # for git_report(), sim_2arm_prepost()
+library(quarto)         # for quarto_version()
+```
+
+## Load Data
+Following the **separation principle**, the data are stored separate from the 
+code that manages or analyzes them. So, we need to load the MyStudy data from 
+an `*.RData` file stored in the local repository. That will overwrite any 
+objects already in memory that have the same names as the objects being loaded.
+
+``` {r}
+#| label: load-Qualtrics-Clean
+
+load(file=here("data/MyStudy.RData"))
+```
+
+# Study Design
+The study used a longitudinal randomized controlled trial design with 2 groups 
+(Treatment vs. Control) x 4 sites (A, B, C, and D) x 2 time points (pretest vs. 
+posttest). All participants were recruited and screened for eligibility. 
+Eligible individuals who consented to participate were enrolled, then given 
+the pretest before being randomly assigned to either the treatment or control 
+group. The study design can be visualized with Shadish, Cook, & Campbell's 
+[-@Shadish-RN956] design notation, as shown in @tbl-study-design.  
+
+```{r}
+#| label: tbl-study-design
+#| tbl-cap: MyStudy Experimental Research Design
+#| results: asis
+
+StudyDesign <- data.frame(Group = c("Treatment", "Control"),
+                          Pretest = rep("$O_1$", times = 2),
+                          Allocation = rep("$R$", times = 2),
+                          Intervention = c("$X$", ""),
+                          Posttest = rep("$O_2$", times = 2)) 
+
+FN <- paste("The same design was used within each of 4 sites (A, B, C, & D).", 
+            "$O_i$, observed data at time $i$;", 
+            "$R$, randomized;",
+            "$X$, delivery of intervention (9 weeks).")
+kable(StudyDesign, format = "html", escape = FALSE, align = "lcccc") %>% 
+  kable_paper(full_width = FALSE) %>% 
+  add_header_above(c(" ", "Longitudinal Event" = 4), escape = FALSE) %>% 
+  footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE,
+           threeparttable = FALSE, escape = FALSE) %>% 
+  cat()
+```
+
+
+
+
+
+Suppose I want to show how many participants there are broken down by 
+group and site as a means of further describing the study design. 
+
+**Integrating a chunk of R code** into the document will **automate inserting** 
+**its results** into the output. Here's an example where I just use a pair of R 
+functions to look at the relevant crosstab.
+
+```{r}
+#| label: xtab-sample-size
+
+MyStudy %>% 
+  xtabs(~Site + Group, data = .) %>% 
+  addmargins()
+```
+
+The result is functional and accurate output that **preserves methodology**
+**details** (i.e., code). That might be sufficient if our only audience is going 
+to be people who are used to reading raw R output, but we can make it much 
+better and more professional. With just a little more code, we can get a 
+publication-quality result like @tbl-sample-size instead. 
+
+```{r}
+#| label: tbl-sample-size
+#| tbl-cap: Number of Participants by Group and Site
+#| results: asis
+
+FN = "This is fictional example data."
+
+MyStudy %>% 
+  xtabs(~Site + Group, data = .) %>% 
+  addmargins() %>% 
+  kable(col.names = c("Site", "Control", "Treatment", "Sum")) %>% 
+  kable_paper(full_width = FALSE) %>% 
+  column_spec(column = 4, italic = TRUE) %>% 
+  row_spec(row = 5, italic = TRUE) %>% 
+  add_header_above(header = c(" ", "Group" = 2, " ")) %>% 
+  footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE,
+           threeparttable = TRUE) %>% 
+  cat()
+```
+
+Notice that we have **automated** doing several things:
+
+* Numbered the table and added a meaningful caption.
+* Inserted the table number into the text above (as a hyperlink to the table 
+  itself).
+* Added a column grouping header.
+* Improved the column labels.
+* Added a footnote
+* Formatted the sums with italics. 
+
+::: {.callout-tip}
+I used a Quarto chunk option plus 
+[`knitr`](https://cran.r-project.org/package=knitr) and
+[`kableExtra`](https://cran.r-project.org/package=kableExtra) to format
+@tbl-sample-size. Consider how long it would take you to turn the raw result I
+showed first into table in a Word document, then format it like
+@tbl-sample-size. Automating such formatting work can save you time. If the
+underlying data changes, we can update @tbl-sample-size just by re-rendering the
+script.
+:::
+
+# Statistical Analysis Plan
+The objective of MyStudy is to test whether the intervention increased posttest 
+scores after controlling for pretest scores and recruitment site. 
+
+# References
+::: {#refs}
+:::
+
+# Software Information
+This section shows information about the current software environment. 
+
+::: {.callout-tip}
+This is part of meeting the **documentation criterion** for reproducibility by 
+applying the **preservation, automation, and integration principles**: We are 
+automating the process of preserving a description of the software I was using
+when rendering the document by integrating code that inserts that information
+below. This facilitates troubleshooting reproducibility issues if someone else 
+is unable to get the same results I did from the same code. The first step is  
+checking whether we are using different versions of various packages. 
+::: 
+
+We used [R](https://www.r-project.org/) as our main computing environment and 
+[Quarto](https://quarto.org/) scripts to enhance reproducibility. We used 
+[RStudio](www.rstudio.org) as the editor to interface with R and Quarto. 
+
+- Software chain:
+  **qmd file > RStudio > Quarto > R > knitr > md file > Pandoc > HTML file**.
+- Source file: **`{r} paste0(params$SourceDir, params$SourceFile)`**
+- Output file: **`{r} paste0(params$SourceDir, "output/", params$LogFile)`**
+- [Quarto `{r} quarto_version()`](https://quarto.org/) runs `*.qmd` files through 
+  [R](https://www.r-project.org/) and [knitr](https://yihui.org/knitr/) to 
+  produce `*.md` markdown files.
+- [Pandoc `{r} rmarkdown::pandoc_version()`](https://pandoc.org) converts 
+  markdown files (`*.md`) to other formats, including LaTeX (`*.tex`) and HTML 
+  (`*.html`) among others.
+
+::: {.callout-tip}
+Following the **separation principle**, the source code for this report is 
+stored in one file, but the rendered output will be put in a different file in 
+another subfolder. 
+
+I used [inline R code](https://quarto.org/docs/computations/inline-code.html) 
+above to dynamically insert the filenames based on paramter values in the 
+source script's YAML header. The inline R code looks like this:
+
+```
+- Source file: **`{{r}} paste0(params$SourceDir, params$SourceFile)`**
+- Output file: **`{{r}} paste0(params$SourceDir, "output/", params$LogFile)`**
+```
+:::
+
+## Versions
+This document was generated using the following computational environment and 
+dependencies: 
+
+```{r}
+#| label: show-version
+
+# Get R and R package version numbers in use.
+session_info()
+```
+
+## Git Details
+The current Git commit details and status are:
+
+``` {r}
+#| label: git-details
+#| echo: true
+
+git_report()
+```
+
+This is useful because it tells us exactly which commit in the Git history 
+we would need to be using to make sure we are running the exact same code. 
+Files can and do change over time, so we want to know which version we are 
+using. 
+
+::: {.callout-tip}
+Untracked files are files located in the repository that Git has not been told 
+to entirely ignore, but have also not been commited into the version history. 
+
+Unstaged changes to files indicate that some of the contents have been modified 
+since the last time the file was committed to Git. For a final production run 
+of a report, you want the Git output to not show any unstaged changes to key 
+files!
+::: 
