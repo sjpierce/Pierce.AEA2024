@@ -1,6 +1,11 @@
 ---
 title: "Create Example Data for AEA 2024 Reproducible Research Presentation"
-author: "Steven J. Pierce"
+author: 
+  - name: Steven J. Pierce
+    orcid: 0000-0002-0679-3019
+    email: pierces1@msu.edu
+    affiliations: 
+      - name: Michigan State University, Center for Statistical Training and Consulting
 bibliography: ../references.bib
 csl: ../apa.csl
 date: now
