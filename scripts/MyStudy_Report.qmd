@@ -51,13 +51,16 @@ teaching purposes.
 ::: {.callout-note}
 This report illustrates how Quarto scripts act as dynamic documents. It shows 
 some (but by no means all) of the things they can do. This box is a Quarto 
-[callout block](https://quarto.org/docs/authoring/callouts.html). 
+[callout block](https://quarto.org/docs/authoring/callouts.html). There are  
+several variations of callouts that have different formatting, icons, and 
+labels. 
 :::
 
 ::: {.callout-tip}
 We can format body text in a **bold font** by surrounding it with double 
 asterisks. Using a single asterisk on each side would *italicize* the text 
-instead. To format the previous two sentences, I put the following in the script:
+instead. To format the previous two sentences, I put the following in the 
+script:
 
 ```
 We can format body text in a **bold font** by surrounding it with double 
@@ -81,6 +84,18 @@ properly in the YAML header.
 # Declare path to this script relative to the project root directory.
 here::i_am(path = paste0(params$SourceDir, params$SourceFile))
 ```
+
+::: {.callout-tip}
+For this chunk to work, you must have the relevant parameters set properly in 
+the YAML header. 
+
+* The `SourceDir` parameter should be a text string with the the relative path 
+  from the RStudio project root folder to the folder where this file is stored. 
+* The `SourceFile` parameter should be a text string containing the name of this 
+  file. 
+* You can use the parameter values in R code by prefixing their names with 
+  `params$` as shown in the chunk above.
+:::
 
 ## Load Packages
 R packages usually add new functions to the base R software, allowing you to do 
@@ -147,13 +162,18 @@ kable(StudyDesign, format = "html", escape = FALSE, align = "lcccc") %>%
   cat()
 ```
 
+::: {.callout-tip}
+Quarto allows you to automate numbering tables. Just give the chunk that 
+generates a table a *unique* label with the prefix `tbl-` and then insert a 
+[cross-reference](https://quarto.org/docs/authoring/tables.html#cross-references) 
+into the script's body text. The cross-reference for @tbl-study-design is 
+`@tbl-study-design`, which is just the label of the chunk prefixed by an `@` 
+sign. 
+:::
 
-
-
-
+::: {.callout-tip}
 Suppose I want to show how many participants there are broken down by 
 group and site as a means of further describing the study design. 
-
 **Integrating a chunk of R code** into the document will **automate inserting** 
 **its results** into the output. Here's an example where I just use a pair of R 
 functions to look at the relevant crosstab.
