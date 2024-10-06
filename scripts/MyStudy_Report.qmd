@@ -130,7 +130,7 @@ an `*.RData` file stored in the local repository. That will overwrite any
 objects already in memory that have the same names as the objects being loaded.
 
 ``` {r}
-#| label: load-Qualtrics-Clean
+#| label: load-MyStudy-data
 
 load(file=here("data/MyStudy.RData"))
 ```
