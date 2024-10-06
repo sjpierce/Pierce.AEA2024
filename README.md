@@ -64,13 +64,38 @@ project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-RStudio-P
     alone!
   - `_extensions/`: This folder contains files for Quarto extensions
     used by my presentation slides.
+  - `data/`: This folder is intended to hold R Data files (`*.RData`).
+    - `MyStudy.RData`: This is an example data file created by
+      `scripts/Create_MyStudy_Data.qmd` and used by
+      `scripts/MyStudy_Report.qmd`.
   - `graphics/`: This folder stores `.jpg` and `.png` graphics files
     used in my slides.
   - `scripts/`: The folder holds script files that I occasionally find
     useful.
+    - `.quarto/`: This hidden folder may be created by Quarto to hold
+      temporary files. Do not edit or delete any of these files unless
+      you know what you are doing! This folder is not tracked by Git.
+    - `output/`: This folder holds rendered output from scripts in its
+      parent folder.
+      - `Create_MyStudy_Data.html`: This is created by rendering
+        `scripts/Create_MyStudy_Data.qmd`.
+      - `MyStudy_Report.html`: This is created by rendering
+        `scripts/MyStudy_Report.qmd`.
+    - `.gitignore`: This file tells Git what files to ignore and omit
+      from synchronizing with the main repository on GitHub.
+    - `_quarto.yml`: This is a Quarto metadata file containing
+      folder-level YAML code that will be inherited by Quarto scripts in
+      this folder or its subfolders.
+    - `Create_MyStudy_Data.qmd`: This Quarto script creates the example
+      file `data/MyStudy.RData`. The output from rendering the script is
+      stored in `scripts/output/`.
     - `Delete_nul_file.bat`: This Windows batch files can be useful if
       rendering problems leave behind a file called `nul` that is
       otherwise hard to delete on Windows.
+    - `MyStudy_Report.qmd`: This Quarto script is an example of a
+      dynamic document used in the live demonstration during my
+      presentation. It reads in example data, then analyzes it. The
+      rendered output is stored in `scripts/output/`.
   - `.gitignore`: This file tells Git what files to ignore and omit from
     synchronizing with the main repository on GitHub.
   - `_quarto.yml`: This is a Quarto metadata file containing
@@ -92,15 +117,15 @@ project](https://support.rstudio.com/hc/en-us/articles/200526207-Using-RStudio-P
     put the reference list in the order the citations were used. It is
     used by Quarto to format reference sections.
   - `CSTAT_theme.css`: This is custom style sheet file to provide color
-    scheme, fonts, etc. for my slides.  
+    scheme, fonts, etc. for my slides.
   - `Pierce.AEA2024.Rproj`: This is an RStudio project file. It contains
     some settings for working with the project in that software.
   - `README.md`: This file is obtained by knitting the `README.Rmd` file
     and is used by GitHub to display information about the repository.
-    Do not edit it manually: just re-knit `README.Rmd` to update it. In
+    Do not edit it manually: just re-knit `README.qmd` to update it. In
     R Studio, you can read the formatted version by opening the file and
     clicking the Preview button.
-  - `README.Rmd`: This file gives an introduction to the repository.
+  - `README.qmd`: This file gives an introduction to the repository.
     Rendering it produces the `README.md` file and opens the preview
     automatically.
   - `references.bib`: This is a BibTeX file containing citation data for
