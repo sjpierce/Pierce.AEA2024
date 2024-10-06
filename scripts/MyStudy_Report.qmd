@@ -165,7 +165,7 @@ FN <- paste("The same design was used within each of 4 sites (A, B, C, & D).",
             "$R$, randomized;",
             "$X$, delivery of intervention (9 weeks).")
 kable(StudyDesign, format = "html", escape = FALSE, align = "lcccc") %>% 
-  kable_paper(full_width = FALSE) %>% 
+  kable_styling(full_width = FALSE) %>% 
   add_header_above(c(" ", "Longitudinal Event" = 4), escape = FALSE) %>% 
   footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE,
            threeparttable = FALSE, escape = FALSE) %>% 
@@ -213,12 +213,11 @@ MyStudy %>%
   xtabs(~Site + Group, data = .) %>% 
   addmargins() %>% 
   kable(col.names = c("Site", "Control", "Treatment", "Sum")) %>% 
-  kable_paper(full_width = FALSE) %>% 
+  kable_styling(full_width = FALSE) %>% 
   column_spec(column = 4, italic = TRUE) %>% 
   row_spec(row = 5, italic = TRUE) %>% 
   add_header_above(header = c(" ", "Group" = 2, " ")) %>% 
-  footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE,
-           threeparttable = TRUE) %>% 
+  footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE) %>% 
   cat()
 ```
 
