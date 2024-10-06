@@ -76,7 +76,7 @@ I'll set the stage with a definition. Reproducible research is research for
 which the investigators have shared all the materials required to exactly
 recreate the findings so that others can verify them or conduct alternative
 analyses. While there are differences between research and evaluation writ
-broadly, I believe reproducbility is just as valuable in--and applicable
+broadly, I believe reproducibility is just as valuable in--and applicable
 to--evaluation work as it is in research.
 :::
 
