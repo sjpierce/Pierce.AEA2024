@@ -75,8 +75,7 @@ instead.
 This next chunk declares the path to this script relative to the project-level 
 root directory. If the file is not in the right location under the project root
 you'll get a warning message. This helps ensure relative paths are all working 
-as expected. For this chunk to work, you must have the relevant parameters set 
-properly in the YAML header.
+as expected. 
 
 ``` {r}
 #| label: declare-path
