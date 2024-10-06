@@ -113,6 +113,12 @@ library(dplyr)          # for %>%, bind_cols(), rename(), etc.
 options(kableExtra.latex.load_packages = FALSE)
 library(kableExtra)     # for kable_styling(), add_header_above(), 
                         # column_spec(), row_spec()
+library(ggplot2)        # for scale_x_continuous()
+library(car)            # for Anova()
+library(broom)          # for glance(), tidy()
+library(emmeans)        # for emmeans()
+library(modelsummary)   # for modelsummary()
+options(modelsummary_factory_html = 'kableExtra')
 library(piercer)        # for git_report(), sim_2arm_prepost()
 library(quarto)         # for quarto_version()
 ```
