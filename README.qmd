@@ -32,8 +32,7 @@ knitr::opts_chunk$set(
 This repository holds materials for one of my conference presentations 
 [@Pierce-RN8577]. Its primary purpose is for me to use version control tools 
 while developing my slides, but its secondary purposes include distributing the 
-slides to my audience and demonstrating how to use Quarto to create slides. I 
-plan to make the repository public after delivering the presentation.
+slides to my audience and demonstrating how to use Quarto to create slides. 
 
 ## Assumptions
 There are two different types of users of this repository: myself and my
