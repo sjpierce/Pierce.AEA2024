@@ -135,14 +135,19 @@ objects already in memory that have the same names as the objects being loaded.
 load(file=here("data/MyStudy.RData"))
 ```
 
-# Study Design
+# Methods
+
+## Study Design
 The study used a longitudinal randomized controlled trial design with 2 groups 
 (Treatment vs. Control) x 4 sites (A, B, C, and D) x 2 time points (pretest vs. 
-posttest). All participants were recruited and screened for eligibility. 
+posttest). Potential participants were recruited and screened for eligibility. 
 Eligible individuals who consented to participate were enrolled, then given 
 the pretest before being randomly assigned to either the treatment or control 
-group. The study design can be visualized with Shadish, Cook, & Campbell's 
-[-@Shadish-RN956] design notation, as shown in @tbl-study-design.  
+group. The treatment group then received a 9-week intervention intended to 
+increase outcome scores. The control group did not receive any intervention. 
+After the 9 week intervention period, both groups were given the posttest. 
+The study design can be visualized with Shadish, Cook, & Campbell's 
+[-@Shadish-RN956] design notation, as shown in @tbl-study-design. 
 
 ```{r}
 #| label: tbl-study-design
