@@ -13,8 +13,8 @@ date-modified: last-modified
 date-format: YYYY-MM-DD HH:mm:ss z
 params:
   SourceDir: "scripts/"
-  SourceFile: "Create_Example_Data.qmd"
-  LogFile: "Create_Example_Data.html"
+  SourceFile: "Create_MyStudy_Data.qmd"
+  LogFile: "Create_MyStudy_Data.html"
 format: 
   html:
     toc: true
