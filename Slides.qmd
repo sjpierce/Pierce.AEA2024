@@ -933,10 +933,10 @@ Let's take a look at actual dynamic documents!
 ## MyStudy Files
 
 * Quarto scripts
-    * scripts/Create_Example_Data.qmd
+    * scripts/Create_MyStudy_Data.qmd
     * scripts/MyStudy_Report.qmd
 * Rendered output
-    * scripts/output/Create_Example_Data.html
+    * scripts/output/Create_MyStudy_Data.html
     * scripts/output/MyStudy_Report.html
 
 ## Narrative Text
