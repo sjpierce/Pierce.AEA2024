@@ -866,6 +866,9 @@ Standardizing across projects is useful for efficiency
 * Use scripts instead of GUIs
 * Make computers do the tedious labor
 * Computers are patient idiots
+* Make scripts that start from a clean workspace
+* Test scripts frequently
+* Render entire scripts in a clean R session
 
 
 ::: {.notes}
