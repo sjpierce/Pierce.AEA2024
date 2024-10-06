@@ -198,9 +198,11 @@ MyStudy %>%
 
 The result is functional and accurate output that **preserves methodology**
 **details** (i.e., code). That might be sufficient if our only audience is going 
-to be people who are used to reading raw R output, but we can make it much 
-better and more professional. With just a little more code, we can get a 
-publication-quality result like @tbl-sample-size instead. 
+to be people who are used to reading raw R output, but with just a little more 
+code, we can get a publication-quality result, as shown next. 
+:::
+
+Meanwhile, @tbl-sample-size shows the sample size by group and site.
 
 ```{r}
 #| label: tbl-sample-size
