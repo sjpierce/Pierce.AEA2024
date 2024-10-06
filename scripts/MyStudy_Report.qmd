@@ -223,22 +223,22 @@ MyStudy %>%
   cat()
 ```
 
+::: {.callout-tip}
 Notice that we have **automated** doing several things:
 
-* Numbered the table and added a meaningful caption.
+* Numbered the table via the `label:` Quarto chunk option. 
+* Added a meaningful caption via the `tbl-cap:` Quarto chunk option.
 * Inserted the table number into the text above (as a hyperlink to the table 
-  itself).
+  itself) via a cross-reference.
 * Added a column grouping header.
 * Improved the column labels.
-* Added a footnote
+* Added a footnote.
 * Formatted the sums with italics. 
-
-::: {.callout-tip}
-I used a Quarto chunk option plus 
-[`knitr`](https://cran.r-project.org/package=knitr) and
-[`kableExtra`](https://cran.r-project.org/package=kableExtra) to format
-@tbl-sample-size. Consider how long it would take you to turn the raw result I
-showed first into table in a Word document, then format it like
+ 
+I used the [`knitr`](https://cran.r-project.org/package=knitr) and 
+[`kableExtra`](https://cran.r-project.org/package=kableExtra) R packages to 
+format @tbl-sample-size. Consider how long it would take you to turn the raw 
+result I showed first into table in a Word document, then format it like
 @tbl-sample-size. Automating such formatting work can save you time. If the
 underlying data changes, we can update @tbl-sample-size just by re-rendering the
 script.
@@ -258,11 +258,11 @@ This section shows information about the current software environment.
 ::: {.callout-tip}
 This is part of meeting the **documentation criterion** for reproducibility by 
 applying the **preservation, automation, and integration principles**: We are 
-automating the process of preserving a description of the software I was using
-when rendering the document by integrating code that inserts that information
+automating the process of preserving a description of the software used when 
+rendering the document by integrating code that inserts that information
 below. This facilitates troubleshooting reproducibility issues if someone else 
-is unable to get the same results I did from the same code. The first step is  
-checking whether we are using different versions of various packages. 
+is unable to get the same results I did from the same code. Start by checking 
+whether they are using different versions of various packages. 
 ::: 
 
 We used [R](https://www.r-project.org/) as our main computing environment and 
