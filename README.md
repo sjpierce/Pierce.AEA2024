@@ -23,16 +23,21 @@ repository public after delivering the presentation.
 ## Assumptions
 
 There are two different types of users of this repository: myself and my
-audience. I assume most of my audience just wants copies of [my
-slides](https://github.com/sjpierce/Pierce.AEA2024/Slides.html), but
-some may want to see exactly how they were created by examining other
-parts of the repository.
+audience. I assume most of my audience just wants copies of my slides,
+but some may want to see exactly how they were created by examining
+other parts of the repository.
 
-> **Tip:** After you open the
-> [Slides.html](https://github.com/sjpierce/Pierce.AEA2024/Slides.html)
-> file, press the `s` key on your keyboard to see the speaker view that
-> contains my speaker notes. There are also other [slide navigation
-> keyboard
+> **Tip:** My slides are in a file called `Slides.html` stored on
+> GitHub. To download that file, click this [this
+> link](https://github.com/sjpierce/Pierce.AEA2024/blob/main/Slides.html)
+> then go to the upper right corner of the screen and use the “Download
+> raw file” button that looks like an arrow pointing down into a tray.
+> It is located just to the left of the pencil icon. Once the file is on
+> your computer, open it with a web-browser.
+
+> **Tip:** After you open the `Slides.html` file, press the `s` key on
+> your keyboard to see the speaker view that contains my speaker notes.
+> There are also other [slide navigation keyboard
 > shortcuts](https://quarto.org/docs/presentations/revealjs/presenting.html).
 
 Since there are no other contributors, I am omitting details that may
