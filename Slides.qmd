@@ -724,8 +724,8 @@ repository public so that people outside your team can access reproducibility
 materials. 
 :::
 
-## RStudio Projects
-... are folders of files that:
+## RStudio Projects are ... {background-image="graphics/folder-146940_1920.png"}
+folders of files that:
 
 * Keep files for an analysis project together
 * Can have subfolders for organizing files
