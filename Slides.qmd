@@ -576,10 +576,10 @@ report by re-rendering the script, or fix an error in the script then render
 again to automate updating the report.
 :::
 
-## Research Compendium {background-image="graphics/pexels-anete-lusina-4792285.jpg"}
+## A Research Compendium ... {background-image="graphics/pexels-anete-lusina-4792285.jpg"}
 
 :::: {style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px;"}
-A compendium organizes digital files so others can review or use them to 
+organizes digital files so others can review or use them to 
 reproduce results, or do new analyses. [@Marwick-RN3899] It should: 
 
 ::: {.incremental}
