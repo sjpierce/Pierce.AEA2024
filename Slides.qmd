@@ -601,9 +601,9 @@ You can facilitate collaboration by thoughtfully setting up a compendium with
 attention to applying the organization, separation, and integration principles.
 :::
 
-## R Packages
-... are folders of digital files designed for sharing code & help documentation. 
-[@Wickham-RN3898] They
+## R Packages are ... {background-image="graphics/folder-146940_1920.png"}
+folders of digital files designed for sharing code & help documentation. 
+[@Wickham-RN3898] 
 
 * Organize files into a conventional structure 
 * Can contain data, meta-data, & other documentation 
