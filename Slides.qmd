@@ -763,13 +763,13 @@ Put in screenshots of RStudio user interface and point out how they allow you
 to interact with R console, R help files, Git, & Quarto rendering. 
 :::
 
-## Quarto Projects
-... are folders of files that allow:
+## Quarto Projects are ... {background-image="graphics/folder-146940_1920.png"}
+folders of files that allow:
 
 * Rendering some or all dynamic documents 
 * Sharing a configuration file across documents
 * Redirecting output to another folder
-* Option to freeze rendered output unless the code has changed
+* Freezing rendered output unless the code has changed
 
 ::: {.fragment}
 :::{.callout-tip}
@@ -821,8 +821,6 @@ will track and what it will ignore. This basic structure has been working very
 well for me across several projects. 
 :::
 
-
-
 ## Collaboration Stakeholders {style="text-align: right" background-image="graphics/pexels-fauxels-3184634.jpg" background-position="top" }
 
 :::: {.absolute left="45%" top="40%" style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px; text-align: left;"}
@@ -858,8 +856,6 @@ Git repository + RStudio project + R package structure + Quarto project
 Standardizing across projects is useful for efficiency
 :::
 
-
-
 ## Automation
 
 * Use scripts instead of GUIs
@@ -890,7 +886,6 @@ What should you preserve?
 ::: {.notes}
 Add speaker notes here.
 :::
-
 
 ## Integration
 * Attach meta-data directly to data 
