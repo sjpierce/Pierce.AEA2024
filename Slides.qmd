@@ -838,10 +838,9 @@ will share files with several kinds of people orients you to the need to
 communicate what you are doing, how the materials are organized, and how they
 can be used to reproduce results. It motivates you to make things clear and
 include good documentation. Notice here that I include your future self as a 
-stakeholder. That's because as one of my former colleagues used to say, your
-worst collaborator is often the you from 6 months ago who assumed you'd just 
-remember something important about the project that you've now forgotten and so 
-skipped documenting it. 
+stakeholder. To paraphrase a former colleague "your worst collaborator is often 
+the you from 6 months ago who assumed you'd just remember something important 
+about the project that you've now forgotten and so skipped documenting it."
 :::
 
 ## Organization
