@@ -627,9 +627,8 @@ code--from each other. It suggests specific kinds of documentation to include,
 like a README file that introduces new users to your work.
 :::
 
-## Git Repositories
-... are folders of files being tracked by Git [@Torvalds-RN3929] for version 
-control purposes. [@Bryan-RN3900; @Chacon-RN3480] They:
+## Git Repositories are ... {background-image="graphics/folder-146940_1920.png"}
+folders of files tracked by Git for version control. [@Bryan-RN3900; @Chacon-RN3480; @Torvalds-RN3929] 
 
 * Preserve a history of changes to each tracked file
 * Allow recovering a file's prior state from the history 
