@@ -912,15 +912,6 @@ Quarto!
 Add speaker notes here.
 :::
 
-## Version Control 
-* Git tracks how files changed (additions & deletions), who changed them, when, & why
-* Searchable & recoverable version history
-* Eliminates the need to use filename conventions for versioning
-
-::: {.notes}
-Speaker notes go here.
-:::
-
 # Live Demonstration
 Let's take a look at actual dynamic documents!
 
