@@ -627,6 +627,45 @@ code--from each other. It suggests specific kinds of documentation to include,
 like a README file that introduces new users to your work.
 :::
 
+## RStudio Projects are ... {background-image="graphics/folder-146940_1920.png"}
+folders of files that:
+
+* Keep files for an analysis project together
+* Can have subfolders for organizing files
+* Serve as R working directories w/ workspace & history
+* Store settings in an RStudio project file (`*.Rproj`)
+
+::: {.fragment}
+:::{.callout-tip}
+Turn your compendium into an [RStudio  project](https://docs.posit.co/ide/user/ide/guide/code/projects.html)! 
+:::
+:::
+
+::: {.notes}
+RStudio facilitates staying organized by allowing you to create projects, which
+are just folders where you can keep all the files for a specific analysis,
+report, or even a collection of related reports together and use subfolders as
+needed. They also automatically become as the default working directory for R,
+complete with R workspace and history. They store project-specific settings in a
+project file that's named after the folder itself. So if your project is a
+folder called `MyReport`, its project file would be called `MyReport.Rproj`. You
+can use that file to open the entire collection of files all at once. **>** So,
+turn your compendium into an RStudio project.
+:::
+
+## RStudio User Interface
+* R Console pane
+* R Packages pane
+* R Environment pane
+* Script editor has a Quarto render button
+* Viewer & Presentation panes for rendered output
+* Git pane
+
+::: {.notes}
+Put in screenshots of RStudio user interface and point out how they allow you 
+to interact with R console, R help files, Git, & Quarto rendering. 
+:::
+
 ## Git Repositories are ... {background-image="graphics/folder-146940_1920.png"}
 folders of files tracked by Git for version control. [@Bryan-RN3900; @Chacon-RN3480; @Torvalds-RN3929] 
 
@@ -722,45 +761,6 @@ Using a private GitHub repository while working on the project allows you
 collaborate with teammates as you develop a report. Later, you can make the 
 repository public so that people outside your team can access reproducibility 
 materials. 
-:::
-
-## RStudio Projects are ... {background-image="graphics/folder-146940_1920.png"}
-folders of files that:
-
-* Keep files for an analysis project together
-* Can have subfolders for organizing files
-* Serve as R working directories w/ workspace & history
-* Store settings in an RStudio project file (`*.Rproj`)
-
-::: {.fragment}
-:::{.callout-tip}
-Turn your compendium into an [RStudio  project](https://docs.posit.co/ide/user/ide/guide/code/projects.html)! 
-:::
-:::
-
-::: {.notes}
-RStudio facilitates staying organized by allowing you to create projects, which
-are just folders where you can keep all the files for a specific analysis,
-report, or even a collection of related reports together and use subfolders as
-needed. They also automatically become as the default working directory for R,
-complete with R workspace and history. They store project-specific settings in a
-project file that's named after the folder itself. So if your project is a
-folder called `MyReport`, its project file would be called `MyReport.Rproj`. You
-can use that file to open the entire collection of files all at once. **>** So,
-turn your compendium into an RStudio project.
-:::
-
-## RStudio User Interface
-* R Console pane
-* R Packages pane
-* R Environment pane
-* Script editor has a Quarto render button
-* Viewer & Presentation panes for rendered output
-* Git pane
-
-::: {.notes}
-Put in screenshots of RStudio user interface and point out how they allow you 
-to interact with R console, R help files, Git, & Quarto rendering. 
 :::
 
 ## Quarto Projects are ... {background-image="graphics/folder-146940_1920.png"}
