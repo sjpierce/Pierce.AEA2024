@@ -8,17 +8,17 @@ author: "Steven J. Pierce"
 institute: "Center for Statistical Training and Consulting, Michigan State University"
 date: October 22, 2024
 title-slide-attributes: 
-  data-notes: My name is Steven Pierce. Welcome to my session. My talk today 
-              focuses on some principles, practices, and tools that I use to 
-              generate reproducible statistical analyses and evaluation reports. 
-              My goal is encourage evaluators to build their capacity and
-              competency by adopting practices and tools for reproducible 
-              research. Hopefully, sharing my experience and insights will 
-              persuade you why that's beneficial, motivate you to do so, and 
-              accelerate your learning journey. My slides are in an HTML file 
-              available from the link at the bottom of the screen. They have 
-              many links to resources built right in and are themselves a 
-              reproducible product. 
+  data-notes: 1 hr (45 min talk+ 15 min Q & A) My name is Steven Pierce. 
+              Welcome to my session. My talk today focuses on some principles, 
+              practices, and tools that I use to generate reproducible 
+              statistical analyses and evaluation reports. My goal is encourage 
+              evaluators to build their capacity and competency by adopting 
+              practices and tools for reproducible research. Hopefully, sharing 
+              my experience and insights will persuade you why that's 
+              beneficial, motivate you to do so, and accelerate your learning 
+              journey. My slides are in an HTML file available from the link at 
+              the bottom of the screen. They have many links to resources built 
+              right in and are themselves a reproducible product. 
 csl: apa-numeric-superscript-brackets.csl
 bibliography: references.bib
 format: 
