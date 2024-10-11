@@ -845,16 +845,17 @@ about the project that you've now forgotten and so skipped documenting it."
 *Time elapsed should be ~24 min by this point based on rehearsal.*
 :::
 
-## Organization
+## Organization Tips
 
-* Organize files into a research compendium.
-* Create documentation (README files, vignettes, etc.). 
-* Use folder structures, naming conventions, 
-* Use data flow diagrams and/or rendering scripts
+* Add documentation (README files, vignettes, etc.)
+* Use file naming conventions to links scripts & output
+* Use data flow diagrams to show relations between files
+* Use a primary rendering script to run other scripts
 
 ::: {.notes}
-Git repository + RStudio project + R package structure + Quarto project
-Standardizing across projects is useful for efficiency
+
+:::
+
 :::
 
 ## Automation
