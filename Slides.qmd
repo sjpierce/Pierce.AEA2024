@@ -841,6 +841,8 @@ include good documentation. Notice here that I include your future self as a
 stakeholder. To paraphrase a former colleague "your worst collaborator is often 
 the you from 6 months ago who assumed you'd just remember something important 
 about the project that you've now forgotten and so skipped documenting it."
+
+*Time elapsed should be ~24 min by this point based on rehearsal.*
 :::
 
 ## Organization
