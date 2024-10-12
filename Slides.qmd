@@ -654,19 +654,6 @@ can use that file to open the entire collection of files all at once. **>** So,
 turn your compendium into an RStudio project.
 :::
 
-## RStudio User Interface
-* R Console pane
-* R Packages pane
-* R Environment pane
-* Script editor has a Quarto render button
-* Viewer & Presentation panes for rendered output
-* Git pane
-
-::: {.notes}
-Put in screenshots of RStudio user interface and point out how they allow you 
-to interact with R console, R help files, Git, & Quarto rendering. 
-:::
-
 ## Git Repositories are ... {background-image="graphics/folder-146940_1920.png"}
 folders of files tracked by Git for version control. [@Bryan-RN3900; @Chacon-RN3480; @Torvalds-RN3929] 
 
