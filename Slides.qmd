@@ -1041,3 +1041,5 @@ Let's take a look at actual dynamic documents!
 ::: {#refs}
 :::
 
+# Discussion Time!
+Thank you for attending
