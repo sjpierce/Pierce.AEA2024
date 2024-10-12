@@ -993,10 +993,41 @@ reference lists and cite sources throughout your scripts.
 Add speaker notes here.
 :::
 
-# Live Demonstration
-Let's take a look at actual dynamic documents!
+## Quarto Scripts: Anatomy
 
-## MyStudy Files
+* Are just plain text files with names ending in `.qmd`
+* Use [markdown syntax](https://quarto.org/docs/authoring/markdown-basics.html) 
+  to format rendered output
+* YAML header contains metadata, options, & parameters
+* Body contains the main content 
+
+::: {.notes}
+I will show you an some example files in a minute but it halps to understand 
+a little about the anatomy of a Quarto script first. It is just a plain text 
+file with a name that ends in `.qmd`. It uses a simple markdown syntax to format
+the output it will render. The top of the file is the YAML header, which
+contains document-level metadata, options, and parameters. The body of the file
+contains headings, narrative text, code, citations, links, and cross-references.
+:::
+
+## Quarto Scripts: Code
+
+* [Inline code](https://quarto.org/docs/computations/inline-code.html) lets you 
+  insert dynamic text or numbers in the middle of sentences. 
+* [Code chunks](https://quarto.org/docs/computations/r.html) allow you to do
+  larger computations and inserting more complex results. 
+
+::: {.notes}
+You can put two types of code into a Quarto script. The simplest kind is called 
+inline code, which is designed to allow short pieces of code that insert 
+computed text or numbers--such as a group mean--right in the middle of a 
+sentence. Code chunks allow you to do more substantial computing, like reading 
+in or managing data, fitting models, or creating and then inserting more complex 
+pieces of output like tables and figures. 
+:::
+
+## MyStudy Demonstration Files
+Let's take a look at actual dynamic documents!
 
 * Quarto scripts
     * scripts/Create_MyStudy_Data.qmd
@@ -1004,28 +1035,6 @@ Let's take a look at actual dynamic documents!
 * Rendered output
     * scripts/output/Create_MyStudy_Data.html
     * scripts/output/MyStudy_Report.html
-
-## Narrative Text
-
-* Formatting
-* Headings
-* Links
-
-## Inline R Code
-
-
-## Tables
-
-
-## Figures
-
-
-## Parameterized Reports
-
-
-## Map Your Path to Reproducibility {background-image="graphics/Map_Compass_Navigation.jpg" background-size="contain" background-position="right" background-repeat="no-repeat"}
-
-
 
 ## References {.scrollable}
 
