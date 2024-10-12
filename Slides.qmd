@@ -50,7 +50,7 @@ library(kableExtra) # Functions for formatting nice tables.
 * What do you mean by reproducible? 
 * Why should we aim for reproducibility?
 * How do we achieve reproducibility?
-* Live Demonstration
+* Demonstration
 
 ::: {.notes}
 I've organized this talk around answering three questions that you're probably 
