@@ -916,18 +916,29 @@ creates some slides, and another that creates a report. This diagram makes it
 easy to see how 10 files are related. 
 :::
 
-## Automation
+## Automation Tips
 
 * Use scripts instead of GUIs
-* Make computers do the tedious labor
-* Computers are patient idiots
-* Make scripts that start from a clean workspace
-* Test scripts frequently
-* Render entire scripts in a clean R session
-
+    * Make them start from a clean R session
+    * Render entire script frequently
+* Computers are patient
+* Computers are idiots
 
 ::: {.notes}
-Add speaker notes here.
+With respect to automation, I suggest using scripts to do as much of the work as 
+possible. Manual steps reduce the efficiency and reproducibility of your work. 
+They are more error-prone than well-written code. Each script should start from 
+a clean R session--an empty workspace--and use code to load everything it needs 
+to run. You also want to render each script in its entirely frequently as you 
+develop it. That's the best way make sure the whole thing works correctly. 
+
+I encourage you all to remember that computers are inhumanely patient. They're 
+great at tedious, repetitive tasks that bore or fatigue humans into making 
+errors. If something is mind-numbingly tedious, write code to get the computer 
+to do it for you. However, computers are also literal-minded idiots. They do 
+exactly what you tell them to do, whether or not that makes sense or is what you 
+intended. Put your time into giving them the right instructions and checking 
+that you got the right results. 
 :::
 
 
