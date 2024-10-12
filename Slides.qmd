@@ -865,6 +865,55 @@ primary rendering script that automates running all your other scripts in the
 correct order. 
 :::
 
+## Example Data Flow Diagram
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 5
+digraph Flow {
+rankdir="LR";
+compound=true;
+
+node [shape = "box", style= "filled", fontname="Lato", fontsize="40pt", 
+      fillcolor = "#C3FFEC", margin = .25]
+RenderS [label = "Render.qmd"]
+RenderO [label = "Render.html"]
+CDS [label = "Cleaning.qmd"]
+CDO [label = "Cleaning.html"]
+RData [label = "Raw_Data.csv"]
+CData [label = "Clean_Data.RData"]
+ReportS [label = "Report.qmd"]
+ReportO [label = "Report.pdf"]
+SlidesS [label = "Slides.qmd"]
+SlidesO [label = "Slides.ppt"]
+
+edge [fontname="Lato", fontsize="30pt", arrowsize = 1.5]
+RenderS -> RenderO [label = "Creates"]
+RenderS -> CDS [label = "Runs"]
+RData -> CDS [Label = "Read by"]
+CDS -> CDO [label = "Creates"]
+CDS -> CData [label = "Creates"]
+CData -> ReportS [label = "Read by"] 
+CData -> SlidesS [label = "Read by"] 
+RenderS -> ReportS [label = "Runs"]
+ReportS -> ReportO [label = "Creates"] 
+RenderS -> SlidesS [label = "Runs"]
+SlidesS -> SlidesO [label = "Creates"] 
+
+//{rank = same; RData; CDS; }
+{rank = same; ReportS; SlidesS;}
+//{rank = same; RenderO; IDO; Report1O; Report2O;}
+}
+```
+
+::: {.notes}
+Here's an example data flow diagram that illustrates several of the tips I just 
+shared. Boxes represent files and arrows show which files are inputs to other 
+files or outputs created by them. Scripts and their outputs have the same 
+filename except for the extension that denotes file type. Notice how the Render 
+script actually runs three other scripts, one for data cleaning, plus one that 
+creates some slides, and another that creates a report. This diagram makes it 
+easy to see how 10 files are related. 
 :::
 
 ## Automation
