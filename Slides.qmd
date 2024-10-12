@@ -981,7 +981,7 @@ and how to use them. Finally, take advantage of Quarto's support for building
 reference lists and cite sources throughout your scripts. 
 :::
 
-## Separation
+## Separation Tips
 
 * Data from code
 * Raw data from cleaned data
