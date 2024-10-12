@@ -997,12 +997,15 @@ contains document-level metadata, options, and parameters. The body of the file
 contains headings, narrative text, code, citations, links, and cross-references.
 :::
 
-## Quarto Scripts: Code
+## Quarto Scripts: Code {background-image="graphics/pexels-goumbik-574069.jpg"}
+
+:::: {style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px;"}
 
 * [Inline code](https://quarto.org/docs/computations/inline-code.html) lets you 
-  insert dynamic text or numbers in the middle of sentences. 
+  insert dynamic text or numbers into sentences. 
 * [Code chunks](https://quarto.org/docs/computations/r.html) allow you to do
-  larger computations and inserting more complex results. 
+  larger computations and insert more complex results. 
+:::
 
 ::: {.notes}
 You can put two types of code into a Quarto script. The simplest kind is called 
