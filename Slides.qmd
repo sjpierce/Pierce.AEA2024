@@ -942,20 +942,25 @@ that you got the right results.
 :::
 
 
-## Preservation
+## Preservation Tips
 What should you preserve?
 
 * Data and meta-data
-* Methodology decisions
-* Data cleaning, management, and analysis scripts
-* Key decisions and rationales
-* Source code for scripts
-* Version histories of data, code, output, and deliverables
-* Who changed what & when
+* Methodology decisions & rationales
+* Scripts (data cleaning, management, & analysis)
+* Version histories of data, code, & output
 * Software environment & versions used
 
 ::: {.notes}
-Add speaker notes here.
+In terms of preservation, go back to the criteria for reproducibility. Your 
+compendium must either include the raw data and relevant metadata, or tell 
+people how to get them from some accessible source. Documenting methodology 
+decisions and rationales is important too, as are the data management and 
+analysis scripts that actually produced your output. Keeping version histories 
+of repository contents is a major bonus, but not strictly required. I reocmmend 
+that your scripts include some component that automates recording infoirmation 
+about the software environment and versions you used to meet the documentation 
+criterion for reproducibility.
 :::
 
 ## Integration
