@@ -963,17 +963,22 @@ about the software environment and versions you used to meet the documentation
 criterion for reproducibility.
 :::
 
-## Integration
+## Integration Tips
+
 * Attach meta-data directly to data 
-* Include codebooks (or scripts to generate them from the data)
-* Integrate narrative text with code via Markup languages 
-* Add custom functions and associated help files to research compendium
-* Include references 
+* Integrate narrative text with code 
+* Add custom functions & help files to research compendium
+* Include citations & reference lists 
 
 ::: {.notes}
-Variable & value labels. 
-README files & other documentatioon
-Quarto!
+Here are some quick tips on applying the3 integration priciple. Attaching 
+metadata such as variable and value labels directly to your data is an obvious 
+way to make that metadata available to users of your compendium. THe nature of 
+Quarto scripts allows you to integrate narrative text with the code used to 
+produce results. If you need custom R functions, add them to your compendium 
+(which is also an R package) and include help files that explain what they do 
+and how to use them. Finally, take advantage of Quarto's support for building 
+reference lists and cite sources throughout your scripts. 
 :::
 
 ## Separation
