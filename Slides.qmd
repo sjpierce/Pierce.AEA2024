@@ -53,10 +53,11 @@ library(kableExtra) # Functions for formatting nice tables.
 * Demonstration
 
 ::: {.notes}
-I've organized this talk around answering three questions that you're probably 
-thinking about right now, given that you're in this session. They are: What do 
-you mean by reproducible? Why should we aim for reproducibility?, and How do we 
-achieve reproducibility? Let's get started with the first question.
+I've organized this talk around answering three questions that you're probably
+already thinking about right now. They are: What do you mean by reproducible?
+Why should we aim for reproducibility?, and How do we achieve reproducibility?
+Then I'm going to do show you a demonstration. Let's get started with the first
+question.
 :::
 
 ::: {style="text-align: right;"}
