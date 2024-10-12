@@ -848,13 +848,21 @@ about the project that you've now forgotten and so skipped documenting it."
 
 ## Organization Tips
 
-* Add documentation (README files, vignettes, etc.)
+* Add documentation!
 * Use file naming conventions to links scripts & output
 * Use data flow diagrams to show relations between files
 * Use a primary rendering script to run other scripts
 
 ::: {.notes}
-
+One of the most crucial organization tips I can offer you is to add 
+documentation to your compendium. That usually includes some form of a README 
+file, but it may also include one or more vignettes, codebooks, or other 
+documents that help a new person understand and use the contents of your 
+compendium. Another tip is to use file naming conventions that help readers see 
+how scripts link to output files. You can also use data flow diagrams to help 
+show people the relationships between files. Finally, consider creating a 
+primary rendering script that automates running all your other scripts in the 
+correct order. 
 :::
 
 :::
