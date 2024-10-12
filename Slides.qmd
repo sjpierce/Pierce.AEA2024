@@ -971,6 +971,7 @@ reference lists and cite sources throughout your scripts.
 
 * Data from code
 * Raw data from cleaned data
+* Divide large projects into multiple scripts
 * Code from output
 * Draft from production output
 * Version history from current files
