@@ -946,10 +946,10 @@ compendium must either include the raw data and relevant metadata, or tell
 people how to get them from some accessible source. Documenting methodology 
 decisions and rationales is important too, as are the data management and 
 analysis scripts that actually produced your output. Keeping version histories 
-of repository contents is a major bonus, but not strictly required. I reocmmend 
-that your scripts include some component that automates recording infoirmation 
-about the software environment and versions you used to meet the documentation 
-criterion for reproducibility.
+of repository contents is a major bonus, but not strictly required. I recommend 
+that your scripts end with code that automates recording information about the 
+software environment and versions you used to meet the documentation criterion 
+for reproducibility.
 :::
 
 ## Integration Tips
