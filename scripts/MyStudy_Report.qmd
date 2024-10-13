@@ -129,6 +129,11 @@ code that manages or analyzes them. So, we need to load the MyStudy data from
 an `*.RData` file stored in the local repository. That will overwrite any 
 objects already in memory that have the same names as the objects being loaded.
 
+::: {.callout-important}
+Run the `scripts/Create_MyStudy_Data.qmd` script to create the data file to be 
+loaded below. 
+:::
+
 ``` {r}
 #| label: load-MyStudy-data
 
