@@ -906,7 +906,7 @@ creates some slides, and another that creates a report. This diagram makes it
 easy to see how 10 files are related. 
 :::
 
-## Automation Tips {background-image="graphics/robot-6654025_1280.png" background-size="45%" background-position="right" background-repeat="no-repeat"}
+## Automation Tips {background-image="graphics/robot-6654025_1280.png" background-size="40%" background-position="right" background-repeat="no-repeat"}
 
 * Use scripts instead of GUIs
 * Write [self-contained scripts](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
