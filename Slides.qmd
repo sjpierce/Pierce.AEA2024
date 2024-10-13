@@ -906,7 +906,7 @@ creates some slides, and another that creates a report. This diagram makes it
 easy to see how 10 files are related. 
 :::
 
-## Automation Tips
+## Automation Tips {background-image="graphics/robot-6654025_1280.png" background-size="45%" background-position="right" background-repeat="no-repeat"}
 
 * Use scripts instead of GUIs
 * Write [self-contained scripts](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
@@ -952,12 +952,16 @@ software environment and versions you used to meet the documentation criterion
 for reproducibility.
 :::
 
-## Integration Tips
+## Integration Tips  {background-image="graphics/pexels-diva-plavalaguna-6147357.jpg"}
+
+:::: {style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px;"}
 
 * Attach meta-data directly to data 
 * Integrate narrative text with code 
-* Add custom functions & help files to research compendium
+* Add functions & help files to your compendium
 * Include citations & reference lists 
+  
+::::
 
 ::: {.notes}
 Here are some quick tips on applying the3 integration priciple. Attaching 
