@@ -1019,12 +1019,14 @@ pieces of output like tables and figures.
 ## MyStudy Demonstration Files
 Let's take a look at actual dynamic documents!
 
-* Quarto scripts
-    * scripts/Create_MyStudy_Data.qmd
-    * scripts/MyStudy_Report.qmd
-* Rendered output
-    * scripts/output/Create_MyStudy_Data.html
-    * scripts/output/MyStudy_Report.html
+* `scripts/MyStudy_Report.qmd`
+* `scripts/output/MyStudy_Report.html`
+
+::: {.notes}
+*Set RStudio Appearance for console font to 14pt!* 
+Now I'm going to give you a guided tour of an actual Quarto script and the 
+output it produces. 
+:::
 
 ## Bonus Resources
 
