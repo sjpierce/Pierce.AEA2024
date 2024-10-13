@@ -510,6 +510,7 @@ of stone knives and bearskins."
 
 ## Free, Open Source Software Tools for Reproducible Research {background-image="graphics/Keyboard_Typing.jpg"}
 
+:::: {style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px;"}
 * [R](https://www.r-project.org/) [@R-Devel-Core-RN8182], for statistical 
   computing
 * [RStudio Desktop](https://posit.co/download/rstudio-desktop/) 
@@ -517,6 +518,8 @@ of stone knives and bearskins."
 * [Quarto](https://quarto.org) [@Allaire-RN8427], for dynamic documents 
 * [Git](https://git-scm.com/) [@Torvalds-RN3929], for version control
 * [GitHub.com](https://github.com), for sharing & collaborating on code
+
+::::
 
 ::: {.notes}
 Fortunately, there's a better way to do analyses and write reports. It depends
