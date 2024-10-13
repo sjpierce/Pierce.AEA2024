@@ -1006,7 +1006,7 @@ current versions of files from their version histories.
 * Body contains the main content 
 
 ::: {.notes}
-I will show you an some example files in a minute but it halps to understand 
+I will show you an some example files in a minute but it helps to understand 
 a little about the anatomy of a Quarto script first. It is just a plain text 
 file with a name that ends in `.qmd`. It uses a simple markdown syntax to format
 the output it will render. The top of the file is the YAML header, which
