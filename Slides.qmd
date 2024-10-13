@@ -972,15 +972,29 @@ reference lists and cite sources throughout your scripts.
 
 ## Separation Tips
 
-* Data from code
-* Raw data from cleaned data
-* Divide large projects into multiple scripts
-* Code from output
-* Draft from production output
-* Version history from current files
+```{r}
+#| label: tbl-separation
+
+tibble(This = c("Raw Data", "Code", "Code", "Data Management", "Draft Outputs", 
+                "Current Files"),
+       From = c(rep("|", times = 6)),
+       That = c("Cleaned Data", "Data", "Output", "Data Analysis", 
+                "Final Deliverables", "Version History")) %>% 
+  kable(., format = "html", align = "rcl", 
+        col.names = c("Separate This", " ", "From That")) %>% 
+  kable_material(full_width = FALSE, lightable_options = c("striped"), 
+                 html_font = "Lato")
+```
 
 ::: {.notes}
-Add speaker notes here.
+This table briefly summarizes tips on applying the separation principle. I've 
+mentioned the first three rows already, so here I want to highlight the last 
+three. In larger projects, sometimes it is useful to split processes into 
+multiple scripts. An obvious split is between data management and data analysis 
+scripts. Another thing I like to do is separate my draft outputs from the 
+versions of final deliverables sent to clients or stakeholders by date-stamping 
+the filenames for final deliverables. Finally, Git automatically separates the 
+current versions of files from their version histories. 
 :::
 
 ## Quarto Scripts: Anatomy
