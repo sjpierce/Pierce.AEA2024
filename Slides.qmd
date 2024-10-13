@@ -982,7 +982,7 @@ Add speaker notes here.
 
 ## Quarto Scripts: Anatomy
 
-* Are just plain text files with names ending in `.qmd`
+* Plain text files with names ending in `.qmd`
 * Use [markdown syntax](https://quarto.org/docs/authoring/markdown-basics.html) 
   to format rendered output
 * YAML header contains metadata, options, & parameters
