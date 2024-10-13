@@ -1005,6 +1005,7 @@ contains headings, narrative text, code, citations, links, and cross-references.
   insert dynamic text or numbers into sentences. 
 * [Code chunks](https://quarto.org/docs/computations/r.html) allow you to do
   larger computations and insert more complex results. 
+  
 :::
 
 ::: {.notes}
