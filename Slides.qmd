@@ -420,7 +420,7 @@ tibble(Materials = c("Manuals & procedures", "Instruments & scoring rules",
                     "Confidence intervals", "Effect sizes", 
                     "Model fit indices", "Figures", "Tables")) %>% 
   kable(., format = "html") %>% 
-  kable_material(c("striped"), html_font = "Lato")
+  kable_material(lightable_options = c("striped"), html_font = "Lato")
 ```
 
 ::: {.notes}
