@@ -552,6 +552,14 @@ script that identify specific blocks of data in `references.bib`. For example,
 inserting the cross-reference `@APA-RN4003` in the prior paragraph inserted an 
 item into the list, and the formatted in-text citation into the paragraph when 
 I rendered the document. 
+
+Quarto inserts the final reference list wherever it finds the following bit of 
+text, which I put under the References heading:
+
+```
+::: {#refs}
+:::
+```
 :::
 
 # Software Information
