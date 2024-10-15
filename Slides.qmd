@@ -8,7 +8,7 @@ author: "Steven J. Pierce"
 institute: "Center for Statistical Training and Consulting, Michigan State University"
 date: October 22, 2024
 title-slide-attributes: 
-  data-notes: 1 hr (45 min talk+ 15 min Q & A) My name is Steven Pierce. 
+  data-notes: 1 hr (45-50 min talk + 10-15 min Q & A) My name is Steven Pierce. 
               Welcome to my session. My talk today focuses on some principles, 
               practices, and tools that I use to generate reproducible 
               statistical analyses and evaluation reports. My goal is encourage 
@@ -54,10 +54,10 @@ library(kableExtra) # Functions for formatting nice tables.
 
 ::: {.notes}
 I've organized this talk around answering three questions that you're probably
-already thinking about right now. They are: What do you mean by reproducible?
-Why should we aim for reproducibility?, and How do we achieve reproducibility?
-Then I'm going to do show you a demonstration. Let's get started with the first
-question.
+already thinking about right now. They are: "What do you mean by reproducible?"
+"Why should we aim for reproducibility?", and "How do we achieve
+reproducibility?" Then I'm going to do a demonstration. Let's get started with
+the first question.
 :::
 
 ::: {style="text-align: right;"}
@@ -77,8 +77,8 @@ I'll set the stage with a definition. Reproducible research is research for
 which the investigators have shared all the materials required to exactly
 recreate the findings so that others can verify them or conduct alternative
 analyses. While there are differences between research and evaluation writ
-broadly, I believe reproducibility is just as valuable in--and applicable
-to--evaluation work as it is in research.
+broadly, reproducibility is just as valuable in--and applicable to--evaluation 
+work as it is in research.
 :::
 
 ## Statistical Results Can Be:
@@ -166,9 +166,8 @@ Several forces are promoting and enabling the push toward reproducibility.
 ::::
 
 ::: {.notes}
-So, why should we aim for reproducibility? There are many reasons to work toward
-meeting the RR standard. I’ll just touch on a few key forces that are promoting
-and enabling the push toward it.
+So, why should we aim for reproducibility? There are many reasons. I’ll just 
+touch on a few key forces that are promoting and enabling the push toward it.
 :::
 
 ## Methods Matter!
@@ -199,20 +198,19 @@ Reproducibility is an attainable minimum standard for science [@Peng-RN3189].
 :::
 
 ::: {.notes}
-Remember that our methods *matter*: Studies that use good scientific practices
-yield more trustworthy, credible findings. Let's link this continuum to
-reproducibility. **>**
+Studies that use good scientific practices yield more trustworthy, credible 
+findings. **>**
 
-At the low end, we have irreproducible findings, which rely on investigator
+At the low end of this continuum, irreproducible findings rely on investigator
 reputation to establish credibility because key methodological details aren’t
-published and the findings can’t be independently verified. This limits 
-our ability to judge their quality and provides a poor foundation for future 
+published and the findings can’t be independently verified. This limits our
+ability to judge their quality and provides a poor foundation for future
 replication studies.
 
-Reproducible findings can be independently verified from the original data,
-reducing reliance on investigator reputation. We can better judge the quality of
-such research on its own merits. Furthermore, it provides methodological 
-details that lay a solid foundation for future replications.
+Reproducible findings can be independently verified from the original data. We
+can better judge study quality on its own merits instead of by investigator
+reputation. Furthermore, it provides methodological details that lay a solid
+foundation for future replications.
 
 Finally, replicated research has the highest level of credibility because
 independent investigators have replicated the findings with new studies,
@@ -397,13 +395,13 @@ Understand the criteria, then apply principles, practices, & tools.
 Reproducibility is a continuum, but there are some simple criteria that we can
 use to evaluate how reproducible a given project is. **>** The data criterion
 requires sharing your data because nobody can recreate your findings without
-them. **>** The methods criterion requires that you share your methods in
-sufficient detail, preferably through sharing the actual software code or
-scripts you used to get the results. **>** The documentation criterion requires
-that you share adequate documentation of the data set and software environment
-so others can understand what you had, what you used to analyze it, and what it
-really means. **>** Finally, the distribution criterion requires that you use
-standard methods to distribute all these materials.
+them. **>** The methods criterion requires sharing your methods in sufficient
+detail, preferably through sharing the actual software code or scripts you used
+to get the results. **>** The documentation criterion requires sharing adequate
+documentation of your data set and software environment so others can understand
+what you had, what you used to analyze it, and what it really means. **>**  
+Finally, the distribution criterion requires using standard methods to 
+distribute all these materials.
 :::
 
 :::
@@ -448,19 +446,19 @@ This is just a sample of what could be encompassed by these two terms.
 
 ::: {.notes}
 Understanding a few guiding principles helps you figure out how to enhance
-reproducibility. Here are the principles I’ve identified so far. Thinking about
-reproducibility as collaboration encourages us to prepare and share materials
-that will make our work accessible to others. Organization simplifies
-communicating to others how to reproduce our work. Automation helps us achieve
-efficiency and accuracy because scripts can be faster and more reliable than
-manual processes. The preservation principle guides us to keep our raw data
-pristine and to keep a good audit trail. The integration principle suggests
-building documentation directly into data files, putting comments in code, and
-using code to directly insert statistical results into reports. The separation
-principle helps us manage complexity by splitting projects or tasks into pieces;
-for example separating data management from analysis, or keeping raw data
-separate from working data files used for specific analyses. Keep an eye out for
-instances of these principles in action throughout the rest of this talk. 
+reproducibility. Thinking about reproducibility as *collaboration* encourages us
+to prepare and share materials that will make our work accessible to others.
+*Organization* simplifies communicating to others how to reproduce our work.
+*Automation* helps us achieve efficiency and accuracy because scripts can be
+faster and more reliable than manual processes. The *preservation* principle
+guides us to keep our raw data pristine and to keep a good audit trail. The
+*integration* principle suggests building documentation directly into data files,
+putting comments in code, and using code to directly insert statistical results
+into reports. The *separation* principle helps us manage complexity by splitting
+projects or tasks into pieces; for example separating data management from
+analysis, or keeping raw data separate from working data files used for specific
+analyses. Keep an eye out for instances of these principles in action throughout
+the rest of this talk.
 :::
 
 ## Workflow Woes
@@ -473,24 +471,24 @@ instances of these principles in action throughout the rest of this talk.
 * Fixing mistakes took lots of time 
 
 ::: {.notes}
-I'm going to describe some common workflow woes that may soound uncomfortably
-familiar to you from your own experience. As a student, I was taught a manual
-workflow for doing data analysis and writing reports. We used the GUI, menus,
-and dialog boxes in SPSS to do data management and analysis. We updated data
-files manually. We created tons of files, saving to a new filename as changes
-accrued. That led to confusing proliferation of folders and files with little
-planned structure. It was hard to tell who had last edited various files and
-which versions to use. We retyped or pasted results from SPSS output into Word
-documents then spent lots of time formatting them. If we made a mistake, it
-could takes hours or even days to re-do things. Over time I learned some
-strategies to improve that workflow, such as using SPSS syntax files to automate
-tasks, adding comments in the syntax files, adopting file naming conventions,
-and so on. But part of the problem was that the software tools weren't
-integrated and lacked support for better workflows. Technology has vastly
-improved since my student days, but many evaluators still use manual workflows
-like those I just described. They don't know what is possible now. Given what
-I've learned in recent years, if asked to resume using those older tools and
-workflows, I'd probably break out my favorite Spock quote.
+Here are some common workflow woes that may sound uncomfortably familiar from
+your own experience. As a student, I was taught a manual workflow for doing data
+analysis and writing reports. We used the GUI, menus, and dialog boxes in SPSS
+to do data management and analysis. We updated data files manually. We created
+tons of files, saving to a new filename as changes accrued. That led to
+confusing proliferation of folders and files with little planned structure. It
+was hard to tell who had last edited various files and which versions to use. We
+retyped or pasted results from SPSS output into Word documents then spent lots
+of time formatting them. If we made a mistake, it could takes hours or even days
+to re-do things. Over time I learned some strategies to improve that workflow,
+such as using SPSS syntax files to automate tasks, adding comments in the syntax
+files, adopting file naming conventions, and so on. But part of the problem was
+that the software tools weren't integrated and lacked support for better 
+workflows. Technology has vastly improved since my student days, but many
+evaluators still use manual workflows like those I just described. They don't
+know what is possible now. Given what I've learned in recent years, if asked to
+resume using those older tools and workflows, I'd probably break out my favorite
+Spock quote.
 :::
 
 ## Spock {background-image="graphics/Spock.jpg" background-position="top" }
@@ -621,14 +619,14 @@ Use an R package for a research compendium! [@Marwick-RN3899]
 
 ::: {.notes}
 R packages are normally used to share code & associated help files so other
-people can use custom software. They are just folders of digital files that are
-organized into a conventional structure; can contain data, meta-data, and
-documentation; and can even contain dynamic documents and rendered output. **>** 
+people can use custom software. They are just folders of digital files organized
+into a conventional structure; they can contain data, meta-data, and
+documentation; and can even contain dynamic documents and rendered output. **>**
 So, Marwick and colleagues suggest using an R package as your research
 compendium! The conventional structure guides you to organize your files into
-specific subfolders and separate certain kinds of files--such as data versus
-code--from each other. It suggests specific kinds of documentation to include,
-like a README file that introduces new users to your work.
+specific subfolders and separate certain kinds of files from each other. It
+suggests specific kinds of documentation to include, like a README file that
+introduces new users to your work.
 :::
 
 ## RStudio Projects are ... {background-image="graphics/folder-146940_1920.png"}
@@ -648,13 +646,13 @@ Turn your compendium into an [RStudio  project](https://docs.posit.co/ide/user/i
 ::: {.notes}
 RStudio facilitates staying organized by allowing you to create projects, which
 are just folders where you can keep all the files for a specific analysis,
-report, or even a collection of related reports together and use subfolders as
-needed. They also automatically become as the default working directory for R,
-complete with R workspace and history. They store project-specific settings in a
-project file that's named after the folder itself. So if your project is a
-folder called `MyReport`, its project file would be called `MyReport.Rproj`. You
-can use that file to open the entire collection of files all at once. **>** So,
-turn your compendium into an RStudio project.
+report--or even a collection of related reports--together and use subfolders as
+needed. They also set the default working directory for R, complete with R
+workspace and history. They store project-specific settings in a file named
+after the folder itself. So if your project is a folder called `MyReport`, its
+project file would be called `MyReport.Rproj`. You can use that file to open the
+entire collection of files all at once. **>** So, turn your compendium into an
+RStudio project.
 :::
 
 ## Git Repositories are ... {background-image="graphics/folder-146940_1920.png"}
@@ -674,19 +672,18 @@ Put your research compendium in a Git repository!
 ::: {.notes}
 Git is software for doing version control on code and other files stored in
 repositories, which are just--you guessed it--digital folders. You can choose
-which files to track, then log of all committed changes to them, when they were
+which files to track, then log all committed changes to them, when they were
 made, who made them, and why. That preserves a fantastic audit trail. You can
 recover the exact state of a file as it existed at any commit in the history.
-You can make repositories either private or public. I usually keep a repository
-private until the corresponding paper has been published, then I can make it
-public to enhance reproducibility. So, putting your compendium in a Git
-repository both follows some of the principles I've highlighted and helps solve
-some of those worklflow woes I described earlier. For example, you can stop
-using long, confusing filenames as a crude form of version control. Give each
-file a simple name that stays constant then let Git track how it changes over
-time. Jenny Bryan's paper on using proper version control persuaded me to start
-using Git. I have not regretted it! **>** So, put your compendium in a Git
-repository!
+Repositories can be either private or public. I usually keep a repository
+private until the corresponding paper has been published, then make it public to
+enhance reproducibility. Putting your compendium in a Git repository both
+follows the principles I've highlighted and solves some of those worklflow woes
+I described earlier. For example, you can stop using long, confusing filenames
+as a crude form of version control. Give each file a simple name that stays
+constant then let Git track how it changes over time. Jenny Bryan's paper on
+using proper version control persuaded me to start using Git. I have not
+regretted it! **>** So, put your compendium in a Git repository!
 :::
 
 ## GitHub
@@ -739,19 +736,17 @@ RR -> LR2 [headlabel = "Clone/\lPull\l", labeldistance = 6, labelangle = -45]
 ```
 
 ::: {.notes}
-While Git handles preservation, GitHub solves other workflow problems. GitHub is
-an online server that hosts Git repositories, allowing multiple people to clone
-copies from the remote server to their own computers and synchronize their local
-copies with the main one hosted on GitHub. This facilitates collaboration
-because each person can independently edit files in their own local copy, pull
-the recent changes others have made down from GitHub, and push their own changes
-back up to the main repository. Git will detect conflicting changes and force a
-user to resolve them and commit the result.
-
-Using a private GitHub repository while working on the project allows you 
-collaborate with teammates as you develop a report. Later, you can make the 
-repository public so that people outside your team can access reproducibility 
-materials. 
+GitHub solves other workflow problems. It is an online server that hosts Git
+repositories, allowing multiple people to clone copies from the remote server to
+their own computers and synchronize their local copies with the main one on
+GitHub. This facilitates collaboration because each person can independently
+edit files in their own local copy, pull the recent changes others have made
+down from GitHub, and push their own changes back up to the main repository. Git
+will detect conflicting changes and force a user to resolve them and commit the
+result. Using a private GitHub repository while working on the project allows
+you collaborate with teammates as you develop a report. Later, you can make the
+repository public so that people outside your team can access reproducibility
+materials.
 :::
 
 ## Quarto Projects are ... {background-image="graphics/folder-146940_1920.png"}
@@ -780,7 +775,7 @@ a subfolder in your compendium into a Quarto project.
 ## Example Folder Structure 
 
 ```
-MyStudy/          [Compendium, Git repository, R package, RStudio project]
+MyStudy/            [Compendium, Git repository, R package, RStudio project]
   - .git/           [Hidden folder, holds Git tracking database]
   - .Rproj.user/    [Hidden folder, holds RStudio temporary files]
   - data/           [Holds R data files created by scripts]
@@ -798,18 +793,18 @@ MyStudy/          [Compendium, Git repository, R package, RStudio project]
 ```
 
 ::: {.notes}
-Suppose I've got a project creatively named MyStudy. Here's what its folder
-structure might look like. The `MyStudy/` folder is a research compendium that is
-also a Git repository, an R package, and an RStudio project. It is organized
-with several subfolders that help separate R data files from external data in
-other software formats that must be imported before use. It also separates data
-from code for either custom functions (the R subfolder) or for dynamic documents
-that are in a scripts subfolder that is also a Quarto project. Much of this
-structure is driven by R package conventions. Notice that output is also
-separated from the code by tucking it in its own subfolder. There are a handful
-of files for storing package meta-data and documentation, controlling what Git
-will track and what it will ignore. This basic structure has been working very 
-well for me across several projects. 
+Suppose I've got a project named MyStudy. Here's what its folder structure might
+look like. The `MyStudy/` folder is a research compendium that is also a Git
+repository, an R package, and an RStudio project. It is organized with several
+subfolders that help separate R data files from external data in other software
+formats that must be imported before use. It also separates data from code for
+either custom functions (the R subfolder) or for dynamic documents that are in a
+scripts subfolder that is also a Quarto project. Much of this structure is
+driven by R package conventions. Notice that output is also separated from the
+code by tucking it in its own subfolder. There are a handful of files for
+storing package meta-data and documentation, controlling what Git will track and
+what it will ignore. This basic structure has worked very well for me across 
+several projects.
 :::
 
 ## Collaboration Stakeholders {style="text-align: right" background-image="graphics/pexels-fauxels-3184634.jpg" background-position="top" }
@@ -830,10 +825,10 @@ communicate what you are doing, how the materials are organized, and how they
 can be used to reproduce results. It motivates you to make things clear and
 include good documentation. Notice here that I include your future self as a 
 stakeholder. To paraphrase a former colleague "your worst collaborator is often 
-the you from 6 months ago who assumed you'd just remember something important 
-about the project that you've now forgotten and so skipped documenting it."
+the you from 6 months ago who skipped writing down some key details because you 
+foolishly assumed you'd remember them later."
 
-*Time elapsed should be ~24 min by this point based on rehearsal.*
+*Time elapsed should be ~22-24 min by this point.*
 :::
 
 ## Organization Tips
@@ -844,15 +839,14 @@ about the project that you've now forgotten and so skipped documenting it."
 * Use a primary rendering script to run other scripts
 
 ::: {.notes}
-One of the most crucial organization tips I can offer you is to add 
-documentation to your compendium. That usually includes some form of a README 
-file, but it may also include one or more vignettes, codebooks, or other 
-documents that help a new person understand and use the contents of your 
-compendium. Another tip is to use file naming conventions that help readers see 
-how scripts link to output files. You can also use data flow diagrams to help 
-show people the relationships between files. Finally, consider creating a 
-primary rendering script that automates running all your other scripts in the 
-correct order. 
+One of the most crucial organization tips I can offer you is to add
+documentation to your compendium. That usually includes some form of a README
+file, but it may also include one or more vignettes, codebooks, or other
+documents that help a new person understand and use the contents of your
+compendium. Another tip is to use file naming conventions that help readers see
+how scripts link to output files. You can use data flow diagrams to show the
+relationships between files. Finally, consider creating a primary rendering
+script that automates running all your other scripts in the correct order.
 :::
 
 ## Example Data Flow Diagram
@@ -897,13 +891,13 @@ SlidesS -> SlidesO [label = "Creates"]
 ```
 
 ::: {.notes}
-Here's an example data flow diagram that illustrates several of the tips I just 
-shared. Boxes represent files and arrows show which files are inputs to other 
-files or outputs created by them. Scripts and their outputs have the same 
-filename except for the extension that denotes file type. Notice how the Render 
-script actually runs three other scripts, one for data cleaning, plus one that 
-creates some slides, and another that creates a report. This diagram makes it 
-easy to see how 10 files are related. 
+Here's an example data flow diagram that illustrates several of those tips.
+Boxes represent files and arrows show which files are inputs to other files or
+outputs created by them. Scripts and their outputs have the same filename except
+for the extension that denotes file type. Notice how the Render script actually
+runs three other scripts, one for data cleaning, plus one that creates some
+slides, and another that creates a report. This diagram makes it easy to see how
+10 files are related at a glance.
 :::
 
 ## Automation Tips {background-image="graphics/robot-6654025_1280.png" background-size="40%" background-position="right" background-repeat="no-repeat"}
@@ -915,20 +909,20 @@ easy to see how 10 files are related.
 * Computers are idiots
 
 ::: {.notes}
-With respect to automation, I suggest using scripts to do as much of the work as 
-possible. Manual steps reduce the efficiency and reproducibility of your work. 
-They are more error-prone than well-written code. Each script should start from 
-a clean R session--an empty workspace--and use code to load the data it needs 
-to run. You also want to render each script in its entirety frequently as you 
-develop it. That's the best way make sure the whole thing works correctly. 
+For automation, I suggest using scripts to do as much of the work as possible.
+Manual steps reduce the efficiency and reproducibility of your work. They are
+more error-prone than well-written code. Each script should start from a clean R
+session--an empty workspace--and use code to load the data it needs to run. You
+also want to render each script in its entirety frequently as you develop it.
+That's the best way make sure the whole thing works correctly.
 
-Leverage the fact that computers are inhumanely patient. They're great at
-tedious, repetitive tasks that bore or fatigue humans into making errors. If
-something is mind-numbingly tedious, write code to get the computer to do it for
-you. However, computers are also literal-minded idiots. They do exactly what you
-tell them to do, whether or not that makes sense or is what you intended. Put
-your time into giving them the right instructions and checking that you got the
-right results.
+Leverage the inhuman patience of computers. They're great at long, repetitive
+tasks that bore or fatigue humans into making errors. If something is
+mind-numbingly tedious, write code to get the computer to do it for you.
+Rememeber: computers are also literal-minded idiots. They do what you tell them
+to do, whether or not that makes sense or is what you intended. Put your time
+into giving them the right instructions and checking that you got the right
+results.
 :::
 
 ## Preservation Tips
@@ -941,15 +935,13 @@ What should you preserve?
 * Software environment & versions used
 
 ::: {.notes}
-In terms of preservation, go back to the criteria for reproducibility. Your 
-compendium must either include the raw data and relevant metadata, or tell 
-people how to get them from some accessible source. Documenting methodology 
-decisions and rationales is important too, as are the data management and 
-analysis scripts that actually produced your output. Keeping version histories 
-of repository contents is a major bonus, but not strictly required. I recommend 
-that your scripts end with code that automates recording information about the 
-software environment and versions you used to meet the documentation criterion 
-for reproducibility.
+In terms of preservation, go back to the criteria for reproducibility. Your
+compendium must either include the data and metadata, or tell people how to get
+them from some accessible source. Document methodology decisions and rationales
+in your scripts and keep all the code that actually produces your output.
+Keeping version histories of repository contents is a major bonus, but not
+strictly required. Use a scripts to automate recording information about the
+software environment to meet the documentation criterion for reproducibility.
 :::
 
 ## Integration Tips  {background-image="graphics/pexels-diva-plavalaguna-6147357.jpg"}
@@ -957,21 +949,20 @@ for reproducibility.
 :::: {style="padding: 0.25em .5em; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5); border-radius: 20px;"}
 
 * Attach meta-data directly to data 
-* Integrate narrative text with code 
-* Add functions & help files to your compendium
+* Use Quarto to integrate narrative text & code 
+* Add R functions & help files to your compendium
 * Include citations & reference lists 
   
 ::::
 
 ::: {.notes}
-Here are some quick tips on applying the3 integration priciple. Attaching 
-metadata such as variable and value labels directly to your data is an obvious 
-way to make that metadata available to users of your compendium. THe nature of 
-Quarto scripts allows you to integrate narrative text with the code used to 
-produce results. If you need custom R functions, add them to your compendium 
-(which is also an R package) and include help files that explain what they do 
-and how to use them. Finally, take advantage of Quarto's support for building 
-reference lists and cite sources throughout your scripts. 
+Here are some quick integration tips. Attaching metadata such as variable and
+value labels directly to your data is an obvious way to make that metadata
+available to users of your compendium. Quarto scripts allow you to integrate
+narrative text with the code used to produce results. If you need custom R
+functions, add them to your compendium (which is also an R package) and include
+help files that explain how to use them. Finally, take advantage of Quarto's
+support for citing sources and building dynamic reference lists.
 :::
 
 ## Separation Tips
@@ -991,14 +982,14 @@ tibble(This = c("Raw Data", "Code", "Code", "Data Management", "Draft Outputs",
 ```
 
 ::: {.notes}
-This table briefly summarizes tips on applying the separation principle. I've 
-mentioned the first three rows already, so here I want to highlight the last 
-three. In larger projects, sometimes it is useful to split processes into 
-multiple scripts. An obvious split is between data management and data analysis 
-scripts. Another thing I like to do is separate my draft outputs from the 
-versions of final deliverables sent to clients or stakeholders by date-stamping 
-the filenames for final deliverables. Finally, Git automatically separates the 
-current versions of files from their version histories. 
+This table lists tips on applying the separation principle. I've mentioned the
+first three rows already, so here I want to highlight the last three. In larger
+projects, sometimes it is useful to split processes into multiple scripts. An
+obvious split is between data management and data analysis scripts. Another
+thing I like to do is separate my draft outputs from the versions of final
+deliverables sent to clients or stakeholders by date-stamping the filenames for
+final deliverables. Finally, Git simplifies separating the current versions of
+files from their version histories.
 :::
 
 ## Quarto Scripts: Anatomy
@@ -1027,15 +1018,16 @@ contains headings, narrative text, code, citations, links, and cross-references.
 * [Code chunks](https://quarto.org/docs/computations/r.html) allow you to do
   larger computations and insert more complex results. 
   
-:::
+::::
 
 ::: {.notes}
-You can put two types of code into a Quarto script. The simplest kind is called 
-inline code, which is designed to allow short pieces of code that insert 
-computed text or numbers--such as a group mean--right in the middle of a 
-sentence. Code chunks allow you to do more substantial computing, like reading 
-in or managing data, fitting models, or creating and then inserting more complex 
-pieces of output like tables and figures. 
+You can put two types of code into a Quarto script. The simplest kind is called
+*inline code*, which is designed to allow short pieces of code that insert
+computed text or numbers--such as a group mean--right in the middle of a
+sentence. Inline code makes your narrative text dynamic. *Code chunks* allow you
+to do more substantial computing, like reading in or managing data, fitting
+models, or creating and then inserting more complex pieces of output like tables
+and figures.
 :::
 
 ## MyStudy Demonstration Files
@@ -1045,10 +1037,12 @@ Let's take a look at actual dynamic documents!
 * `scripts/output/MyStudy_Report.html`
 
 ::: {.notes}
+*Elapsed time should be ~30-32 min, use next 10-15 min to show code and output*
 *Set RStudio Appearance for console font to 14pt!* 
 Now I'm going to show you an actual Quarto script and the output it produces. 
 Both files are available online along with my slides, so you can examine and 
 compare them in detail later. For now, enjoy this guided tour. 
+
 * Script
     * YAML header
     * Headings
@@ -1089,3 +1083,7 @@ compare them in detail later. For now, enjoy this guided tour.
 
 # Discussion Time
 Thank you for attending!
+
+::: {.notes}
+*Time should be ~50 min, leaving 10 min for questions.*
+:::
