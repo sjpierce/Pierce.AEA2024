@@ -51,7 +51,7 @@ teaching purposes.
 ::: {.callout-note}
 This report illustrates how Quarto scripts act as dynamic documents. It shows 
 some (but by no means all) of the things they can do. This box is a Quarto 
-[callout block](https://quarto.org/docs/authoring/callouts.html). There are  
+[callout block](https://quarto.org/docs/authoring/callouts.html). There are 
 several variations of callouts that have different formatting, icons, and 
 labels. 
 :::
