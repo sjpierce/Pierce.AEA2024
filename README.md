@@ -44,12 +44,12 @@ The `*.qmd` files are Quarto scripts, while the corresponding `*.html`
 files are the resulting rendered output. The output should work in
 common web browsers like Chrome, Edge, and Firefox.
 
-- [`Slides.qmd`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/Slides.qmd)  
+- [`Slides.qmd`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/Slides.qmd)
 - [`Slides.html`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/Slides.html)
   *If you just want a copy of the final slides, this is it!*
 - [`Create_MyStudy_Data.qmd`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/scripts/Create_MyStudy_Data.qmd)
 - [`Create_MyStudy_Data.html`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/scripts/output/Create_MyStudy_Data.html)
-- [`MyStudy_Report.qmd`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/scripts/MyStudy_Report.qmd)
+- [`MyStudy_Report.qmd`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/scripts/MyStudy_Report.qmd)  
 - [`MyStudy_Report.html`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/scripts/output/MyStudy_Report.html)
 
 ## Usage Tips
@@ -138,7 +138,7 @@ slides and a couple example files.
     scheme, fonts, etc. for my slides.
   - `Pierce.AEA2024.Rproj`: This is an RStudio project file. It contains
     some settings for working with the project in that software.
-  - `README.md`: This file is obtained by knitting the `README.Rmd` file
+  - `README.md`: This file is obtained by knitting the `README.qmd` file
     and is used by GitHub to display information about the repository.
     Do not edit it manually: just re-knit `README.qmd` to update it. In
     R Studio, you can read the formatted version by opening the file and
