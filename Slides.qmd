@@ -121,8 +121,8 @@ classified into a few different categories. **>** They are repeatable when the
 original analyst can reliably obtain the same results from the original data.
 **>** They are reproducible if a new analyst can obtain the same result from the
 original data. **>** Finally, they are replicable if a new analyst can obtain
-the same result from a new set of data. How confident are you about where your
-work falls on this spectrum?
+the same result from a new set of data. Think about where your work falls on 
+this spectrum. 
 :::
 
 ## RR is a Product
@@ -352,10 +352,9 @@ Modern publishing technology makes reproducible research easier. When we relied
 mostly on printed journals to distribute scientific papers, cost and page limits
 restricted the ability to do reproducible work. Now, online publishing means you
 can easily share supplemental files alongside your papers; or deposit data,
-codebooks and other documentation; software files like analysis scripts; and
-even raw output in data archives/repositories. This vastly reduces cost,
-eliminates page limits, and increases opportunity to meet reproducibility 
-standards.
+codebooks and other documentation; analysis scripts; and even raw output in data 
+archives/repositories. This vastly reduces cost, eliminates page limits, and 
+increases opportunity to meet reproducibility standards.
 :::
 
 ## Career Benefits of RR
@@ -575,8 +574,8 @@ contains data about references you cite in the report, while the CSL file tells
 Quarto how to format the citations and the reference list. I'm using similar
 file names to stay organized: they show which script creates the report. Saving
 all the files follows the preservation principle. One can rapidly reproduce the
-report by re-rendering the script, or fix an error in the script then render
-again to automate updating the report.
+report by re-rendering the script, or fix an error in either the data or the 
+script then render again to automate updating the report.
 :::
 
 ## A Research Compendium ... {background-image="graphics/pexels-anete-lusina-4792285.jpg"}
@@ -601,7 +600,7 @@ effective one should use prevailing conventions to organize the project; **>**
 keep data, method, and output separate even while revealing how they are
 related; and **>** tell users what software was used in the original analysis.
 You can facilitate collaboration by thoughtfully setting up a compendium with 
-attention to applying the organization, separation, and integration principles.
+attention to applying the principles I listed earlier.
 :::
 
 ## R Packages are ... {background-image="graphics/folder-146940_1920.png"}
@@ -745,7 +744,7 @@ edit files in their own local copy, pull the recent changes others have made
 down from GitHub, and push their own changes back up to the main repository. Git
 will detect conflicting changes and force a user to resolve them and commit the
 result. Using a private GitHub repository while working on the project allows
-you collaborate with teammates as you develop a report. Later, you can make the
+you to collaborate with teammates to develop a report. Later, you can make the
 repository public so that people outside your team can access reproducibility
 materials.
 :::
@@ -920,7 +919,7 @@ That's the best way make sure the whole thing works correctly.
 Leverage the inhuman patience of computers. They're great at long, repetitive
 tasks that bore or fatigue humans into making errors. If something is
 mind-numbingly tedious, write code to get the computer to do it for you.
-Rememeber: computers are also literal-minded idiots. They do what you tell them
+Remember: computers are also literal-minded idiots. They do what you tell them
 to do, whether or not that makes sense or is what you intended. Put your time
 into giving them the right instructions and checking that you got the right
 results.
@@ -941,8 +940,9 @@ compendium must either include the data and metadata, or tell people how to get
 them from some accessible source. Document methodology decisions and rationales
 in your scripts and keep all the code that actually produces your output.
 Keeping version histories of repository contents is a major bonus, but not
-strictly required. Use a scripts to automate recording information about the
-software environment to meet the documentation criterion for reproducibility.
+strictly required. Use code in a script to automate recording information about 
+the software environment to meet the documentation criterion for 
+reproducibility.
 :::
 
 ## Integration Tips  {background-image="graphics/pexels-diva-plavalaguna-6147357.jpg"}
