@@ -18,7 +18,8 @@ title-slide-attributes:
               beneficial, motivate you to do so, and accelerate your learning 
               journey. My slides are in an HTML file available from the link at 
               the bottom of the screen. They have many links to resources built 
-              right in and are themselves a reproducible product. 
+              right in and are themselves a reproducible product. I encourage 
+              you to download and study them in detail later. 
 csl: apa-numeric-superscript-brackets.csl
 bibliography: references.bib
 format: 
