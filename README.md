@@ -42,7 +42,9 @@ computer.
 
 The `*.qmd` files are Quarto scripts, while the corresponding `*.html`
 files are the resulting rendered output. The output should work in
-common web browsers like Chrome, Edge, and Firefox.
+common web browsers like Chrome, Edge, and Firefox. The Quarto scripts
+can be opened in any standard text editor, though I personally use
+RStudio for reasons explained in the presentation itself.
 
 - [`Slides.qmd`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/Slides.qmd)
 - [`Slides.html`](https://github.com/sjpierce/Pierce.AEA2024/blob/main/Slides.html)
