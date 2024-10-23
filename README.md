@@ -17,7 +17,9 @@ This repository holds materials for one of my conference presentations
 (Pierce, 2024, October 21-26). Its primary purpose is for me to use
 version control tools while developing my slides, but its secondary
 purposes include distributing the slides and example files to my
-audience and demonstrating how to use Quarto to create slides.
+audience and demonstrating how to use Quarto to create slides. *If you
+find these materials useful or would like to offer* *constructive
+feedback, please email me at* *<pierces1@msu.edu>.*
 
 There are two different types of users of this repository: myself and my
 audience. I assume most of my audience just wants copies of my slides,
