@@ -4,9 +4,12 @@ title: "Generating Reproducible Statistical Analyses and Evaluation Reports:
 subtitle: "Demonstration at *Evaluation 2024: Amplifying and Empowering 
            Voices*, annual conference of the American Evaluation Association, 
            Portland, OR"
-author: "Steven J. Pierce"
+author: 
+  - name: Steven J. Pierce
+    orcid: 0000-0002-0679-3019
+    email: pierces1@msu.edu
 institute: "Center for Statistical Training and Consulting, Michigan State University"
-date: October 22, 2024
+date: October 24, 2024
 title-slide-attributes: 
   data-notes: 1 hr (45-50 min talk + 10-15 min Q & A) My name is Steven Pierce. 
               Welcome to my session. My talk today focuses on some principles, 
